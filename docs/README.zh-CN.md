@@ -52,7 +52,7 @@
 - [888-url2md](https://github.com/tbdavid2019/888-url2md) - 批量把网页转成 Markdown，遇到动态页面就用 Moli 渲染。
 - [A3S Search](https://github.com/A3S-Lab/Search) - 用 Moli 读取搜索结果中依赖 JavaScript 的网页。
 - [Brains](https://github.com/YuniqueUnic/brains) - 可用 Moli 把动态网页存成带版本记录的 Markdown 笔记。
-- [CTI Expert](https://github.com/7onez/cti-expert) - 调查网络威胁时，用 Moli 读取网页动态加载的内容。
+- **[CTI Expert](https://github.com/7onez/cti-expert) - 调查网络威胁时，用 Moli 读取网页动态加载的内容。**
 - [HEIS](https://github.com/u4399com-beep/heis) - 可用 Moli 采集动态加载的网络小说章节。
 - [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Hermes Deep Research 读不到网页正文时，改用 Moli 渲染。
 - [Lens](https://github.com/bysages/lens) - 通过 HTTP API 用 Moli 给网页截图。

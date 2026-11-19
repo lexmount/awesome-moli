@@ -52,7 +52,7 @@
 - [888-url2md](https://github.com/tbdavid2019/888-url2md) - 複数の URL をまとめて Markdown に変換し、JavaScript が必要なページは Moli で描画します。
 - [A3S Search](https://github.com/A3S-Lab/Search) - 検索で見つけた JavaScript 依存のページを Moli で読み取ります。
 - [Brains](https://github.com/YuniqueUnic/brains) - Moli を使って動的なページを履歴付きの Markdown ノートとして保存できます。
-- [CTI Expert](https://github.com/7onez/cti-expert) - 脅威情報の調査で、JavaScript の実行後に表示されるページ内容を Moli で取得します。
+- **[CTI Expert](https://github.com/7onez/cti-expert) - 脅威情報の調査で、JavaScript の実行後に表示されるページ内容を Moli で取得します。**
 - [HEIS](https://github.com/u4399com-beep/heis) - Moli を使って動的に読み込まれるウェブ小説の章を収集できます。
 - [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Hermes Deep Research の通常の取得方法で本文を読めないときに Moli で描画します。
 - [Lens](https://github.com/bysages/lens) - HTTP API 経由で Moli を使ってウェブページのスクリーンショットを撮れます。
