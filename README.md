@@ -10,7 +10,6 @@ Explore ways to use Moli for browser automation, web extraction, agent workflows
 
 ## Contents
 
-- [Core resources](#official-resources)
 - [Integrations](#integrations)
   - [Testing and QA](#testing-and-qa)
   - [Browser tools and MCP](#browser-tools-and-mcp)
@@ -20,16 +19,6 @@ Explore ways to use Moli for browser automation, web extraction, agent workflows
   - [Forks and derivatives](#forks-and-derivatives)
   - [Deployment and packaging](#deployment-and-packaging)
   - [Experimental and development examples](#experimental-and-development-examples)
-
-<a id="official-resources"></a>
-
-## Core resources
-
-- [Moli](https://github.com/lexmount/moli) - Official repository, installation instructions, CLI usage, and automation protocol documentation.
-- [Releases](https://github.com/lexmount/moli/releases) - Prebuilt binaries and upstream release notes.
-- [Agent skills](https://github.com/lexmount/moli/tree/main/skills) - Official agent skills for page fetching, web search, and running a CDP server.
-- [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Scripts and demos for discovering and calling a site's native WebMCP tools through Moli.
-- [Webstone](https://github.com/lexmount/webstone) - Browser and web-tool evaluation harness with reproducible tasks and recorded evidence.
 
 ## Integrations
 

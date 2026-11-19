@@ -10,7 +10,6 @@
 
 ## 目录
 
-- [核心资源](#official-resources)
 - [框架与工具集成](#integrations)
   - [测试与 QA](#testing-and-qa)
   - [浏览器工具与 MCP](#browser-tools-and-mcp)
@@ -20,16 +19,6 @@
   - [Fork 与二次开发](#forks-and-derivatives)
   - [部署与打包](#deployment-and-packaging)
   - [实验与开发案例](#experimental-and-development-examples)
-
-<a id="official-resources"></a>
-
-## 核心资源
-
-- [Moli](https://github.com/lexmount/moli) - 官方仓库，包含安装说明、CLI 用法与自动化协议文档。
-- [Releases](https://github.com/lexmount/moli/releases) - 预编译二进制与上游发布说明。
-- [Agent skills](https://github.com/lexmount/moli/tree/main/skills) - 官方 Agent 技能，覆盖网页抓取、网页搜索与 CDP 服务启动。
-- [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - 通过 Moli 发现并调用网站原生 WebMCP 工具的脚本与演示。
-- [Webstone](https://github.com/lexmount/webstone) - 浏览器与网页工具评测框架，提供可复现任务和执行证据。
 
 <a id="integrations"></a>
 

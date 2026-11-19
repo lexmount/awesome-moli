@@ -10,7 +10,6 @@
 
 ## 目次
 
-- [コアリソース](#official-resources)
 - [フレームワーク・ツールとの連携](#integrations)
   - [テストと QA](#testing-and-qa)
   - [ブラウザーツールと MCP](#browser-tools-and-mcp)
@@ -20,16 +19,6 @@
   - [フォークと派生プロジェクト](#forks-and-derivatives)
   - [デプロイとパッケージ](#deployment-and-packaging)
   - [実験と開発の事例](#experimental-and-development-examples)
-
-<a id="official-resources"></a>
-
-## コアリソース
-
-- [Moli](https://github.com/lexmount/moli) - Moli のインストール手順、CLI の使い方、自動化プロトコルをまとめた公式リポジトリ。
-- [Releases](https://github.com/lexmount/moli/releases) - ビルド済みバイナリーと上流のリリースノート。
-- [Agent skills](https://github.com/lexmount/moli/tree/main/skills) - ページ取得、Web 検索、CDP サーバー起動に対応する公式エージェントスキル。
-- [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Moli でサイトのネイティブ WebMCP ツールを検出・呼び出しするスクリプトとデモ。
-- [Webstone](https://github.com/lexmount/webstone) - 再現可能なタスクと実行記録を備えた、ブラウザーおよび Web ツールの評価基盤。
 
 <a id="integrations"></a>
 

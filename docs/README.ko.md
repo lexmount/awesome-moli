@@ -10,7 +10,6 @@
 
 ## 목차
 
-- [핵심 자료](#official-resources)
 - [프레임워크 및 도구 연동](#integrations)
   - [테스트와 QA](#testing-and-qa)
   - [브라우저 도구와 MCP](#browser-tools-and-mcp)
@@ -20,16 +19,6 @@
   - [포크와 파생 프로젝트](#forks-and-derivatives)
   - [배포와 패키징](#deployment-and-packaging)
   - [실험 및 개발 사례](#experimental-and-development-examples)
-
-<a id="official-resources"></a>
-
-## 핵심 자료
-
-- [Moli](https://github.com/lexmount/moli) - 공식 저장소, 설치 안내, CLI 사용법 및 자동화 프로토콜 문서.
-- [Releases](https://github.com/lexmount/moli/releases) - 미리 빌드된 바이너리와 공식 릴리스 노트.
-- [Agent skills](https://github.com/lexmount/moli/tree/main/skills) - 페이지 가져오기, 웹 검색 및 CDP 서버 실행을 위한 공식 에이전트 스킬.
-- [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Moli로 사이트의 네이티브 WebMCP 도구를 찾고 호출하는 스크립트와 데모.
-- [Webstone](https://github.com/lexmount/webstone) - 재현 가능한 작업과 실행 증거를 제공하는 브라우저 및 웹 도구 평가 프레임워크.
 
 <a id="integrations"></a>
 

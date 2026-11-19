@@ -10,7 +10,6 @@ Descubre Moli para la automatización de navegadores, la extracción web, los fl
 
 ## Contenido
 
-- [Recursos básicos](#official-resources)
 - [Integraciones](#integrations)
   - [Pruebas y QA](#testing-and-qa)
   - [Herramientas de navegador y MCP](#browser-tools-and-mcp)
@@ -20,16 +19,6 @@ Descubre Moli para la automatización de navegadores, la extracción web, los fl
   - [Forks y proyectos derivados](#forks-and-derivatives)
   - [Despliegue y paquetes](#deployment-and-packaging)
   - [Proyectos experimentales y ejemplos de desarrollo](#experimental-and-development-examples)
-
-<a id="official-resources"></a>
-
-## Recursos básicos
-
-- [Moli](https://github.com/lexmount/moli) - Repositorio oficial, instrucciones de instalación, uso de la CLI y documentación de protocolos de automatización.
-- [Releases](https://github.com/lexmount/moli/releases) - Binarios precompilados y notas oficiales de las versiones.
-- [Agent skills](https://github.com/lexmount/moli/tree/main/skills) - Skills oficiales para agentes: obtención de páginas, búsqueda web y ejecución de un servidor CDP.
-- [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Scripts y demostraciones para descubrir e invocar las herramientas WebMCP nativas de un sitio mediante Moli.
-- [Webstone](https://github.com/lexmount/webstone) - Framework de evaluación de navegadores y herramientas web con tareas reproducibles y evidencias registradas.
 
 <a id="integrations"></a>
 

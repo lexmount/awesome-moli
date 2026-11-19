@@ -2,7 +2,7 @@
 
 The initial review covered **55 named repositories** from the supplied research, including 52 main-list entries and three backlog additions. Later reviews covered three suggested forks and downstream projects, then the e2e testing framework. The complete dataset behind the original 185 historical records was unavailable.
 
-Of the **59 repositories reviewed**, **52 projects** are listed under Integrations and Community projects, and seven are held for further evidence. The directory also lists **five official resources** under Core resources. These counts describe the same directory across seven languages.
+All seven language editions list the same **52 projects** under Integrations and Community projects. Of the **59 repositories reviewed**, seven are held for further evidence.
 
 ## Method
 
