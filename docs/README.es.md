@@ -4,49 +4,53 @@
   <a href="../README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.ja.md">日本語</a> | <a href="README.de.md">Deutsch</a> | <a href="README.fr.md">Français</a> | <strong>Español</strong> | <a href="README.ko.md">한국어</a>
 </p>
 
-> Herramientas, integraciones y ejemplos para [Moli](https://github.com/lexmount/moli), el navegador sin interfaz de código abierto para agentes de IA.
-
-Descubre Moli para la automatización de navegadores, la extracción web, los flujos de agentes y los servicios autoalojados. Algunas integraciones son opcionales o experimentales; consulta la guía de configuración de cada proyecto.
+> [Moli](https://github.com/lexmount/moli) es un navegador de código abierto sin interfaz gráfica para agentes de IA. Esta lista reúne proyectos que usan, amplían o distribuyen Moli, entre ellos herramientas de automatización del navegador, integraciones con frameworks, proyectos derivados, opciones de despliegue y ejemplos de desarrollo.
 
 ## Contenido
 
-- [Integraciones](#integrations)
-  - [Pruebas y QA](#testing-and-qa)
-  - [Herramientas de navegador y MCP](#browser-tools-and-mcp)
-  - [Agentes y espacios de trabajo](#agents-and-workspaces)
-  - [Extracción web e investigación](#web-extraction-and-research)
-- [Proyectos de la comunidad](#community-projects)
-  - [Forks y proyectos derivados](#forks-and-derivatives)
-  - [Despliegue y paquetes](#deployment-and-packaging)
-  - [Proyectos experimentales y ejemplos de desarrollo](#experimental-and-development-examples)
-
-<a id="integrations"></a>
-
-## Integraciones
-
-<a id="testing-and-qa"></a>
-
-### Pruebas y QA
-
-- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Framework de pruebas de extremo a extremo con helper Moli experimental, gestión de procesos locales y conexión a endpoints CDP existentes.
-- [e2e](https://github.com/e2e-inc/e2e) - Con `@e2e-dev/moli`, cada proceso de pruebas web en paralelo dispone de un navegador Moli local que se inicia y se cierra automáticamente.
-- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - Herramientas de desarrollo MCP con comprobaciones opcionales de extracción Moli para páginas públicas fijas y Chrome como alternativa para QA visual.
+- [Automatización del navegador y flujos de trabajo](#browser-automation-and-workflows)
+- [Renderizado y extracción web](#web-rendering-and-extraction)
+- [Frameworks y espacios de trabajo para agentes](#agent-frameworks-and-workspaces)
+- [Herramientas de pruebas y QA](#testing-and-qa-tools)
+- [Empaquetado y despliegue](#packaging-and-deployment)
+- [Forks y proyectos derivados](#forks-and-derivatives)
+- [Ejemplos de desarrollo y evaluaciones](#development-examples-and-evaluations)
 
 <a id="browser-tools-and-mcp"></a>
+<a id="browser-automation-and-workflows"></a>
 
-### Herramientas de navegador y MCP
+## Automatización del navegador y flujos de trabajo
 
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Puente de automatización de navegadores con un motor Moli opcional controlado mediante Playwright y CDP.
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - CLI en Go para gestionar sesiones web de chat, con Moli para el acceso sin interfaz y Chrome para el inicio de sesión interactivo.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Servidor de navegador MCP con motor Moli gestionado y procesos aislados en Linux x86_64.
 - [dsh-moli](https://github.com/27painter/dsh-moli) - Plugin comunitario de DeepSeek Harness para extraer páginas, evaluar JavaScript, generar capturas y PDF, y diagnosticar el motor.
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Skill experimental de búsqueda de empleo que rellena formularios con Moli y pide confirmación antes de enviarlos.
+
+<a id="web-extraction-and-research"></a>
+<a id="web-rendering-and-extraction"></a>
+
+## Renderizado y extracción web
+
+- [888-url2md](https://github.com/tbdavid2019/888-url2md) - Servicio de conversión de páginas a Markdown con un motor CDP Moli local y una política separada de uso alternativo de Chrome.
+- [A3S Search](https://github.com/A3S-Lab/Search) - Motor de búsqueda integrable con renderizador CLI de Moli y límite de renderizados simultáneos.
+- [Brains](https://github.com/YuniqueUnic/brains) - Almacén de conocimiento Markdown con control de versiones y renderizado Moli opcional al importar URL.
+- [CTI Expert](https://github.com/7onez/cti-expert) - Herramientas de inteligencia de amenazas que usan Moli para extraer el DOM tras ejecutar JavaScript y mantienen Chromium para la evidencia visual.
+- [HEIS](https://github.com/u4399com-beep/heis) - Sistema de recopilación de novelas con un puente HTTP en Go para obtener páginas y evaluar scripts mediante Moli.
+- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Herramientas de investigación de Hermes que añaden el renderizado Moli a la cadena de alternativas para leer páginas.
+- [Lens](https://github.com/bysages/lens) - Herramientas web en TypeScript que usan Moli mediante CDP para capturas de pantalla y lectura de páginas.
+- [ModalPrism](https://github.com/MistLoom/ModalPrism) - Sistema de recopilación de datos en Rust cuyo adaptador de navegador renderiza páginas dinámicas mediante la CLI de Moli.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Herramientas MCP locales en fase beta que guardan las fuentes y comparan instantáneas de las páginas web seleccionadas.
+- [molisnap](https://github.com/7a6163/molisnap) - Servicio de prerenderizado de SPA para rastreadores de búsqueda y bots de IA, con caché y precarga desde sitemaps.
+- [PageSift](https://github.com/YOLOW92/pagesift) - Servicio de extracción web y documental en Rust que integra Moli en una cadena de selección Lightpanda, Moli y Chrome.
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Distribución de herramientas para agentes en Windows que usa Moli en páginas JavaScript cuando la extracción HTTP no basta, con Chromium como alternativa.
+- [stvdy](https://github.com/jettapindika/stvdy) - Espacio de estudio que importa fuentes web mediante una cadena de alternativas Exa, Moli y HTTP/readability.
+- [Vanilla](https://github.com/easylearnfromtw/vanilla) - Espacio de IA familiar con adaptador de extracción Moli que requiere activación explícita y aislamiento de red saliente configurado por separado.
 
 <a id="agents-and-workspaces"></a>
+<a id="agent-frameworks-and-workspaces"></a>
 
-### Agentes y espacios de trabajo
+## Frameworks y espacios de trabajo para agentes
 
 - [A3S Code](https://github.com/A3S-Lab/Code) - Framework de agentes que prepara un entorno de ejecución Moli verificado para su motor de búsqueda web sin interfaz.
 - [agent-fabric](https://github.com/BlueTeam-OU/agent-fabric) - Plataforma de gestión de agentes de programación que usa Moli para leer la web y Playwright MCP para la navegación programada de cada agente.
@@ -60,38 +64,19 @@ Descubre Moli para la automatización de navegadores, la extracción web, los fl
 - [Relay](https://github.com/arcwright42/Relay) - Entorno de agentes con obtención de páginas mediante Moli limitada en tiempo y volumen, e instalación gestionada del navegador.
 - [Wick](https://github.com/yogasw/wick) - Host de agentes en Go con conector de navegador Moli opcional, sesiones CDP y extracción de Markdown.
 
-<a id="web-extraction-and-research"></a>
+<a id="testing-and-qa"></a>
+<a id="testing-and-qa-tools"></a>
 
-### Extracción web e investigación
+## Herramientas de pruebas y QA
 
-- [888-url2md](https://github.com/tbdavid2019/888-url2md) - Servicio de conversión de páginas a Markdown con un motor CDP Moli local y una política separada de uso alternativo de Chrome.
-- [A3S Search](https://github.com/A3S-Lab/Search) - Motor de búsqueda integrable con renderizador CLI de Moli y límite de renderizados simultáneos.
-- [Brains](https://github.com/YuniqueUnic/brains) - Almacén de conocimiento Markdown con control de versiones y renderizado Moli opcional al importar URL.
-- [CTI Expert](https://github.com/7onez/cti-expert) - Herramientas de inteligencia de amenazas que usan Moli para extraer el DOM tras ejecutar JavaScript y mantienen Chromium para la evidencia visual.
-- [HEIS](https://github.com/u4399com-beep/heis) - Sistema de recopilación de novelas con un puente HTTP en Go para obtener páginas y evaluar scripts mediante Moli.
-- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Herramientas de investigación de Hermes que añaden el renderizado Moli a la cadena de alternativas para leer páginas.
-- [Lens](https://github.com/bysages/lens) - Herramientas web en TypeScript que usan Moli mediante CDP para capturas de pantalla y lectura de páginas.
-- [ModalPrism](https://github.com/MistLoom/ModalPrism) - Sistema de recopilación de datos en Rust cuyo adaptador de navegador renderiza páginas dinámicas mediante la CLI de Moli.
-- [molisnap](https://github.com/7a6163/molisnap) - Servicio de prerenderizado de SPA para rastreadores de búsqueda y bots de IA, con caché y precarga desde sitemaps.
-- [PageSift](https://github.com/YOLOW92/pagesift) - Servicio de extracción web y documental en Rust que integra Moli en una cadena de selección Lightpanda, Moli y Chrome.
-- [stvdy](https://github.com/jettapindika/stvdy) - Espacio de estudio que importa fuentes web mediante una cadena de alternativas Exa, Moli y HTTP/readability.
-- [Vanilla](https://github.com/easylearnfromtw/vanilla) - Espacio de IA familiar con adaptador de extracción Moli que requiere activación explícita y aislamiento de red saliente configurado por separado.
-
-<a id="community-projects"></a>
-
-## Proyectos de la comunidad
-
-<a id="forks-and-derivatives"></a>
-
-### Forks y proyectos derivados
-
-- [Limo](https://github.com/Spxg/limo) - Ejecuta JavaScript en la terminal con todas las API web de Moli para crear elementos del DOM y responder a clics desde un script.
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Fork de Moli con un perfil de red inspirado en Chrome y una capa de transporte en Rust compartida por HTTP y WebSocket.
-- [pilot](https://github.com/WSAdam/pilot) - Navegador derivado de Moli que se puede iniciar desde Playwright o Playwright MCP con una ventana opcional para seguir la navegación del agente.
+- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Framework de pruebas de extremo a extremo con helper Moli experimental, gestión de procesos locales y conexión a endpoints CDP existentes.
+- [e2e](https://github.com/e2e-inc/e2e) - El adaptador de Moli, ya integrado en la rama principal del framework, gestiona un navegador local independiente para cada proceso de pruebas web en paralelo.
+- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - Herramientas de desarrollo MCP con comprobaciones opcionales de extracción Moli para páginas públicas fijas y Chrome como alternativa para QA visual.
 
 <a id="deployment-and-packaging"></a>
+<a id="packaging-and-deployment"></a>
 
-### Despliegue y paquetes
+## Empaquetado y despliegue
 
 Recetas de instalación y plantillas de despliegue de la comunidad.
 
@@ -103,9 +88,18 @@ Recetas de instalación y plantillas de despliegue de la comunidad.
 - [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - Definición de paquete NixOS para binarios de versiones fijadas de Moli y sus dependencias de ejecución.
 - [Railway Moli](https://github.com/two-workspaces/moli) - Plantilla de despliegue en Railway con pasarela Caddy protegida por token y reescritura de endpoints WebSocket públicos.
 
-<a id="experimental-and-development-examples"></a>
+<a id="forks-and-derivatives"></a>
 
-### Proyectos experimentales y ejemplos de desarrollo
+## Forks y proyectos derivados
+
+- [Limo](https://github.com/Spxg/limo) - Ejecuta JavaScript en la terminal con todas las API web de Moli para crear elementos del DOM y responder a clics desde un script.
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Fork de Moli con un perfil de red inspirado en Chrome y una capa de transporte en Rust compartida por HTTP y WebSocket.
+- [pilot](https://github.com/WSAdam/pilot) - Navegador derivado de Moli que se puede iniciar desde Playwright o Playwright MCP con una ventana opcional para seguir la navegación del agente.
+
+<a id="experimental-and-development-examples"></a>
+<a id="development-examples-and-evaluations"></a>
+
+## Ejemplos de desarrollo y evaluaciones
 
 Prototipos, scripts de desarrollo e informes de evaluación. Los resultados de las pruebas proceden de sus autores.
 

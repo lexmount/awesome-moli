@@ -6,9 +6,9 @@ We welcome Moli forks, derivatives, and projects that build on the engine or reu
 
 1. Link to the project's public repository or documentation.
 2. In your pull request, point to the Moli-related change, source file, installation recipe, release note, or documented workflow. A commit permalink makes the evidence easy to revisit.
-3. Choose the subsection under Integrations or Community projects that best describes what readers can use.
+3. Choose the section by what readers can use the project to do. Reusable testing adapters belong in Testing and QA tools. Scripts that test a project's own application belong in Development examples and evaluations.
 4. Link the project name once, then use one sentence to highlight what readers can do with Moli. Put supporting links in the pull request or review log.
-5. Keep entries alphabetized within each integration or community subsection. List each project once under its current name.
+5. Keep entries alphabetized within each section. List each project once under its current name.
 6. Update all seven README files and keep their project links, order, and scope aligned. Preserve qualifiers such as optional, experimental, beta, platform restrictions, and test-only use.
 
 ## What belongs here

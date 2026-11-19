@@ -4,49 +4,53 @@
   <a href="../README.md">English</a> | <strong>简体中文</strong> | <a href="README.ja.md">日本語</a> | <a href="README.de.md">Deutsch</a> | <a href="README.fr.md">Français</a> | <a href="README.es.md">Español</a> | <a href="README.ko.md">한국어</a>
 </p>
 
-> 围绕 [Moli](https://github.com/lexmount/moli) 的工具、集成与应用示例。Moli 是面向 AI Agent 的开源无头浏览器。
-
-探索 Moli 在浏览器自动化、网页提取、Agent 工作流与自托管服务中的用法。部分集成为可选功能或实验实现，请按各项目的指南配置。
+> [Moli](https://github.com/lexmount/moli) 是面向 AI Agent 的开源无头浏览器。这里收录使用、扩展或分发 Moli 的项目，包括浏览器自动化工具、框架集成、衍生项目、部署方案和开发案例。
 
 ## 目录
 
-- [框架与工具集成](#integrations)
-  - [测试与 QA](#testing-and-qa)
-  - [浏览器工具与 MCP](#browser-tools-and-mcp)
-  - [Agent 与工作区](#agents-and-workspaces)
-  - [网页提取与研究](#web-extraction-and-research)
-- [社区项目](#community-projects)
-  - [Fork 与二次开发](#forks-and-derivatives)
-  - [部署与打包](#deployment-and-packaging)
-  - [实验与开发案例](#experimental-and-development-examples)
-
-<a id="integrations"></a>
-
-## 框架与工具集成
-
-<a id="testing-and-qa"></a>
-
-### 测试与 QA
-
-- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 端到端测试框架，提供实验性 Moli helper，支持本地进程管理和连接已有 CDP 端点。
-- [e2e](https://github.com/e2e-inc/e2e) - 通过 `@e2e-dev/moli` 为每个并行 Web 测试进程自动启动和关闭独立的本地 Moli 浏览器。
-- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP 开发工具包，可用 Moli 检查固定公共页面的提取结果，并回退到 Chrome 视觉 QA。
+- [浏览器自动化与工作流](#browser-automation-and-workflows)
+- [网页渲染与提取](#web-rendering-and-extraction)
+- [Agent 框架与工作区](#agent-frameworks-and-workspaces)
+- [测试与 QA 工具](#testing-and-qa-tools)
+- [打包与部署](#packaging-and-deployment)
+- [Fork 与衍生项目](#forks-and-derivatives)
+- [开发案例与评测](#development-examples-and-evaluations)
 
 <a id="browser-tools-and-mcp"></a>
+<a id="browser-automation-and-workflows"></a>
 
-### 浏览器工具与 MCP
+## 浏览器自动化与工作流
 
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - 浏览器自动化桥接工具，通过 Playwright/CDP 提供可选的 Moli 后端。
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - 管理聊天网页会话的 Go CLI，使用 Moli 进行无头访问、Chrome 处理交互式登录。
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - MCP 浏览器服务，在 Linux x86_64 上提供托管 Moli 引擎与沙箱工作进程。
 - [dsh-moli](https://github.com/27painter/dsh-moli) - DeepSeek Harness 社区插件，支持网页提取、JavaScript 求值、截图、PDF 和引擎诊断。
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 实验性求职技能，通过 Moli 填写申请表单，提交前要求用户确认。
+
+<a id="web-extraction-and-research"></a>
+<a id="web-rendering-and-extraction"></a>
+
+## 网页渲染与提取
+
+- [888-url2md](https://github.com/tbdavid2019/888-url2md) - 网页转 Markdown 服务，提供本地 Moli CDP 后端和独立的 Chrome 回退策略。
+- [A3S Search](https://github.com/A3S-Lab/Search) - 可嵌入的搜索引擎，提供 Moli CLI 渲染适配器与渲染并发限制。
+- [Brains](https://github.com/YuniqueUnic/brains) - 带版本管理的 Markdown 知识库，可在导入网址时选择 Moli 渲染。
+- [CTI Expert](https://github.com/7onez/cti-expert) - 威胁情报工具包，使用 Moli 提取 JavaScript 渲染后的 DOM，保留 Chromium 处理视觉证据。
+- [HEIS](https://github.com/u4399com-beep/heis) - 小说采集系统，通过 Go HTTP 桥接服务封装 Moli 抓取和脚本求值。
+- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Hermes 研究工具，将 Moli 渲染加入网页读取的回退链。
+- [Lens](https://github.com/bysages/lens) - TypeScript 网页工具集，通过 CDP 使用 Moli 进行截图和页面读取。
+- [ModalPrism](https://github.com/MistLoom/ModalPrism) - Rust 数据采集系统，通过浏览器访问器调用 Moli CLI 渲染动态网页。
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 本地 MCP 研究工具，可读取指定网址、保留来源证据并比较页面快照，目前为 beta。
+- [molisnap](https://github.com/7a6163/molisnap) - 面向搜索爬虫和 AI bot 的 SPA 预渲染服务，支持缓存与 sitemap 预热。
+- [PageSift](https://github.com/YOLOW92/pagesift) - Rust 网页与文档提取服务，将 Moli 纳入 Lightpanda → Moli → Chrome 浏览器选择链。
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Windows Agent 工具分发包，在 HTTP 提取不足时使用 Moli 渲染 JavaScript 页面，并提供 Chromium 回退。
+- [stvdy](https://github.com/jettapindika/stvdy) - 学习工作区，通过 Exa、Moli 和 HTTP/readability 回退链导入网页资料。
+- [Vanilla](https://github.com/easylearnfromtw/vanilla) - 家庭 AI 工作区，提供需显式启用的 Moli 网页提取适配器，要求单独配置出站网络隔离。
 
 <a id="agents-and-workspaces"></a>
+<a id="agent-frameworks-and-workspaces"></a>
 
-### Agent 与工作区
+## Agent 框架与工作区
 
 - [A3S Code](https://github.com/A3S-Lab/Code) - Agent 框架，为无头网页搜索后端配置经过校验的 Moli 运行时。
 - [agent-fabric](https://github.com/BlueTeam-OU/agent-fabric) - 编码 Agent 控制平台，使用 Moli 读取网页，并通过 Playwright MCP 为各 Agent 提供脚本浏览。
@@ -60,38 +64,19 @@
 - [Relay](https://github.com/arcwright42/Relay) - Agent 运行时，提供有超时与输出限制的 Moli 网页抓取和浏览器安装管理。
 - [Wick](https://github.com/yogasw/wick) - Go Agent 宿主，提供可选的 Moli 浏览器连接器、CDP 会话和 Markdown 提取。
 
-<a id="web-extraction-and-research"></a>
+<a id="testing-and-qa"></a>
+<a id="testing-and-qa-tools"></a>
 
-### 网页提取与研究
+## 测试与 QA 工具
 
-- [888-url2md](https://github.com/tbdavid2019/888-url2md) - 网页转 Markdown 服务，提供本地 Moli CDP 后端和独立的 Chrome 回退策略。
-- [A3S Search](https://github.com/A3S-Lab/Search) - 可嵌入的搜索引擎，提供 Moli CLI 渲染适配器与渲染并发限制。
-- [Brains](https://github.com/YuniqueUnic/brains) - 带版本管理的 Markdown 知识库，可在导入网址时选择 Moli 渲染。
-- [CTI Expert](https://github.com/7onez/cti-expert) - 威胁情报工具包，使用 Moli 提取 JavaScript 渲染后的 DOM，保留 Chromium 处理视觉证据。
-- [HEIS](https://github.com/u4399com-beep/heis) - 小说采集系统，通过 Go HTTP 桥接服务封装 Moli 抓取和脚本求值。
-- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Hermes 研究工具，将 Moli 渲染加入网页读取的回退链。
-- [Lens](https://github.com/bysages/lens) - TypeScript 网页工具集，通过 CDP 使用 Moli 进行截图和页面读取。
-- [ModalPrism](https://github.com/MistLoom/ModalPrism) - Rust 数据采集系统，通过浏览器访问器调用 Moli CLI 渲染动态网页。
-- [molisnap](https://github.com/7a6163/molisnap) - 面向搜索爬虫和 AI bot 的 SPA 预渲染服务，支持缓存与 sitemap 预热。
-- [PageSift](https://github.com/YOLOW92/pagesift) - Rust 网页与文档提取服务，将 Moli 纳入 Lightpanda → Moli → Chrome 浏览器选择链。
-- [stvdy](https://github.com/jettapindika/stvdy) - 学习工作区，通过 Exa、Moli 和 HTTP/readability 回退链导入网页资料。
-- [Vanilla](https://github.com/easylearnfromtw/vanilla) - 家庭 AI 工作区，提供需显式启用的 Moli 网页提取适配器，要求单独配置出站网络隔离。
-
-<a id="community-projects"></a>
-
-## 社区项目
-
-<a id="forks-and-derivatives"></a>
-
-### Fork 与二次开发
-
-- [Limo](https://github.com/Spxg/limo) - 在终端用 Moli 的完整浏览器 Web API 运行 JavaScript，脚本可以直接创建 DOM 元素、监听并触发点击事件。
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - 以 Chrome 的网络配置为参照，让 HTTP 和 WebSocket 共用一套 Rust 传输层的 Moli 社区 fork。
-- [pilot](https://github.com/WSAdam/pilot) - 可由 Playwright 或 Playwright MCP 直接启动的 Moli 衍生浏览器，支持开窗观看 Agent 操作网页。
+- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 端到端测试框架，提供实验性 Moli helper，支持本地进程管理和连接已有 CDP 端点。
+- [e2e](https://github.com/e2e-inc/e2e) - 上游已合入 Moli 适配器，可为每个并行 Web 测试进程管理独立的本地浏览器。
+- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP 开发工具包，可用 Moli 检查固定公共页面的提取结果，并回退到 Chrome 视觉 QA。
 
 <a id="deployment-and-packaging"></a>
+<a id="packaging-and-deployment"></a>
 
-### 部署与打包
+## 打包与部署
 
 社区维护的安装配方与部署模板。
 
@@ -103,9 +88,18 @@
 - [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - NixOS 软件包定义，固定 Moli 发布二进制及其运行时依赖。
 - [Railway Moli](https://github.com/two-workspaces/moli) - Railway 部署模板，提供带令牌认证的 Caddy 网关与公共 WebSocket 地址改写。
 
-<a id="experimental-and-development-examples"></a>
+<a id="forks-and-derivatives"></a>
 
-### 实验与开发案例
+## Fork 与衍生项目
+
+- [Limo](https://github.com/Spxg/limo) - 在终端用 Moli 的完整浏览器 Web API 运行 JavaScript，脚本可以直接创建 DOM 元素、监听并触发点击事件。
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - 以 Chrome 的网络配置为参照，让 HTTP 和 WebSocket 共用一套 Rust 传输层的 Moli 社区 fork。
+- [pilot](https://github.com/WSAdam/pilot) - 可由 Playwright 或 Playwright MCP 直接启动的 Moli 衍生浏览器，支持开窗观看 Agent 操作网页。
+
+<a id="experimental-and-development-examples"></a>
+<a id="development-examples-and-evaluations"></a>
+
+## 开发案例与评测
 
 原型、开发脚本与评测报告。测试结果来自各项目作者。
 
