@@ -22,36 +22,28 @@
       "github_fork": false,
       "github_parent": null,
       "readme_status": "included",
-      "category": "browser-tool",
-      "readme_section": "browser-tools-and-mcp",
+      "category": "downstream-tool",
+      "readme_section": "forks-and-derivatives",
       "readme_name": "Limo",
       "readme_url": "https://github.com/Spxg/limo",
-      "summary": "Command-line JavaScript runner that embeds moli-core from Spxg’s Moli fork, giving scripts access to the DOM and browser events.",
+      "summary": "Run browser JavaScript directly in the terminal with Moli’s full Web API environment. A script can create DOM elements, register event listeners, and trigger clicks.",
       "source": {
-        "url": "https://github.com/Spxg/limo/blob/73519b9ab71904c670917a93fcd54e756c69c570/src/main.rs#L144-L158",
-        "path": "src/main.rs",
+        "url": "https://github.com/Spxg/limo/blob/73519b9ab71904c670917a93fcd54e756c69c570/README.md#L1-L42",
+        "path": "README.md",
         "commit_sha": "73519b9ab71904c670917a93fcd54e756c69c570",
-        "blob_sha": "a83c57188fe2cb946328343abd89f282eb91ad69",
-        "kind": "implementation-or-package",
-        "retrieved_at_utc": "2026-11-19T08:39:46.717Z"
+        "blob_sha": "34ce1e4c3fc65dc667a9e66ed4eedd1b82436499",
+        "kind": "documentation",
+        "retrieved_at_utc": "2026-11-19T08:39:28.210Z"
       },
-      "notes": "Limo is a downstream tool. Its Cargo manifest pins moli-core to a commit in Spxg/moli, a fork of lexmount/moli. The example script creates a DOM button and handles its click event.",
+      "notes": "The documented example creates a button, registers a click handler, and prints the resulting DOM from the terminal.",
       "supplementary_sources": [
         {
-          "url": "https://github.com/Spxg/limo/blob/73519b9ab71904c670917a93fcd54e756c69c570/Cargo.toml#L10",
-          "path": "Cargo.toml",
+          "url": "https://github.com/Spxg/limo/blob/73519b9ab71904c670917a93fcd54e756c69c570/src/main.rs#L144-L158",
+          "path": "src/main.rs",
           "commit_sha": "73519b9ab71904c670917a93fcd54e756c69c570",
-          "blob_sha": "202c7de35a2e4855b391912c9388948190179724",
+          "blob_sha": "a83c57188fe2cb946328343abd89f282eb91ad69",
           "kind": "implementation-or-package",
-          "retrieved_at_utc": "2026-11-19T08:39:46.716Z"
-        },
-        {
-          "url": "https://github.com/Spxg/limo/blob/73519b9ab71904c670917a93fcd54e756c69c570/README.md#L21-L42",
-          "path": "README.md",
-          "commit_sha": "73519b9ab71904c670917a93fcd54e756c69c570",
-          "blob_sha": "34ce1e4c3fc65dc667a9e66ed4eedd1b82436499",
-          "kind": "documentation",
-          "retrieved_at_utc": "2026-11-19T08:39:28.210Z"
+          "retrieved_at_utc": "2026-11-19T08:39:46.717Z"
         }
       ]
     },

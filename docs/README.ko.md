@@ -33,6 +33,7 @@
 
 ## 포크와 파생 프로젝트
 
+- [Limo](https://github.com/Spxg/limo) - 터미널에서 Moli의 완전한 브라우저 Web API 환경으로 JavaScript를 바로 실행합니다. 스크립트 하나로 DOM 요소를 만들고 클릭 이벤트 리스너를 등록한 뒤 클릭을 발생시킬 수 있습니다.
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Chrome을 모델로 한 네트워크 프로필을 제공하고 HTTP와 WebSocket에 공통 Rust 전송 계층을 사용하는 Moli 포크.
 - [pilot](https://github.com/WSAdam/pilot) - Playwright와 Playwright MCP에서 직접 실행할 수 있는 Moli 기반 브라우저. 별도 창을 열어 에이전트가 웹페이지를 조작하는 모습을 볼 수 있습니다. [Playwright 설정 안내](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
 
@@ -44,7 +45,6 @@
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - 채팅 웹 세션을 관리하는 Go CLI로, 헤드리스 접근에는 Moli를, 대화형 로그인에는 Chrome을 사용.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Linux x86_64에서 관리형 Moli 엔진과 샌드박스 작업 프로세스를 제공하는 MCP 브라우저 서버.
 - [dsh-moli](https://github.com/27painter/dsh-moli) - 페이지 추출, JavaScript 실행, 스크린샷, PDF 및 엔진 진단을 지원하는 DeepSeek Harness 커뮤니티 플러그인.
-- [Limo](https://github.com/Spxg/limo) - Spxg의 Moli 포크에서 `moli-core`를 가져와 내장한 명령줄 JavaScript 실행기. 스크립트에서 DOM을 조작하고 브라우저 이벤트를 처리할 수 있습니다.
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Moli로 지원서를 작성하고 제출 전에 사용자 확인을 요구하는 실험적 구직 스킬.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 지정한 URL 읽기, 출처 증거 보관, 페이지 스냅샷 비교를 지원하는 로컬 MCP 조사 도구로, 현재 베타 버전.
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - HTTP 추출만으로 부족한 JavaScript 페이지에 Moli를 사용하고 Chromium으로 대체할 수 있는 Windows 에이전트 도구 배포판.

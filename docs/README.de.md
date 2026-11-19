@@ -33,6 +33,7 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 
 ## Forks und Weiterentwicklungen
 
+- [Limo](https://github.com/Spxg/limo) - Führt JavaScript direkt im Terminal mit der vollständigen Web-API-Umgebung von Moli aus. Ein Skript kann DOM-Elemente erzeugen, Ereignisse abonnieren und Klicks auslösen.
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli-Fork mit einem an Chrome angelehnten Netzwerkprofil und einer gemeinsamen Rust-Transportschicht für HTTP und WebSockets.
 - [pilot](https://github.com/WSAdam/pilot) - Auf Moli basierender Browser, den Playwright und Playwright MCP direkt starten können. In einem optionalen Fenster lässt sich der Agent beim Surfen beobachten. [Einrichtung mit Playwright](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
 
@@ -44,7 +45,6 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Go-CLI zur Verwaltung von Chat-Websitzungen, mit Moli für den Headless-Zugriff und Chrome für die interaktive Anmeldung.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - MCP-Browserserver mit verwalteter Moli-Engine und isolierten Worker-Prozessen unter Linux x86_64.
 - [dsh-moli](https://github.com/27painter/dsh-moli) - Community-Plugin für DeepSeek Harness zur Seitenextraktion, JavaScript-Auswertung, Erstellung von Screenshots und PDFs sowie Engine-Diagnose.
-- [Limo](https://github.com/Spxg/limo) - JavaScript-Laufzeit für die Kommandozeile, die `moli-core` aus Spxgs Moli-Fork einbettet und Skripten Zugriff auf das DOM und Browserereignisse gibt.
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Experimenteller Skill zur Jobsuche, der Bewerbungsformulare mit Moli ausfüllt und vor dem Absenden eine Bestätigung verlangt.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Lokale MCP-Recherchetools zum Lesen ausgewählter URLs, Speichern von Quellenbelegen und Vergleichen von Seitensnapshots; derzeit in der Beta.
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Windows-Distribution von Agentenwerkzeugen, die bei unzureichender HTTP-Extraktion JavaScript-Seiten mit Moli rendert und Chromium als Rückfalloption nutzt.

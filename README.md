@@ -29,6 +29,7 @@ Explore ways to use Moli for browser automation, web extraction, agent workflows
 
 ## Forks and derivatives
 
+- [Limo](https://github.com/Spxg/limo) - Run browser JavaScript directly in the terminal with Moli’s full Web API environment. A script can create DOM elements, register event listeners, and trigger clicks.
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli fork with a Chrome-style network profile and a shared Rust transport for HTTP and WebSockets.
 - [pilot](https://github.com/WSAdam/pilot) - Moli-derived browser that Playwright and Playwright MCP can launch directly, with an optional window for watching the agent browse. [Playwright setup](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
 
@@ -38,7 +39,6 @@ Explore ways to use Moli for browser automation, web extraction, agent workflows
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Go CLI for managing chat web sessions, with Moli for headless access and Chrome for interactive login.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - MCP browser server with a managed Moli engine and sandboxed workers on Linux x86_64.
 - [dsh-moli](https://github.com/27painter/dsh-moli) - DeepSeek Harness community plugin for page extraction, JavaScript evaluation, screenshots, PDFs, and engine diagnostics.
-- [Limo](https://github.com/Spxg/limo) - Command-line JavaScript runner that embeds `moli-core` from Spxg’s Moli fork, giving scripts access to the DOM and browser events.
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Experimental job-search skill that fills application forms through Moli and requires confirmation before submission.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Local MCP research tools for reading selected URLs, retaining source evidence, and comparing page snapshots; currently in beta.
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Windows agent-tool distribution that uses Moli for JavaScript pages when HTTP extraction falls short, with Chromium fallback.

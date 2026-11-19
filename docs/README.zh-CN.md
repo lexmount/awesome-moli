@@ -33,6 +33,7 @@
 
 ## Fork 与二次开发
 
+- [Limo](https://github.com/Spxg/limo) - 在终端直接用 Moli 提供的完整浏览器 Web API 环境运行 JavaScript。一个 `.js` 脚本就能用 `document` 创建按钮、监听并触发点击事件。
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli 的社区 fork。HTTP 和 WebSocket 共用一套 Rust 网络层，网络配置以 Chrome 为参照。
 - [pilot](https://github.com/WSAdam/pilot) - 基于 Moli 二次开发的浏览器，可由 Playwright 和 Playwright MCP 直接启动，还能打开窗口观看 Agent 操作网页。 [Playwright 接入指南](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
 
@@ -44,7 +45,6 @@
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - 管理聊天网页会话的 Go CLI，使用 Moli 进行无头访问、Chrome 处理交互式登录。
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - MCP 浏览器服务，在 Linux x86_64 上提供托管 Moli 引擎与沙箱工作进程。
 - [dsh-moli](https://github.com/27painter/dsh-moli) - DeepSeek Harness 社区插件，支持网页提取、JavaScript 求值、截图、PDF 和引擎诊断。
-- [Limo](https://github.com/Spxg/limo) - 将 Spxg 的 Moli fork 中的 `moli-core` 嵌入命令行工具，让 JavaScript 脚本可以在终端操作 DOM、处理浏览器事件。
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 实验性求职技能，通过 Moli 填写申请表单，提交前要求用户确认。
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 本地 MCP 研究工具，可读取指定网址、保留来源证据并比较页面快照，目前为 beta。
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Windows Agent 工具分发包，在 HTTP 提取不足时使用 Moli 渲染 JavaScript 页面，并提供 Chromium 回退。

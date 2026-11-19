@@ -33,6 +33,7 @@
 
 ## フォークと派生プロジェクト
 
+- [Limo](https://github.com/Spxg/limo) - Moli が提供するブラウザーの Web API を一通り使って、ターミナルから JavaScript を直接実行できます。スクリプトで DOM 要素を作成し、クリックイベントの登録と発火まで行えます。
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - HTTP と WebSocket に共通の Rust 通信層を使い、Chrome をモデルにしたネットワークプロファイルを備える Moli のフォーク。
 - [pilot](https://github.com/WSAdam/pilot) - Playwright や Playwright MCP から直接起動できる Moli 派生のブラウザー。ウィンドウを開いてエージェントの操作を見守ることもできます。 [Playwright の設定](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
 
@@ -44,7 +45,6 @@
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - チャットの Web セッションを管理する Go CLI。ヘッドレス操作には Moli、対話式ログインには Chrome を使用。
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Linux x86_64 で管理対象の Moli エンジンとサンドボックス化されたワーカーを提供する MCP ブラウザーサーバー。
 - [dsh-moli](https://github.com/27painter/dsh-moli) - ページ抽出、JavaScript 評価、スクリーンショット、PDF、エンジン診断に対応する DeepSeek Harness のコミュニティプラグイン。
-- [Limo](https://github.com/Spxg/limo) - Spxg がフォークした Moli の `moli-core` を組み込み、DOM 操作やブラウザーイベントの処理をターミナルから行える JavaScript ランナー。
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Moli で応募フォームに入力し、送信前にユーザーの確認を求める実験的な求職スキル。
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 指定 URL の読み取り、出典の保存、ページスナップショットの比較に対応するローカル MCP 調査ツール。現在はベータ版。
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - HTTP 抽出で内容が足りない場合に Moli で JavaScript ページを描画し、Chromium にもフォールバックする Windows 向けエージェントツール配布物。
