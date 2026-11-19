@@ -40,7 +40,7 @@
 ### 테스트와 QA
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 로컬 프로세스 관리와 기존 CDP 엔드포인트 연결을 지원하는 실험적 Moli 헬퍼를 갖춘 종단 간 테스트 프레임워크.
-- [e2e](https://github.com/e2e-inc/e2e) - 엔드투엔드 테스트 프레임워크. `@e2e-dev/moli` 어댑터가 웹 테스트 워커마다 로컬 Moli 브라우저를 실행하고 사용이 끝나면 종료합니다. [어댑터 소스](https://github.com/e2e-inc/e2e/tree/main/packages/moli)
+- [e2e](https://github.com/e2e-inc/e2e) - `@e2e-dev/moli`가 병렬 웹 테스트 워커마다 전용 로컬 Moli 브라우저를 실행하고 사용이 끝나면 자동으로 종료합니다.
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 고정된 공개 페이지에 선택적 Moli 추출 검사를 수행하고 Chrome 시각 QA로 대체할 수 있는 MCP 개발 도구.
 
 <a id="browser-tools-and-mcp"></a>
@@ -96,9 +96,9 @@
 
 ### 포크와 파생 프로젝트
 
-- [Limo](https://github.com/Spxg/limo) - 터미널에서 Moli의 완전한 브라우저 Web API 환경으로 JavaScript를 바로 실행합니다. 스크립트 하나로 DOM 요소를 만들고 클릭 이벤트 리스너를 등록한 뒤 클릭을 발생시킬 수 있습니다.
+- [Limo](https://github.com/Spxg/limo) - 터미널에서 Moli의 전체 브라우저 Web API로 JavaScript를 실행해 스크립트에서 DOM 요소를 만들고 클릭 이벤트를 처리할 수 있습니다.
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Chrome을 모델로 한 네트워크 프로필을 제공하고 HTTP와 WebSocket에 공통 Rust 전송 계층을 사용하는 Moli 포크.
-- [pilot](https://github.com/WSAdam/pilot) - Playwright와 Playwright MCP에서 직접 실행할 수 있는 Moli 기반 브라우저. 별도 창을 열어 에이전트가 웹페이지를 조작하는 모습을 볼 수 있습니다. [Playwright 설정 안내](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+- [pilot](https://github.com/WSAdam/pilot) - Playwright나 Playwright MCP에서 직접 실행할 수 있고 창을 열어 에이전트의 웹 탐색을 지켜볼 수 있는 Moli 기반 브라우저입니다.
 
 <a id="deployment-and-packaging"></a>
 

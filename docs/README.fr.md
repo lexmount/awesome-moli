@@ -40,7 +40,7 @@ Découvrez Moli pour l’automatisation de navigateur, l’extraction web, les w
 ### Tests et QA
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Framework de tests de bout en bout avec helper Moli expérimental, gestion des processus locaux et connexion aux points d’accès CDP existants.
-- [e2e](https://github.com/e2e-inc/e2e) - Framework de test de bout en bout dont l’adaptateur `@e2e-dev/moli` lance un navigateur Moli local pour chaque processus de test web et l’arrête après utilisation. [Code de l’adaptateur](https://github.com/e2e-inc/e2e/tree/main/packages/moli)
+- [e2e](https://github.com/e2e-inc/e2e) - L’adaptateur `@e2e-dev/moli` démarre un navigateur Moli local pour chaque processus de test web parallèle et l’arrête automatiquement après utilisation.
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - Outils de développement MCP avec contrôles d’extraction Moli optionnels sur des pages publiques fixes et repli sur Chrome pour la QA visuelle.
 
 <a id="browser-tools-and-mcp"></a>
@@ -52,7 +52,7 @@ Découvrez Moli pour l’automatisation de navigateur, l’extraction web, les w
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Serveur de navigateur MCP avec moteur Moli géré et processus de travail isolés sous Linux x86_64.
 - [dsh-moli](https://github.com/27painter/dsh-moli) - Plugin communautaire DeepSeek Harness pour l’extraction de pages, l’évaluation JavaScript, les captures d’écran, les PDF et le diagnostic du moteur.
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Skill expérimental de recherche d’emploi qui remplit les formulaires avec Moli et demande une confirmation avant l’envoi.
-- [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Outils MCP locaux de recherche pour lire des URL choisies, conserver les sources et comparer des instantanés de pages ; actuellement en bêta.
+- [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Outils de recherche MCP locaux en bêta qui conservent les sources et comparent les instantanés des pages web sélectionnées.
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Distribution Windows d’outils pour agents utilisant Moli pour les pages JavaScript lorsque l’extraction HTTP ne suffit pas, avec repli sur Chromium.
 
 <a id="agents-and-workspaces"></a>
@@ -96,9 +96,9 @@ Découvrez Moli pour l’automatisation de navigateur, l’extraction web, les w
 
 ### Forks et projets dérivés
 
-- [Limo](https://github.com/Spxg/limo) - Permet d’exécuter JavaScript directement dans le terminal avec l’environnement Web API complet de Moli. Un script peut créer des éléments du DOM, écouter les événements et déclencher des clics.
+- [Limo](https://github.com/Spxg/limo) - Exécute JavaScript dans le terminal avec toutes les API web de Moli, ce qui permet aux scripts de créer des éléments du DOM et de réagir aux clics.
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Fork de Moli qui adopte un profil réseau inspiré de Chrome et une couche de transport commune en Rust pour HTTP et WebSocket.
-- [pilot](https://github.com/WSAdam/pilot) - Navigateur dérivé de Moli que Playwright et Playwright MCP peuvent lancer directement. Une fenêtre facultative permet de suivre la navigation de l’agent. [Configuration de Playwright](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+- [pilot](https://github.com/WSAdam/pilot) - Navigateur dérivé de Moli que Playwright ou Playwright MCP peut lancer directement, avec une fenêtre facultative pour suivre la navigation de l’agent.
 
 <a id="deployment-and-packaging"></a>
 

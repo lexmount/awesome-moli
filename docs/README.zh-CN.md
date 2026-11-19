@@ -40,7 +40,7 @@
 ### 测试与 QA
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 端到端测试框架，提供实验性 Moli helper，支持本地进程管理和连接已有 CDP 端点。
-- [e2e](https://github.com/e2e-inc/e2e) - 端到端测试框架，通过 `@e2e-dev/moli` 为每个 Web 测试工作进程启动本地 Moli 浏览器，用完后自动关闭。 [适配器源码](https://github.com/e2e-inc/e2e/tree/main/packages/moli)
+- [e2e](https://github.com/e2e-inc/e2e) - 通过 `@e2e-dev/moli` 为每个并行 Web 测试进程自动启动和关闭独立的本地 Moli 浏览器。
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP 开发工具包，可用 Moli 检查固定公共页面的提取结果，并回退到 Chrome 视觉 QA。
 
 <a id="browser-tools-and-mcp"></a>
@@ -96,9 +96,9 @@
 
 ### Fork 与二次开发
 
-- [Limo](https://github.com/Spxg/limo) - 在终端直接用 Moli 提供的完整浏览器 Web API 环境运行 JavaScript。一个 `.js` 脚本就能用 `document` 创建按钮、监听并触发点击事件。
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli 的社区 fork。HTTP 和 WebSocket 共用一套 Rust 网络层，网络配置以 Chrome 为参照。
-- [pilot](https://github.com/WSAdam/pilot) - 基于 Moli 二次开发的浏览器，可由 Playwright 和 Playwright MCP 直接启动，还能打开窗口观看 Agent 操作网页。 [Playwright 接入指南](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+- [Limo](https://github.com/Spxg/limo) - 在终端用 Moli 的完整浏览器 Web API 运行 JavaScript，脚本可以直接创建 DOM 元素、监听并触发点击事件。
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - 以 Chrome 的网络配置为参照，让 HTTP 和 WebSocket 共用一套 Rust 传输层的 Moli 社区 fork。
+- [pilot](https://github.com/WSAdam/pilot) - 可由 Playwright 或 Playwright MCP 直接启动的 Moli 衍生浏览器，支持开窗观看 Agent 操作网页。
 
 <a id="deployment-and-packaging"></a>
 

@@ -25,7 +25,7 @@
 
 ## コアリソース
 
-- [Moli](https://github.com/lexmount/moli) - 公式リポジトリ。インストール手順、CLI の使い方、自動化プロトコルのドキュメント。
+- [Moli](https://github.com/lexmount/moli) - Moli のインストール手順、CLI の使い方、自動化プロトコルをまとめた公式リポジトリ。
 - [Releases](https://github.com/lexmount/moli/releases) - ビルド済みバイナリーと上流のリリースノート。
 - [Agent skills](https://github.com/lexmount/moli/tree/main/skills) - ページ取得、Web 検索、CDP サーバー起動に対応する公式エージェントスキル。
 - [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Moli でサイトのネイティブ WebMCP ツールを検出・呼び出しするスクリプトとデモ。
@@ -40,7 +40,7 @@
 ### テストと QA
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - ローカルプロセス管理と既存 CDP エンドポイントへの接続に対応する、実験的な Moli ヘルパーを備えた E2E テストフレームワーク。
-- [e2e](https://github.com/e2e-inc/e2e) - E2E テストフレームワーク。`@e2e-dev/moli` アダプターが Web テストのワーカーごとにローカルの Moli ブラウザーを起動し、使用後に終了します。 [アダプターのソース](https://github.com/e2e-inc/e2e/tree/main/packages/moli)
+- [e2e](https://github.com/e2e-inc/e2e) - `@e2e-dev/moli` が並列 Web テストのワーカーごとに専用のローカル Moli ブラウザーを起動し、使い終わると自動で終了します。
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 固定の公開ページを Moli で抽出検査し、Chrome による視覚的 QA にフォールバックできる MCP 開発ツール。
 
 <a id="browser-tools-and-mcp"></a>
@@ -48,11 +48,11 @@
 ### ブラウザーツールと MCP
 
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Playwright/CDP 経由で利用できる、任意の Moli バックエンドを備えたブラウザー自動化ブリッジ。
-- [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - チャットの Web セッションを管理する Go CLI。ヘッドレス操作には Moli、対話式ログインには Chrome を使用。
+- [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - ヘッドレス操作には Moli、対話式ログインには Chrome を使い分けてチャットの Web セッションを管理する Go 製 CLI。
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Linux x86_64 で管理対象の Moli エンジンとサンドボックス化されたワーカーを提供する MCP ブラウザーサーバー。
 - [dsh-moli](https://github.com/27painter/dsh-moli) - ページ抽出、JavaScript 評価、スクリーンショット、PDF、エンジン診断に対応する DeepSeek Harness のコミュニティプラグイン。
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Moli で応募フォームに入力し、送信前にユーザーの確認を求める実験的な求職スキル。
-- [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 指定 URL の読み取り、出典の保存、ページスナップショットの比較に対応するローカル MCP 調査ツール。現在はベータ版。
+- [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 指定した URL を読み取り、出典の保存やページのスナップショットの比較ができるベータ版のローカル MCP 調査ツール。
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - HTTP 抽出で内容が足りない場合に Moli で JavaScript ページを描画し、Chromium にもフォールバックする Windows 向けエージェントツール配布物。
 
 <a id="agents-and-workspaces"></a>
@@ -86,7 +86,7 @@
 - [molisnap](https://github.com/7a6163/molisnap) - キャッシュとサイトマップの事前読み込みに対応する、検索クローラーおよび AI ボット向けの SPA プリレンダリングサービス。
 - [PageSift](https://github.com/YOLOW92/pagesift) - Lightpanda → Moli → Chrome のブラウザー選択チェーンを持つ Rust の Web・文書抽出サービス。
 - [stvdy](https://github.com/jettapindika/stvdy) - Exa、Moli、HTTP/readability のフォールバックチェーンで Web 資料を取り込む学習ワークスペース。
-- [Vanilla](https://github.com/easylearnfromtw/vanilla) - 明示的に有効化する Moli ページ抽出アダプターを備えた家庭向け AI ワークスペース。送信ネットワークの分離を別途設定する必要あり。
+- [Vanilla](https://github.com/easylearnfromtw/vanilla) - 外向き通信の分離を別途設定すると Moli によるページ抽出を任意で有効にできる家庭向け AI ワークスペース。
 
 <a id="community-projects"></a>
 
@@ -96,9 +96,9 @@
 
 ### フォークと派生プロジェクト
 
-- [Limo](https://github.com/Spxg/limo) - Moli が提供するブラウザーの Web API を一通り使って、ターミナルから JavaScript を直接実行できます。スクリプトで DOM 要素を作成し、クリックイベントの登録と発火まで行えます。
+- [Limo](https://github.com/Spxg/limo) - Moli が提供するブラウザー Web API 一式を使い、ターミナルの JavaScript から DOM 要素を作成したりクリックイベントを処理したりできます。
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - HTTP と WebSocket に共通の Rust 通信層を使い、Chrome をモデルにしたネットワークプロファイルを備える Moli のフォーク。
-- [pilot](https://github.com/WSAdam/pilot) - Playwright や Playwright MCP から直接起動できる Moli 派生のブラウザー。ウィンドウを開いてエージェントの操作を見守ることもできます。 [Playwright の設定](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+- [pilot](https://github.com/WSAdam/pilot) - Playwright や Playwright MCP から直接起動でき、必要に応じてウィンドウでエージェントの操作を見守れる Moli 派生ブラウザー。
 
 <a id="deployment-and-packaging"></a>
 
@@ -128,7 +128,7 @@
 - [Master Maps](https://github.com/0bifthenelse/master-maps) - Moli による E2E スクリプトと、明示的なローカル Chromium フォールバックを備えた地図アプリケーション。
 - [Molifasi](https://github.com/A3S-Lab/Molifasi) - Moli CDP の観察・操作と Apofasi の意思決定を組み合わせた Rust ブラウザーエージェントのプロトタイプ。
 - [ScopePay AI](https://github.com/yablokolabs/scopepay-ai) - 購入者の承認操作に Moli CDP を使用する、PayPal サンドボックス決済のサンプル。
-- [SmartSpecPro](https://github.com/naibarn/SmartSpecPro) - root 権限なしの Linux で Moli の受け入れテストを起動する仕組み。デフォルトのビルドには含まれない。
+- [SmartSpecPro](https://github.com/naibarn/SmartSpecPro) - 標準ビルドとは別に、Linux 上で root 権限なしに Moli の受け入れテストを起動するランチャー。
 
 ## 貢献
 

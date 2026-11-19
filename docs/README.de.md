@@ -40,7 +40,7 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 ### Tests und QA
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End-to-End-Testframework mit experimentellem Moli-Helper zur Verwaltung lokaler Prozesse und zur Verbindung mit bestehenden CDP-Endpunkten.
-- [e2e](https://github.com/e2e-inc/e2e) - Framework für End-to-End-Tests. Der Adapter `@e2e-dev/moli` startet für jeden Web-Test-Worker einen lokalen Moli-Browser und beendet ihn nach dem Einsatz. [Quellcode des Adapters](https://github.com/e2e-inc/e2e/tree/main/packages/moli)
+- [e2e](https://github.com/e2e-inc/e2e) - Startet mit `@e2e-dev/moli` für jeden parallelen Web-Test-Worker einen eigenen lokalen Moli-Browser und beendet ihn nach dem Einsatz automatisch.
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP-Entwicklungswerkzeuge mit optionalen Moli-Extraktionsprüfungen für festgelegte öffentliche Seiten und Chrome als Rückfalloption für visuelle QA.
 
 <a id="browser-tools-and-mcp"></a>
@@ -52,7 +52,7 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - MCP-Browserserver mit verwalteter Moli-Engine und isolierten Worker-Prozessen unter Linux x86_64.
 - [dsh-moli](https://github.com/27painter/dsh-moli) - Community-Plugin für DeepSeek Harness zur Seitenextraktion, JavaScript-Auswertung, Erstellung von Screenshots und PDFs sowie Engine-Diagnose.
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Experimenteller Skill zur Jobsuche, der Bewerbungsformulare mit Moli ausfüllt und vor dem Absenden eine Bestätigung verlangt.
-- [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Lokale MCP-Recherchetools zum Lesen ausgewählter URLs, Speichern von Quellenbelegen und Vergleichen von Seitensnapshots; derzeit in der Beta.
+- [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Lokales MCP-Recherchewerkzeug in der Betaphase, das Quellenbelege zu ausgewählten Webseiten speichert und Seitenstände vergleicht.
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Windows-Distribution von Agentenwerkzeugen, die bei unzureichender HTTP-Extraktion JavaScript-Seiten mit Moli rendert und Chromium als Rückfalloption nutzt.
 
 <a id="agents-and-workspaces"></a>
@@ -96,9 +96,9 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 
 ### Forks und Weiterentwicklungen
 
-- [Limo](https://github.com/Spxg/limo) - Führt JavaScript direkt im Terminal mit der vollständigen Web-API-Umgebung von Moli aus. Ein Skript kann DOM-Elemente erzeugen, Ereignisse abonnieren und Klicks auslösen.
+- [Limo](https://github.com/Spxg/limo) - Führt JavaScript mit der vollständigen Web-API-Umgebung von Moli im Terminal aus, sodass Skripte DOM-Elemente erzeugen und auf Klicks reagieren können.
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli-Fork mit einem an Chrome angelehnten Netzwerkprofil und einer gemeinsamen Rust-Transportschicht für HTTP und WebSockets.
-- [pilot](https://github.com/WSAdam/pilot) - Auf Moli basierender Browser, den Playwright und Playwright MCP direkt starten können. In einem optionalen Fenster lässt sich der Agent beim Surfen beobachten. [Einrichtung mit Playwright](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+- [pilot](https://github.com/WSAdam/pilot) - Ein von Moli abgeleiteter Browser, den Playwright oder Playwright MCP direkt starten können und der auf Wunsch die Aktionen des Agenten in einem Fenster zeigt.
 
 <a id="deployment-and-packaging"></a>
 
@@ -128,7 +128,7 @@ Prototypen, Entwicklungsskripte und Evaluierungsberichte. Die genannten Testerge
 - [Master Maps](https://github.com/0bifthenelse/master-maps) - Kartenanwendung mit Moli-basierten End-to-End-Skripten und ausdrücklicher Rückfalloption auf lokales Chromium.
 - [Molifasi](https://github.com/A3S-Lab/Molifasi) - Rust-Prototyp eines Browseragenten, der Moli-CDP-Beobachtungen und -Aktionen mit Apofasi-Entscheidungen verbindet.
 - [ScopePay AI](https://github.com/yablokolabs/scopepay-ai) - PayPal-Sandbox-Beispiel, das Moli-CDP für die Freigabe des Bezahlvorgangs durch den Käufer nutzt.
-- [SmartSpecPro](https://github.com/naibarn/SmartSpecPro) - Moli-Starter für Akzeptanztests unter Linux ohne Root-Rechte; nicht in Standard-Builds enthalten.
+- [SmartSpecPro](https://github.com/naibarn/SmartSpecPro) - Separat vom Standard-Build verfügbarer Starter für Moli-Akzeptanztests unter Linux ohne Root-Rechte.
 
 ## Mitwirken
 

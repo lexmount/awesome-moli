@@ -73,7 +73,7 @@ Each source link below points to the exact commit reviewed. Repository names and
 | [yablokolabs/scopepay-ai](https://github.com/yablokolabs/scopepay-ai) | Experimental and development examples | [docs/proof/hosted-approve.mjs](https://github.com/yablokolabs/scopepay-ai/blob/2daf1d45791f9a11b3a80275bd8d6ff7689de475/docs/proof/hosted-approve.mjs) |
 | [naibarn/SmartSpecPro](https://github.com/naibarn/SmartSpecPro) | Experimental and development examples | [apps/runner-app/src/moli_acceptance.rs](https://github.com/naibarn/SmartSpecPro/blob/ef8ddf3c2d3f05dfde5d38bb5bbb8a8571289e80/apps/runner-app/src/moli_acceptance.rs) |
 
-The e2e maintainers merged the Moli adapter contributed by `ldm0` on 2026-11-17. The public npm registry returned 404 for `@e2e-dev/moli` on the review date. The entry links to the adapter in the framework’s source tree. [Upstream PR](https://github.com/e2e-inc/e2e/pull/1843) · [Registry check](../data/review-2026-11-19-e2e.json)
+The e2e maintainers merged the Moli adapter contributed by `ldm0` on 2026-11-17. The public npm registry returned 404 for `@e2e-dev/moli` on the review date. [Upstream PR](https://github.com/e2e-inc/e2e/pull/1843) · [Registry check](../data/review-2026-11-19-e2e.json)
 
 ## Held out of the README
 
