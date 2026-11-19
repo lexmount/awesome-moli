@@ -20,7 +20,7 @@
 
 ## Fork 与衍生项目
 
-- [**Limo**](https://github.com/Spxg/limo) - 在终端用 Moli 的完整浏览器 Web API 运行 JavaScript，脚本可以直接创建 DOM 元素、监听并触发点击事件。
+- **[Limo](https://github.com/Spxg/limo) - 在终端用 Moli 的完整浏览器 Web API 运行 JavaScript，脚本可以直接创建 DOM 元素、监听并触发点击事件。**
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - 以 Chrome 的网络配置为参照，让 HTTP 和 WebSocket 共用一套 Rust 传输层的 Moli 社区 fork。
 - [pilot](https://github.com/WSAdam/pilot) - 可由 Playwright 或 Playwright MCP 直接启动的 Moli 衍生浏览器，支持开窗观看 Agent 操作网页。
 
@@ -30,7 +30,7 @@
 ## 测试与 QA 工具
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 端到端测试框架，提供实验性 Moli helper，支持本地进程管理和连接已有 CDP 端点。
-- [**e2e**](https://github.com/e2e-inc/e2e) - 上游已合入 Moli 适配器，可为每个并行 Web 测试进程管理独立的本地浏览器。
+- **[e2e](https://github.com/e2e-inc/e2e) - 上游已合入 Moli 适配器，可为每个并行 Web 测试进程管理独立的本地浏览器。**
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP 开发工具包，可用 Moli 检查固定公共页面的提取结果，并回退到 Chrome 视觉 QA。
 
 <a id="browser-tools-and-mcp"></a>
@@ -41,7 +41,7 @@
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - 浏览器自动化桥接工具，通过 Playwright/CDP 提供可选的 Moli 后端。
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - 管理聊天网页会话的 Go CLI，使用 Moli 进行无头访问、Chrome 处理交互式登录。
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - MCP 浏览器服务，在 Linux x86_64 上提供托管 Moli 引擎与沙箱工作进程。
-- [**dsh-moli**](https://github.com/27painter/dsh-moli) - DeepSeek Harness 社区插件，支持网页提取、JavaScript 求值、截图、PDF 和引擎诊断。
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - DeepSeek Harness 社区插件，支持网页提取、JavaScript 求值、截图、PDF 和引擎诊断。**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 实验性求职技能，通过 Moli 填写申请表单，提交前要求用户确认。
 
 <a id="web-extraction-and-research"></a>

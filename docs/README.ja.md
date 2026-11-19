@@ -20,7 +20,7 @@
 
 ## フォークと派生プロジェクト
 
-- [**Limo**](https://github.com/Spxg/limo) - Moli が提供するブラウザー Web API 一式を使い、ターミナルの JavaScript から DOM 要素を作成したりクリックイベントを処理したりできます。
+- **[Limo](https://github.com/Spxg/limo) - Moli が提供するブラウザー Web API 一式を使い、ターミナルの JavaScript から DOM 要素を作成したりクリックイベントを処理したりできます。**
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - HTTP と WebSocket に共通の Rust 通信層を使い、Chrome をモデルにしたネットワークプロファイルを備える Moli のフォーク。
 - [pilot](https://github.com/WSAdam/pilot) - Playwright や Playwright MCP から直接起動でき、必要に応じてウィンドウでエージェントの操作を見守れる Moli 派生ブラウザー。
 
@@ -30,7 +30,7 @@
 ## テスト・QA ツール
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - ローカルプロセス管理と既存 CDP エンドポイントへの接続に対応する、実験的な Moli ヘルパーを備えた E2E テストフレームワーク。
-- [**e2e**](https://github.com/e2e-inc/e2e) - 上流にマージされた Moli アダプターが、並列 Web テストのワーカーごとに専用のローカルブラウザーを管理します。
+- **[e2e](https://github.com/e2e-inc/e2e) - 上流にマージされた Moli アダプターが、並列 Web テストのワーカーごとに専用のローカルブラウザーを管理します。**
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 固定の公開ページを Moli で抽出検査し、Chrome による視覚的 QA にフォールバックできる MCP 開発ツール。
 
 <a id="browser-tools-and-mcp"></a>
@@ -41,7 +41,7 @@
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Playwright/CDP 経由で利用できる、任意の Moli バックエンドを備えたブラウザー自動化ブリッジ。
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - ヘッドレス操作には Moli、対話式ログインには Chrome を使い分けてチャットの Web セッションを管理する Go 製 CLI。
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Linux x86_64 で管理対象の Moli エンジンとサンドボックス化されたワーカーを提供する MCP ブラウザーサーバー。
-- [**dsh-moli**](https://github.com/27painter/dsh-moli) - ページ抽出、JavaScript 評価、スクリーンショット、PDF、エンジン診断に対応する DeepSeek Harness のコミュニティプラグイン。
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - ページ抽出、JavaScript 評価、スクリーンショット、PDF、エンジン診断に対応する DeepSeek Harness のコミュニティプラグイン。**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Moli で応募フォームに入力し、送信前にユーザーの確認を求める実験的な求職スキル。
 
 <a id="web-extraction-and-research"></a>
