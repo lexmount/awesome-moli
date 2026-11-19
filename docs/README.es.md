@@ -30,7 +30,7 @@
 ## Herramientas de pruebas y QA
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Ejecuta pruebas de extremo a extremo con un motor experimental basado en Moli.
-- **[e2e](https://github.com/e2e-inc/e2e) - El adaptador de Moli, ya incorporado al proyecto principal, inicia un navegador local por cada proceso de prueba paralelo.**
+- **[e2e](https://github.com/e2e-inc/e2e) - Prueba en Moli flujos como el pago con instrucciones en lenguaje natural y repite las acciones verificadas sin volver a llamar al modelo.**
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - Puede comprobar con Moli si se extrae el texto de páginas públicas de prueba predefinidas.
 
 <a id="browser-tools-and-mcp"></a>

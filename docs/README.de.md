@@ -30,7 +30,7 @@
 ## Test- und QA-Werkzeuge
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Führt End-to-End-Tests mit einem experimentellen Moli-Backend aus.
-- **[e2e](https://github.com/e2e-inc/e2e) - Der ins Hauptprojekt aufgenommene Moli-Adapter startet für jeden parallelen Testprozess einen eigenen lokalen Browser.**
+- **[e2e](https://github.com/e2e-inc/e2e) - Testet Abläufe wie den Checkout in Moli mit Anweisungen in natürlicher Sprache und wiederholt geprüfte Aktionen ohne erneuten Modellaufruf.**
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - Kann mit Moli prüfen, ob sich Text aus vorgegebenen öffentlichen Testseiten extrahieren lässt.
 
 <a id="browser-tools-and-mcp"></a>

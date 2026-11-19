@@ -30,7 +30,7 @@
 ## 테스트 및 QA 도구
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 실험적인 Moli 백엔드로 엔드 투 엔드 테스트를 실행합니다.
-- **[e2e](https://github.com/e2e-inc/e2e) - 상위 프로젝트에 병합된 Moli 어댑터가 병렬 테스트 프로세스마다 로컬 브라우저를 하나씩 실행합니다.**
+- **[e2e](https://github.com/e2e-inc/e2e) - 자연어로 Moli에서 결제 같은 웹 흐름을 테스트하고, 검증된 동작은 추가 모델 호출 없이 다시 실행합니다.**
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 필요하면 Moli로 지정된 공개 테스트 페이지에서 본문을 추출할 수 있는지 확인합니다.
 
 <a id="browser-tools-and-mcp"></a>
