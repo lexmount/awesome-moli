@@ -8,13 +8,30 @@
 
 ## 目录
 
+- [Fork 与衍生项目](#forks-and-derivatives)
+- [测试与 QA 工具](#testing-and-qa-tools)
 - [浏览器自动化与工作流](#browser-automation-and-workflows)
 - [网页渲染与提取](#web-rendering-and-extraction)
 - [Agent 框架与工作区](#agent-frameworks-and-workspaces)
-- [测试与 QA 工具](#testing-and-qa-tools)
 - [打包与部署](#packaging-and-deployment)
-- [Fork 与衍生项目](#forks-and-derivatives)
 - [开发案例与评测](#development-examples-and-evaluations)
+
+<a id="forks-and-derivatives"></a>
+
+## Fork 与衍生项目
+
+- [Limo](https://github.com/Spxg/limo) - 在终端用 Moli 的完整浏览器 Web API 运行 JavaScript，脚本可以直接创建 DOM 元素、监听并触发点击事件。
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - 以 Chrome 的网络配置为参照，让 HTTP 和 WebSocket 共用一套 Rust 传输层的 Moli 社区 fork。
+- [pilot](https://github.com/WSAdam/pilot) - 可由 Playwright 或 Playwright MCP 直接启动的 Moli 衍生浏览器，支持开窗观看 Agent 操作网页。
+
+<a id="testing-and-qa"></a>
+<a id="testing-and-qa-tools"></a>
+
+## 测试与 QA 工具
+
+- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 端到端测试框架，提供实验性 Moli helper，支持本地进程管理和连接已有 CDP 端点。
+- [e2e](https://github.com/e2e-inc/e2e) - 上游已合入 Moli 适配器，可为每个并行 Web 测试进程管理独立的本地浏览器。
+- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP 开发工具包，可用 Moli 检查固定公共页面的提取结果，并回退到 Chrome 视觉 QA。
 
 <a id="browser-tools-and-mcp"></a>
 <a id="browser-automation-and-workflows"></a>
@@ -64,15 +81,6 @@
 - [Relay](https://github.com/arcwright42/Relay) - Agent 运行时，提供有超时与输出限制的 Moli 网页抓取和浏览器安装管理。
 - [Wick](https://github.com/yogasw/wick) - Go Agent 宿主，提供可选的 Moli 浏览器连接器、CDP 会话和 Markdown 提取。
 
-<a id="testing-and-qa"></a>
-<a id="testing-and-qa-tools"></a>
-
-## 测试与 QA 工具
-
-- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 端到端测试框架，提供实验性 Moli helper，支持本地进程管理和连接已有 CDP 端点。
-- [e2e](https://github.com/e2e-inc/e2e) - 上游已合入 Moli 适配器，可为每个并行 Web 测试进程管理独立的本地浏览器。
-- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP 开发工具包，可用 Moli 检查固定公共页面的提取结果，并回退到 Chrome 视觉 QA。
-
 <a id="deployment-and-packaging"></a>
 <a id="packaging-and-deployment"></a>
 
@@ -87,14 +95,6 @@
 - [moli-snap](https://github.com/sidalit/moli-snap) - 非官方 Snap 软件包，用于在 Linux 上运行 Moli CLI 和自动化服务。
 - [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - NixOS 软件包定义，固定 Moli 发布二进制及其运行时依赖。
 - [Railway Moli](https://github.com/two-workspaces/moli) - Railway 部署模板，提供带令牌认证的 Caddy 网关与公共 WebSocket 地址改写。
-
-<a id="forks-and-derivatives"></a>
-
-## Fork 与衍生项目
-
-- [Limo](https://github.com/Spxg/limo) - 在终端用 Moli 的完整浏览器 Web API 运行 JavaScript，脚本可以直接创建 DOM 元素、监听并触发点击事件。
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - 以 Chrome 的网络配置为参照，让 HTTP 和 WebSocket 共用一套 Rust 传输层的 Moli 社区 fork。
-- [pilot](https://github.com/WSAdam/pilot) - 可由 Playwright 或 Playwright MCP 直接启动的 Moli 衍生浏览器，支持开窗观看 Agent 操作网页。
 
 <a id="experimental-and-development-examples"></a>
 <a id="development-examples-and-evaluations"></a>

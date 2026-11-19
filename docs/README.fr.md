@@ -8,13 +8,30 @@
 
 ## Sommaire
 
+- [Forks et projets dérivés](#forks-and-derivatives)
+- [Outils de test et d’assurance qualité](#testing-and-qa-tools)
 - [Automatisation du navigateur et flux de travail](#browser-automation-and-workflows)
 - [Rendu et extraction web](#web-rendering-and-extraction)
 - [Frameworks et espaces de travail pour agents](#agent-frameworks-and-workspaces)
-- [Outils de test et d’assurance qualité](#testing-and-qa-tools)
 - [Création de paquets et déploiement](#packaging-and-deployment)
-- [Forks et projets dérivés](#forks-and-derivatives)
 - [Exemples de développement et évaluations](#development-examples-and-evaluations)
+
+<a id="forks-and-derivatives"></a>
+
+## Forks et projets dérivés
+
+- [Limo](https://github.com/Spxg/limo) - Exécute JavaScript dans le terminal avec toutes les API web de Moli, ce qui permet aux scripts de créer des éléments du DOM et de réagir aux clics.
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Fork de Moli qui adopte un profil réseau inspiré de Chrome et une couche de transport commune en Rust pour HTTP et WebSocket.
+- [pilot](https://github.com/WSAdam/pilot) - Navigateur dérivé de Moli que Playwright ou Playwright MCP peut lancer directement, avec une fenêtre facultative pour suivre la navigation de l’agent.
+
+<a id="testing-and-qa"></a>
+<a id="testing-and-qa-tools"></a>
+
+## Outils de test et d’assurance qualité
+
+- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Framework de tests de bout en bout avec helper Moli expérimental, gestion des processus locaux et connexion aux points d’accès CDP existants.
+- [e2e](https://github.com/e2e-inc/e2e) - L’adaptateur Moli intégré à la branche principale du framework gère un navigateur local distinct pour chaque processus de test web parallèle.
+- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - Outils de développement MCP avec contrôles d’extraction Moli optionnels sur des pages publiques fixes et repli sur Chrome pour la QA visuelle.
 
 <a id="browser-tools-and-mcp"></a>
 <a id="browser-automation-and-workflows"></a>
@@ -64,15 +81,6 @@
 - [Relay](https://github.com/arcwright42/Relay) - Environnement d’agents avec récupération de pages Moli limitée en durée et en volume, et installation gérée du navigateur.
 - [Wick](https://github.com/yogasw/wick) - Hôte d’agents en Go avec connecteur de navigateur Moli optionnel, sessions CDP et extraction Markdown.
 
-<a id="testing-and-qa"></a>
-<a id="testing-and-qa-tools"></a>
-
-## Outils de test et d’assurance qualité
-
-- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Framework de tests de bout en bout avec helper Moli expérimental, gestion des processus locaux et connexion aux points d’accès CDP existants.
-- [e2e](https://github.com/e2e-inc/e2e) - L’adaptateur Moli intégré à la branche principale du framework gère un navigateur local distinct pour chaque processus de test web parallèle.
-- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - Outils de développement MCP avec contrôles d’extraction Moli optionnels sur des pages publiques fixes et repli sur Chrome pour la QA visuelle.
-
 <a id="deployment-and-packaging"></a>
 <a id="packaging-and-deployment"></a>
 
@@ -87,14 +95,6 @@ Recettes d’installation et modèles de déploiement communautaires.
 - [moli-snap](https://github.com/sidalit/moli-snap) - Paquet Snap non officiel pour exécuter la CLI Moli et le serveur d’automatisation sous Linux.
 - [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - Définition de paquet NixOS pour des binaires Moli à version fixée et leurs dépendances d’exécution.
 - [Railway Moli](https://github.com/two-workspaces/moli) - Modèle de déploiement Railway avec passerelle Caddy protégée par jeton et réécriture des adresses WebSocket publiques.
-
-<a id="forks-and-derivatives"></a>
-
-## Forks et projets dérivés
-
-- [Limo](https://github.com/Spxg/limo) - Exécute JavaScript dans le terminal avec toutes les API web de Moli, ce qui permet aux scripts de créer des éléments du DOM et de réagir aux clics.
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Fork de Moli qui adopte un profil réseau inspiré de Chrome et une couche de transport commune en Rust pour HTTP et WebSocket.
-- [pilot](https://github.com/WSAdam/pilot) - Navigateur dérivé de Moli que Playwright ou Playwright MCP peut lancer directement, avec une fenêtre facultative pour suivre la navigation de l’agent.
 
 <a id="experimental-and-development-examples"></a>
 <a id="development-examples-and-evaluations"></a>
