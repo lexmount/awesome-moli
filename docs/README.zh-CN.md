@@ -30,7 +30,7 @@
 ## 测试与 QA 工具
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 通过实验性 Moli 后端运行端到端测试。
-- **[e2e](https://github.com/e2e-inc/e2e) - 上游已合入 Moli 适配器，为每个并行测试进程单独启动本地浏览器。**
+- **[e2e](https://github.com/e2e-inc/e2e) - 用自然语言在 Moli 中测试结账等网页流程，回放已验证的操作时无需再调用模型。**
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 可用 Moli 检查指定的公开测试页能否读出正文。
 
 <a id="browser-tools-and-mcp"></a>

@@ -30,7 +30,7 @@
 ## Outils de test et d’assurance qualité
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Exécute des tests de bout en bout avec un moteur Moli expérimental.
-- **[e2e](https://github.com/e2e-inc/e2e) - L’adaptateur Moli intégré au projet amont lance un navigateur local par processus de test parallèle.**
+- **[e2e](https://github.com/e2e-inc/e2e) - Teste en langage naturel des parcours comme le paiement dans Moli et rejoue les actions vérifiées sans nouvel appel au modèle.**
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - Peut vérifier avec Moli si le texte de pages de test publiques prédéfinies est lisible.
 
 <a id="browser-tools-and-mcp"></a>

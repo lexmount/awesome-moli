@@ -30,7 +30,7 @@
 ## テスト・QA ツール
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 実験的な Moli バックエンドで E2E テストを実行できます。
-- **[e2e](https://github.com/e2e-inc/e2e) - 本体に取り込まれた Moli アダプターが、並列テストのワーカーごとにローカルブラウザーを起動します。**
+- **[e2e](https://github.com/e2e-inc/e2e) - 自然言語の指示で購入手続きなどを Moli 上でテストでき、検証済みの操作はモデルを再度呼び出さずに再生できます。**
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 指定の公開テストページから本文を抽出できるか、必要に応じて Moli で確認します。
 
 <a id="browser-tools-and-mcp"></a>
