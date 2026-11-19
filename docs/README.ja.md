@@ -11,6 +11,7 @@
 ## 目次
 
 - [公式リソース](#official-resources)
+- [フォークと派生プロジェクト](#forks-and-derivatives)
 - [ブラウザーツールと MCP](#browser-tools-and-mcp)
 - [エージェントとワークスペース](#agents-and-workspaces)
 - [Web 抽出と調査](#web-extraction-and-research)
@@ -28,6 +29,13 @@
 - [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Moli でサイトのネイティブ WebMCP ツールを検出・呼び出しするスクリプトとデモ。
 - [Webstone](https://github.com/lexmount/webstone) - 再現可能なタスクと実行記録を備えた、ブラウザーおよび Web ツールの評価基盤。
 
+<a id="forks-and-derivatives"></a>
+
+## フォークと派生プロジェクト
+
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - HTTP と WebSocket に共通の Rust 通信層を使い、Chrome をモデルにしたネットワークプロファイルを備える Moli のフォーク。
+- [pilot](https://github.com/WSAdam/pilot) - Playwright や Playwright MCP から直接起動できる Moli 派生のブラウザー。ウィンドウを開いてエージェントの操作を見守ることもできます。 [Playwright の設定](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+
 <a id="browser-tools-and-mcp"></a>
 
 ## ブラウザーツールと MCP
@@ -36,6 +44,7 @@
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - チャットの Web セッションを管理する Go CLI。ヘッドレス操作には Moli、対話式ログインには Chrome を使用。
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Linux x86_64 で管理対象の Moli エンジンとサンドボックス化されたワーカーを提供する MCP ブラウザーサーバー。
 - [dsh-moli](https://github.com/27painter/dsh-moli) - ページ抽出、JavaScript 評価、スクリーンショット、PDF、エンジン診断に対応する DeepSeek Harness のコミュニティプラグイン。
+- [Limo](https://github.com/Spxg/limo) - Spxg がフォークした Moli の `moli-core` を組み込み、DOM 操作やブラウザーイベントの処理をターミナルから行える JavaScript ランナー。
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Moli で応募フォームに入力し、送信前にユーザーの確認を求める実験的な求職スキル。
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 指定 URL の読み取り、出典の保存、ページスナップショットの比較に対応するローカル MCP 調査ツール。現在はベータ版。
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - HTTP 抽出で内容が足りない場合に Moli で JavaScript ページを描画し、Chromium にもフォールバックする Windows 向けエージェントツール配布物。
@@ -112,8 +121,8 @@
 
 ## 貢献
 
-便利な Moli プロジェクトの追加や説明の改善は Pull Request で受け付けています。掲載基準と翻訳の更新方法は[貢献ガイド](../CONTRIBUTING.md)をご覧ください。
+Moli のフォークや派生プロジェクト、新しい活用例を歓迎します。プロジェクトの追加や既存の説明の修正は[貢献ガイド](../CONTRIBUTING.md)をご覧ください。
 
 ## 注記
 
-ソース確認日：**2026-11-19**。固定バージョンの出典、過去の言及、取得できなかったリポジトリは[確認記録](REVIEW.md)と[証拠スナップショット](../data/review-2026-11-19.json)に記載しています。掲載は公開された連携や事例を示すもので、本番利用、顧客関係、テスト結果の独立した再現を証明するものではありません。
+**2026-11-19** に公開コードとドキュメントを確認しました。本番での利用状況、顧客関係、テスト結果の独立した検証は対象外です。確認したコミットへのリンク、証拠のスナップショット、過去の言及や参照できなかったリポジトリは[確認記録](REVIEW.md)にまとめています。

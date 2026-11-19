@@ -11,6 +11,7 @@ Explore ways to use Moli for browser automation, web extraction, agent workflows
 ## Contents
 
 - [Official resources](#official-resources)
+- [Forks and derivatives](#forks-and-derivatives)
 - [Browser tools and MCP](#browser-tools-and-mcp)
 - [Agents and workspaces](#agents-and-workspaces)
 - [Web extraction and research](#web-extraction-and-research)
@@ -26,12 +27,18 @@ Explore ways to use Moli for browser automation, web extraction, agent workflows
 - [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Scripts and demos for discovering and calling a site's native WebMCP tools through Moli.
 - [Webstone](https://github.com/lexmount/webstone) - Browser and web-tool evaluation harness with reproducible tasks and recorded evidence.
 
+## Forks and derivatives
+
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli fork with a Chrome-style network profile and a shared Rust transport for HTTP and WebSockets.
+- [pilot](https://github.com/WSAdam/pilot) - Moli-derived browser that Playwright and Playwright MCP can launch directly, with an optional window for watching the agent browse. [Playwright setup](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+
 ## Browser tools and MCP
 
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Browser automation bridge with an optional Moli backend driven through Playwright over CDP.
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Go CLI for managing chat web sessions, with Moli for headless access and Chrome for interactive login.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - MCP browser server with a managed Moli engine and sandboxed workers on Linux x86_64.
 - [dsh-moli](https://github.com/27painter/dsh-moli) - DeepSeek Harness community plugin for page extraction, JavaScript evaluation, screenshots, PDFs, and engine diagnostics.
+- [Limo](https://github.com/Spxg/limo) - Command-line JavaScript runner that embeds `moli-core` from Spxg’s Moli fork, giving scripts access to the DOM and browser events.
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Experimental job-search skill that fills application forms through Moli and requires confirmation before submission.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Local MCP research tools for reading selected URLs, retaining source evidence, and comparing page snapshots; currently in beta.
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Windows agent-tool distribution that uses Moli for JavaScript pages when HTTP extraction falls short, with Chromium fallback.
@@ -98,8 +105,8 @@ Prototypes, development scripts, and evaluation reports. Reported test outcomes 
 
 ## Contributing
 
-Add a useful Moli project or improve a description via a pull request. Read the [contribution guidelines](CONTRIBUTING.md) for inclusion criteria and translation updates.
+We welcome Moli forks, derivatives, and new uses. To share a project or improve an entry, see the [contribution guidelines](CONTRIBUTING.md).
 
 ## Footnotes
 
-Source review: **2026-11-19**. See the [review log](docs/REVIEW.md) and [evidence snapshot](data/review-2026-11-19.json) for pinned sources, historical mentions, and unavailable repositories. Inclusion documents a public integration or example; it does not establish production use, customer status, or independently reproduced test results.
+Sources were reviewed on **2026-11-19**. Production use, customer relationships, and test results were outside the scope of this source review. The [review log](docs/REVIEW.md) links to pinned sources, evidence snapshots, and notes on historical or unavailable projects.

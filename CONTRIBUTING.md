@@ -1,24 +1,25 @@
 # Contributing
 
-Thank you for helping make Moli projects easier to discover.
+We welcome Moli forks, derivatives, and projects that build on the engine or reuse one of its libraries. Tell readers what your project changes or lets them do.
 
 ## Adding a project
 
-1. Confirm that the project has a public repository or documentation and a specific Moli integration, package, or runnable example.
-2. Link to the Moli-related source file, installation recipe, release note, or documented workflow in your pull request. Prefer a commit permalink so the evidence remains reviewable.
+1. Link to the project's public repository or documentation.
+2. In your pull request, point to the Moli-related change, source file, installation recipe, release note, or documented workflow. A commit permalink makes the evidence easy to revisit.
 3. Choose the section that best describes what readers can use. Keep packaging and development examples in their dedicated sections.
 4. Add a concise entry: `- [Project name](https://example.com) - What it does with Moli.`
-5. Keep entries alphabetized within each community section. Use the canonical repository name after a rename and avoid duplicate entries for forks or mirrors without a distinct purpose.
+5. Keep entries alphabetized within each community section. List each project once under its current name.
 6. Update all seven README files and keep their project links, order, and scope aligned. Preserve qualifiers such as optional, experimental, beta, platform restrictions, and test-only use.
 
 ## What belongs here
 
 - Tools, libraries, agents, and applications with concrete Moli functionality.
+- Engine forks and derivatives with a documented change, including projects maintained outside GitHub’s fork network.
 - Community installation packages and deployment templates.
 - Useful prototypes, test scripts, and evaluations clearly labeled as development examples.
 - Official resources in the official section.
 
-A star, fork, dependency declaration, unmerged proposal, or passing mention alone is insufficient. Describe the actual Moli feature rather than the entire host project. Do not turn project visibility into user counts, present author benchmarks as independently reproduced, or imply production deployment or endorsement.
+Describe the Moli feature or downstream change that readers can try or inspect. Attribute benchmarks to their authors and support any claims about production use or endorsement with direct evidence.
 
 An unavailable repository or unresolved historical claim can be recorded in the review log until its evidence is recovered. Absence from a search result is not proof of removal.
 

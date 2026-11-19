@@ -11,6 +11,7 @@
 ## 目录
 
 - [官方资源](#official-resources)
+- [Fork 与二次开发](#forks-and-derivatives)
 - [浏览器工具与 MCP](#browser-tools-and-mcp)
 - [Agent 与工作区](#agents-and-workspaces)
 - [网页提取与研究](#web-extraction-and-research)
@@ -28,6 +29,13 @@
 - [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - 通过 Moli 发现并调用网站原生 WebMCP 工具的脚本与演示。
 - [Webstone](https://github.com/lexmount/webstone) - 浏览器与网页工具评测框架，提供可复现任务和执行证据。
 
+<a id="forks-and-derivatives"></a>
+
+## Fork 与二次开发
+
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli 的社区 fork。HTTP 和 WebSocket 共用一套 Rust 网络层，网络配置以 Chrome 为参照。
+- [pilot](https://github.com/WSAdam/pilot) - 基于 Moli 二次开发的浏览器，可由 Playwright 和 Playwright MCP 直接启动，还能打开窗口观看 Agent 操作网页。 [Playwright 接入指南](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+
 <a id="browser-tools-and-mcp"></a>
 
 ## 浏览器工具与 MCP
@@ -36,6 +44,7 @@
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - 管理聊天网页会话的 Go CLI，使用 Moli 进行无头访问、Chrome 处理交互式登录。
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - MCP 浏览器服务，在 Linux x86_64 上提供托管 Moli 引擎与沙箱工作进程。
 - [dsh-moli](https://github.com/27painter/dsh-moli) - DeepSeek Harness 社区插件，支持网页提取、JavaScript 求值、截图、PDF 和引擎诊断。
+- [Limo](https://github.com/Spxg/limo) - 将 Spxg 的 Moli fork 中的 `moli-core` 嵌入命令行工具，让 JavaScript 脚本可以在终端操作 DOM、处理浏览器事件。
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 实验性求职技能，通过 Moli 填写申请表单，提交前要求用户确认。
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 本地 MCP 研究工具，可读取指定网址、保留来源证据并比较页面快照，目前为 beta。
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Windows Agent 工具分发包，在 HTTP 提取不足时使用 Moli 渲染 JavaScript 页面，并提供 Chromium 回退。
@@ -112,8 +121,8 @@
 
 ## 参与贡献
 
-欢迎通过 Pull Request 添加实用的 Moli 项目或改进介绍。收录标准与翻译更新方式见[贡献指南](../CONTRIBUTING.md)。
+欢迎分享你的 Moli fork、二次开发项目和新用法，也欢迎改进已有条目。提交方式见[贡献指南](../CONTRIBUTING.md)。
 
 ## 附注
 
-源码复核日期：**2026-11-19**。固定版本的证据链接、历史提及与无法读取的仓库见[复核记录](REVIEW.md)和[证据快照](../data/review-2026-11-19.json)。收录说明存在公开集成或案例，不代表生产使用、客户身份或测试结果已由本清单独立复现。
+**2026-11-19** 核对了公开代码和项目文档。生产使用、客户关系及测试结果的独立复现情况仍未知。固定版本的源码链接、证据快照、历史提及与无法读取的仓库见[复核记录](REVIEW.md)。

@@ -11,6 +11,7 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 ## Inhalt
 
 - [Offizielle Ressourcen](#official-resources)
+- [Forks und Weiterentwicklungen](#forks-and-derivatives)
 - [Browserwerkzeuge und MCP](#browser-tools-and-mcp)
 - [Agenten und Arbeitsbereiche](#agents-and-workspaces)
 - [Webextraktion und Recherche](#web-extraction-and-research)
@@ -28,6 +29,13 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 - [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Skripte und Demos zum Finden und Aufrufen nativer WebMCP-Werkzeuge einer Website über Moli.
 - [Webstone](https://github.com/lexmount/webstone) - Evaluierungsumgebung für Browser und Webwerkzeuge mit reproduzierbaren Aufgaben und aufgezeichneten Belegen.
 
+<a id="forks-and-derivatives"></a>
+
+## Forks und Weiterentwicklungen
+
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli-Fork mit einem an Chrome angelehnten Netzwerkprofil und einer gemeinsamen Rust-Transportschicht für HTTP und WebSockets.
+- [pilot](https://github.com/WSAdam/pilot) - Auf Moli basierender Browser, den Playwright und Playwright MCP direkt starten können. In einem optionalen Fenster lässt sich der Agent beim Surfen beobachten. [Einrichtung mit Playwright](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+
 <a id="browser-tools-and-mcp"></a>
 
 ## Browserwerkzeuge und MCP
@@ -36,6 +44,7 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Go-CLI zur Verwaltung von Chat-Websitzungen, mit Moli für den Headless-Zugriff und Chrome für die interaktive Anmeldung.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - MCP-Browserserver mit verwalteter Moli-Engine und isolierten Worker-Prozessen unter Linux x86_64.
 - [dsh-moli](https://github.com/27painter/dsh-moli) - Community-Plugin für DeepSeek Harness zur Seitenextraktion, JavaScript-Auswertung, Erstellung von Screenshots und PDFs sowie Engine-Diagnose.
+- [Limo](https://github.com/Spxg/limo) - JavaScript-Laufzeit für die Kommandozeile, die `moli-core` aus Spxgs Moli-Fork einbettet und Skripten Zugriff auf das DOM und Browserereignisse gibt.
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Experimenteller Skill zur Jobsuche, der Bewerbungsformulare mit Moli ausfüllt und vor dem Absenden eine Bestätigung verlangt.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Lokale MCP-Recherchetools zum Lesen ausgewählter URLs, Speichern von Quellenbelegen und Vergleichen von Seitensnapshots; derzeit in der Beta.
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Windows-Distribution von Agentenwerkzeugen, die bei unzureichender HTTP-Extraktion JavaScript-Seiten mit Moli rendert und Chromium als Rückfalloption nutzt.
@@ -112,8 +121,8 @@ Prototypen, Entwicklungsskripte und Evaluierungsberichte. Die genannten Testerge
 
 ## Mitwirken
 
-Ergänze ein nützliches Moli-Projekt oder verbessere eine Beschreibung per Pull Request. Aufnahmebedingungen und Hinweise zu Übersetzungen stehen in den [Beitragsrichtlinien](../CONTRIBUTING.md).
+Moli-Forks, Weiterentwicklungen und neue Einsatzmöglichkeiten sind willkommen. Wie du ein Projekt vorschlägst oder einen Eintrag verbesserst, steht in den [Beitragsrichtlinien](../CONTRIBUTING.md).
 
 ## Anmerkungen
 
-Quellenprüfung: **2026-11-19**. Das [Prüfprotokoll](REVIEW.md) und der [Beleg-Snapshot](../data/review-2026-11-19.json) enthalten versionsgebundene Quellen, historische Erwähnungen und nicht abrufbare Repositories. Die Aufnahme dokumentiert eine öffentliche Integration oder ein Beispiel, keinen Nachweis für Produktivnutzung, Kundenstatus oder unabhängig reproduzierte Testergebnisse.
+Am **2026-11-19** wurden öffentlicher Quellcode und Projektdokumentation geprüft. Produktiveinsatz, Kundenbeziehungen und die unabhängige Bestätigung von Testergebnissen lagen außerhalb dieser Prüfung. Das [Prüfprotokoll](REVIEW.md) enthält Links zu den geprüften Versionen und den erfassten Belegen sowie Hinweise zu früheren Erwähnungen und nicht erreichbaren Repositories.

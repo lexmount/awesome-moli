@@ -11,6 +11,7 @@ Descubre Moli para la automatización de navegadores, la extracción web, los fl
 ## Contenido
 
 - [Recursos oficiales](#official-resources)
+- [Forks y proyectos derivados](#forks-and-derivatives)
 - [Herramientas de navegador y MCP](#browser-tools-and-mcp)
 - [Agentes y espacios de trabajo](#agents-and-workspaces)
 - [Extracción web e investigación](#web-extraction-and-research)
@@ -28,6 +29,13 @@ Descubre Moli para la automatización de navegadores, la extracción web, los fl
 - [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Scripts y demostraciones para descubrir e invocar las herramientas WebMCP nativas de un sitio mediante Moli.
 - [Webstone](https://github.com/lexmount/webstone) - Framework de evaluación de navegadores y herramientas web con tareas reproducibles y evidencias registradas.
 
+<a id="forks-and-derivatives"></a>
+
+## Forks y proyectos derivados
+
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Fork de Moli con un perfil de red inspirado en Chrome y una capa de transporte en Rust compartida por HTTP y WebSocket.
+- [pilot](https://github.com/WSAdam/pilot) - Navegador derivado de Moli que Playwright y Playwright MCP pueden iniciar directamente. Una ventana opcional permite seguir la navegación del agente. [Configuración de Playwright](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+
 <a id="browser-tools-and-mcp"></a>
 
 ## Herramientas de navegador y MCP
@@ -36,6 +44,7 @@ Descubre Moli para la automatización de navegadores, la extracción web, los fl
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - CLI en Go para gestionar sesiones web de chat, con Moli para el acceso sin interfaz y Chrome para el inicio de sesión interactivo.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Servidor de navegador MCP con motor Moli gestionado y procesos aislados en Linux x86_64.
 - [dsh-moli](https://github.com/27painter/dsh-moli) - Plugin comunitario de DeepSeek Harness para extraer páginas, evaluar JavaScript, generar capturas y PDF, y diagnosticar el motor.
+- [Limo](https://github.com/Spxg/limo) - Entorno de JavaScript para la terminal que incorpora `moli-core` del fork de Moli de Spxg. Los scripts pueden manipular el DOM y responder a los eventos del navegador.
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Skill experimental de búsqueda de empleo que rellena formularios con Moli y pide confirmación antes de enviarlos.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Herramientas MCP locales de investigación para leer URL seleccionadas, conservar fuentes y comparar instantáneas de páginas; actualmente en beta.
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Distribución de herramientas para agentes en Windows que usa Moli en páginas JavaScript cuando la extracción HTTP no basta, con Chromium como alternativa.
@@ -112,8 +121,8 @@ Prototipos, scripts de desarrollo e informes de evaluación. Los resultados de l
 
 ## Contribuir
 
-Añade un proyecto Moli útil o mejora una descripción mediante un Pull Request. Consulta la [guía de contribución](../CONTRIBUTING.md) para los criterios de inclusión y las actualizaciones de traducciones.
+Los forks de Moli, los proyectos derivados y los nuevos usos son bienvenidos. Para proponer un proyecto o mejorar una entrada, consulta la [guía de contribución](../CONTRIBUTING.md).
 
 ## Notas
 
-Revisión de fuentes: **2026-11-19**. El [registro de revisión](REVIEW.md) y la [instantánea de evidencias](../data/review-2026-11-19.json) incluyen fuentes fijadas a versiones, menciones históricas y repositorios inaccesibles. La inclusión documenta una integración o un ejemplo público; no demuestra uso en producción, condición de cliente ni reproducción independiente de las pruebas.
+El **2026-11-19** se revisaron el código y la documentación públicos. El uso en producción, las relaciones con clientes y la reproducción independiente de las pruebas quedaron fuera del alcance de la revisión. El [registro de revisión](REVIEW.md) reúne los enlaces a las versiones consultadas, las capturas de las fuentes, las menciones históricas y los repositorios inaccesibles.

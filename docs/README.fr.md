@@ -11,6 +11,7 @@ Découvrez Moli pour l’automatisation de navigateur, l’extraction web, les w
 ## Sommaire
 
 - [Ressources officielles](#official-resources)
+- [Forks et projets dérivés](#forks-and-derivatives)
 - [Outils de navigateur et MCP](#browser-tools-and-mcp)
 - [Agents et espaces de travail](#agents-and-workspaces)
 - [Extraction web et recherche](#web-extraction-and-research)
@@ -28,6 +29,13 @@ Découvrez Moli pour l’automatisation de navigateur, l’extraction web, les w
 - [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Scripts et démonstrations pour découvrir et appeler les outils WebMCP natifs d’un site avec Moli.
 - [Webstone](https://github.com/lexmount/webstone) - Framework d’évaluation des navigateurs et outils web avec tâches reproductibles et preuves enregistrées.
 
+<a id="forks-and-derivatives"></a>
+
+## Forks et projets dérivés
+
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Fork de Moli qui adopte un profil réseau inspiré de Chrome et une couche de transport commune en Rust pour HTTP et WebSocket.
+- [pilot](https://github.com/WSAdam/pilot) - Navigateur dérivé de Moli que Playwright et Playwright MCP peuvent lancer directement. Une fenêtre facultative permet de suivre la navigation de l’agent. [Configuration de Playwright](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+
 <a id="browser-tools-and-mcp"></a>
 
 ## Outils de navigateur et MCP
@@ -36,6 +44,7 @@ Découvrez Moli pour l’automatisation de navigateur, l’extraction web, les w
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - CLI Go de gestion des sessions web de chat, avec Moli pour l’accès sans interface et Chrome pour la connexion interactive.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Serveur de navigateur MCP avec moteur Moli géré et processus de travail isolés sous Linux x86_64.
 - [dsh-moli](https://github.com/27painter/dsh-moli) - Plugin communautaire DeepSeek Harness pour l’extraction de pages, l’évaluation JavaScript, les captures d’écran, les PDF et le diagnostic du moteur.
+- [Limo](https://github.com/Spxg/limo) - Outil en ligne de commande qui embarque `moli-core` issu du fork de Moli maintenu par Spxg. Les scripts JavaScript peuvent ainsi manipuler le DOM et réagir aux événements du navigateur.
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Skill expérimental de recherche d’emploi qui remplit les formulaires avec Moli et demande une confirmation avant l’envoi.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Outils MCP locaux de recherche pour lire des URL choisies, conserver les sources et comparer des instantanés de pages ; actuellement en bêta.
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Distribution Windows d’outils pour agents utilisant Moli pour les pages JavaScript lorsque l’extraction HTTP ne suffit pas, avec repli sur Chromium.
@@ -112,8 +121,8 @@ Prototypes, scripts de développement et rapports d’évaluation. Les résultat
 
 ## Contribuer
 
-Ajoutez un projet Moli utile ou améliorez une description par Pull Request. Consultez le [guide de contribution](../CONTRIBUTING.md) pour les critères d’inclusion et les mises à jour des traductions.
+Les forks de Moli, les projets dérivés et les nouveaux usages sont les bienvenus. Pour proposer un projet ou améliorer une description, consultez le [guide de contribution](../CONTRIBUTING.md).
 
 ## Notes
 
-Vérification des sources : **2026-11-19**. Le [journal de vérification](REVIEW.md) et l’[instantané des preuves](../data/review-2026-11-19.json) contiennent les sources à version fixée, les mentions historiques et les dépôts inaccessibles. L’inclusion documente une intégration ou un exemple public ; elle ne prouve ni un usage en production, ni une relation client, ni une reproduction indépendante des tests.
+Le code et la documentation publics ont été vérifiés le **2026-11-19**. L’usage en production, les relations commerciales et la reproduction indépendante des tests sortent du cadre de cette vérification. Le [journal de vérification](REVIEW.md) rassemble les liens vers les révisions consultées, les relevés de sources, les mentions historiques et les dépôts inaccessibles.

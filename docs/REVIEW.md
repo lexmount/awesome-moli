@@ -1,14 +1,14 @@
 # Source review — 2026-11-19
 
-This review covers **55 explicitly named repositories** in the supplied research: 52 entries in the main list and three backlog additions. The original report mentions 185 historical records, but their complete source dataset was not supplied. This review does not claim to cover all 185.
+The initial review covered **55 named repositories** from the supplied research, including 52 main-list entries and three backlog additions. A follow-up covered **three more repositories** suggested for their forks and downstream uses. The complete dataset behind the original 185 historical records was unavailable.
 
-The READMEs contain **48 community entries** and **five official resources**, in the same seven languages as [Moli](https://github.com/lexmount/moli). Seven repositories are held out below. These are resource-list counts, not adoption or customer counts.
+Of the **58 repositories reviewed**, **51 community projects** are listed and seven are held for further evidence. The READMEs also include **five official resources**. All seven language editions cover the same projects. These counts describe the directory. Production use and customer relationships were outside the scope of the review.
 
 ## Method
 
 - Retrieved repository metadata to resolve names, stable repository IDs, and default branches.
 - Used GitHub code search to locate Moli references. Empty or rate-limited searches were followed by file-tree inspection and targeted source or documentation reads.
-- Captured default-branch commit SHAs and reread each selected primary source at that commit. The [JSON snapshot](../data/review-2026-11-19.json) preserves repository IDs, commit and blob SHAs, paths, and source retrieval timestamps.
+- Captured default-branch commit SHAs and read each selected primary source at that commit. Both evidence snapshots preserve repository IDs, commit and blob SHAs, paths, and source retrieval timestamps. [Initial 55 repositories](../data/review-2026-11-19.json) · [Three follow-up projects](../data/review-2026-11-19-additions.json)
 - Kept optional backends, packaging, prototypes, and development tests distinct. No stars, forks, downloads, or author-reported performance claims are used to rank entries.
 - Performed a static review. No third-party project was installed or executed; CI, benchmarks, production deployments, active users, and payments were not independently verified.
 
@@ -20,10 +20,13 @@ Each source link below points to the exact commit reviewed. Repository names and
 
 | Project | README section | Primary source |
 | --- | --- | --- |
+| [Stravia-AI/moli-stealth](https://github.com/Stravia-AI/moli-stealth) | Forks and derivatives | [Network transport](https://github.com/Stravia-AI/moli-stealth/blob/65b76086fe98b890bbd4755899698c71bdcef1d7/README.md#L137-L144) · [Fetch dependency](https://github.com/Stravia-AI/moli-stealth/blob/65b76086fe98b890bbd4755899698c71bdcef1d7/moli-fetch/Cargo.toml#L21) |
+| [WSAdam/pilot](https://github.com/WSAdam/pilot) | Forks and derivatives | [Fork history](https://github.com/WSAdam/pilot/blob/6db71df64b45f7652dc4e999aa900dd8b74ba719/FORK.md#L1-L12) · [Playwright and window guide](https://github.com/WSAdam/pilot/blob/6db71df64b45f7652dc4e999aa900dd8b74ba719/pilot/README.md) |
 | [rehantheorylab-pixel/browser-bridge-for-muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) | Browser tools and MCP | [core/backends/moli_backend.py](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse/blob/aeb5a3bddc8fd0fbba01930e451a7ef6044d00c5/core/backends/moli_backend.py) |
 | [ironpark/toolz](https://github.com/ironpark/toolz) | Browser tools and MCP | [cli/chatctl/README.md](https://github.com/ironpark/toolz/blob/ce825adf74e2b078b2eff4394deb97c70d341aef/cli/chatctl/README.md) |
 | [DevAnimecx/deltabrowser](https://github.com/DevAnimecx/deltabrowser) | Browser tools and MCP | [README.md](https://github.com/DevAnimecx/deltabrowser/blob/ecd9780fcf89012314bc1102763179c270024256/README.md) |
 | [27painter/dsh-moli](https://github.com/27painter/dsh-moli) | Browser tools and MCP | [README.md](https://github.com/27painter/dsh-moli/blob/56a28721fc2977f450d3ada9f03acad50e9b97d4/README.md) |
+| [Spxg/limo](https://github.com/Spxg/limo) | Browser tools and MCP | [Pinned moli-core dependency](https://github.com/Spxg/limo/blob/73519b9ab71904c670917a93fcd54e756c69c570/Cargo.toml#L10) · [Browser runtime](https://github.com/Spxg/limo/blob/73519b9ab71904c670917a93fcd54e756c69c570/src/main.rs#L144-L158) |
 | [mcaupybugs/claude-job-apply-skill-moli](https://github.com/mcaupybugs/claude-job-apply-skill-moli) | Browser tools and MCP | [README.md](https://github.com/mcaupybugs/claude-job-apply-skill-moli/blob/4b04e9e4b8a2b912a6a1a6c2594c2c6edb2b9e0f/README.md) |
 | [assistifyai405/moli-webonderzoek](https://github.com/assistifyai405/moli-webonderzoek) | Browser tools and MCP | [README.md](https://github.com/assistifyai405/moli-webonderzoek/blob/d7a218c60bc298a08f167198d6ffa3df09483ae5/README.md) |
 | [AllanSantos-DV/smart-tool-dist](https://github.com/AllanSantos-DV/smart-tool-dist) | Browser tools and MCP | [smart_tool_daemon.py](https://github.com/AllanSantos-DV/smart-tool-dist/blob/04f1ca4e8e0c07048aad2c43f31d218df4c1accf/smart_tool_daemon.py) |
@@ -91,7 +94,7 @@ Each source link below points to the exact commit reviewed. Repository names and
 - **Aveli**, **govio-map**, **Hydra Downloader**, **llama.rs**, **Master Maps**, **Molifasi**, and **ScopePay AI** are listed as experimental or development examples, not evidence of production adoption.
 - **Lumen** now has a dedicated browser integration document. Its inclusion describes the bundled tools, without inferring deployment scale or payment.
 
-## Unresolved names outside the 55-repository list
+## Other unresolved names
 
 **PapersFlow** and **ELITEA** were mentioned without concrete repository paths or original integration URLs. Public lookup did not recover an unambiguous Moli integration for this review. They remain leads for a future evidence-backed addition; failure to locate them is not evidence that no integration exists.
 

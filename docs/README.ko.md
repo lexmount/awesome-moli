@@ -11,6 +11,7 @@
 ## 목차
 
 - [공식 자료](#official-resources)
+- [포크와 파생 프로젝트](#forks-and-derivatives)
 - [브라우저 도구와 MCP](#browser-tools-and-mcp)
 - [에이전트와 작업 공간](#agents-and-workspaces)
 - [웹 추출과 조사](#web-extraction-and-research)
@@ -28,6 +29,13 @@
 - [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Moli로 사이트의 네이티브 WebMCP 도구를 찾고 호출하는 스크립트와 데모.
 - [Webstone](https://github.com/lexmount/webstone) - 재현 가능한 작업과 실행 증거를 제공하는 브라우저 및 웹 도구 평가 프레임워크.
 
+<a id="forks-and-derivatives"></a>
+
+## 포크와 파생 프로젝트
+
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Chrome을 모델로 한 네트워크 프로필을 제공하고 HTTP와 WebSocket에 공통 Rust 전송 계층을 사용하는 Moli 포크.
+- [pilot](https://github.com/WSAdam/pilot) - Playwright와 Playwright MCP에서 직접 실행할 수 있는 Moli 기반 브라우저. 별도 창을 열어 에이전트가 웹페이지를 조작하는 모습을 볼 수 있습니다. [Playwright 설정 안내](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+
 <a id="browser-tools-and-mcp"></a>
 
 ## 브라우저 도구와 MCP
@@ -36,6 +44,7 @@
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - 채팅 웹 세션을 관리하는 Go CLI로, 헤드리스 접근에는 Moli를, 대화형 로그인에는 Chrome을 사용.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Linux x86_64에서 관리형 Moli 엔진과 샌드박스 작업 프로세스를 제공하는 MCP 브라우저 서버.
 - [dsh-moli](https://github.com/27painter/dsh-moli) - 페이지 추출, JavaScript 실행, 스크린샷, PDF 및 엔진 진단을 지원하는 DeepSeek Harness 커뮤니티 플러그인.
+- [Limo](https://github.com/Spxg/limo) - Spxg의 Moli 포크에서 `moli-core`를 가져와 내장한 명령줄 JavaScript 실행기. 스크립트에서 DOM을 조작하고 브라우저 이벤트를 처리할 수 있습니다.
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Moli로 지원서를 작성하고 제출 전에 사용자 확인을 요구하는 실험적 구직 스킬.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 지정한 URL 읽기, 출처 증거 보관, 페이지 스냅샷 비교를 지원하는 로컬 MCP 조사 도구로, 현재 베타 버전.
 - [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - HTTP 추출만으로 부족한 JavaScript 페이지에 Moli를 사용하고 Chromium으로 대체할 수 있는 Windows 에이전트 도구 배포판.
@@ -112,8 +121,8 @@
 
 ## 기여하기
 
-Pull Request로 유용한 Moli 프로젝트를 추가하거나 설명을 개선할 수 있습니다. 수록 기준과 번역 업데이트 방법은 [기여 가이드](../CONTRIBUTING.md)를 참고하세요.
+Moli 포크와 파생 프로젝트, 새로운 활용 사례를 환영합니다. 프로젝트를 소개하거나 기존 항목을 개선하려면 [기여 가이드](../CONTRIBUTING.md)를 참고하세요.
 
 ## 참고
 
-소스 검토일: **2026-11-19**. 특정 버전의 출처, 과거 언급 및 읽을 수 없었던 저장소는 [검토 기록](REVIEW.md)과 [증거 스냅샷](../data/review-2026-11-19.json)에 정리되어 있습니다. 수록은 공개 통합이나 사례가 있다는 뜻이며, 운영 환경 사용, 고객 관계 또는 테스트 결과의 독립적 재현을 입증하지는 않습니다.
+**2026-11-19**에 공개 소스 코드와 프로젝트 문서를 검토했습니다. 운영 환경에서의 사용, 고객 관계, 테스트 결과의 독립적 재현은 검토 범위에서 제외했습니다. 확인한 커밋과 근거 자료, 과거 언급과 접근할 수 없었던 저장소는 [검토 기록](REVIEW.md)에 정리했습니다.
