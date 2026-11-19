@@ -52,7 +52,7 @@
 - [888-url2md](https://github.com/tbdavid2019/888-url2md) - 여러 웹페이지를 한꺼번에 Markdown으로 변환하고 JavaScript가 필요한 페이지는 Moli로 렌더링합니다.
 - [A3S Search](https://github.com/A3S-Lab/Search) - 검색 결과에서 JavaScript가 필요한 페이지를 Moli로 읽습니다.
 - [Brains](https://github.com/YuniqueUnic/brains) - Moli로 동적 웹페이지를 가져와 버전 기록이 있는 Markdown 노트로 저장할 수 있습니다.
-- [CTI Expert](https://github.com/7onez/cti-expert) - 위협 인텔리전스 조사에 필요한 웹 콘텐츠를 JavaScript 실행 후 Moli로 수집합니다.
+- **[CTI Expert](https://github.com/7onez/cti-expert) - 위협 인텔리전스 조사에 필요한 웹 콘텐츠를 JavaScript 실행 후 Moli로 수집합니다.**
 - [HEIS](https://github.com/u4399com-beep/heis) - Moli로 동적으로 불러오는 웹소설의 각 회차를 수집할 수 있습니다.
 - [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Hermes Deep Research가 일반 방식으로 본문을 읽지 못하면 Moli로 페이지를 렌더링합니다.
 - [Lens](https://github.com/bysages/lens) - HTTP API로 Moli를 호출해 웹페이지의 스크린샷을 찍을 수 있습니다.

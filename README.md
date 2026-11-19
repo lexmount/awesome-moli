@@ -47,7 +47,7 @@
 - [888-url2md](https://github.com/tbdavid2019/888-url2md) - Batch-converts webpages to Markdown, rendering JavaScript pages with Moli.
 - [A3S Search](https://github.com/A3S-Lab/Search) - Reads JavaScript-heavy pages from search results with Moli.
 - [Brains](https://github.com/YuniqueUnic/brains) - Can save dynamic webpages as versioned Markdown notes with Moli.
-- [CTI Expert](https://github.com/7onez/cti-expert) - Reads JavaScript-rendered pages with Moli for threat investigations.
+- **[CTI Expert](https://github.com/7onez/cti-expert) - Reads JavaScript-rendered pages with Moli for threat investigations.**
 - [HEIS](https://github.com/u4399com-beep/heis) - Can collect dynamically loaded web novel chapters with Moli.
 - [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Renders pages with Moli when Hermes Deep Research can’t extract the text.
 - [Lens](https://github.com/bysages/lens) - Takes webpage screenshots with Moli through an HTTP API.
