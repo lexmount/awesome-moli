@@ -20,66 +20,66 @@
 
 ## Forks und Weiterentwicklungen
 
-- **[Limo](https://github.com/Spxg/limo) - Führt JavaScript mit der vollständigen Web-API-Umgebung von Moli im Terminal aus, sodass Skripte DOM-Elemente erzeugen und auf Klicks reagieren können.**
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli-Fork mit einem an Chrome angelehnten Netzwerkprofil und einer gemeinsamen Rust-Transportschicht für HTTP und WebSockets.
-- [pilot](https://github.com/WSAdam/pilot) - Ein von Moli abgeleiteter Browser, den Playwright oder Playwright MCP direkt starten können und der auf Wunsch die Aktionen des Agenten in einem Fenster zeigt.
+- **[Limo](https://github.com/Spxg/limo) - Führt JavaScript im Terminal mit allen Browser-Web-APIs von Moli aus.**
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Gibt Moli für HTTP- und WebSocket-Verbindungen ein Netzwerkprofil nach dem Vorbild von Chrome.
+- [pilot](https://github.com/WSAdam/pilot) - Zeigt in einem Fenster live, wie ein Agent mit Playwright MCP im Web navigiert.
 
 <a id="testing-and-qa"></a>
 <a id="testing-and-qa-tools"></a>
 
 ## Test- und QA-Werkzeuge
 
-- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End-to-End-Testframework mit experimentellem Moli-Helper zur Verwaltung lokaler Prozesse und zur Verbindung mit bestehenden CDP-Endpunkten.
-- **[e2e](https://github.com/e2e-inc/e2e) - Der ins Hauptprojekt aufgenommene Moli-Adapter verwaltet für jeden parallelen Web-Test-Worker einen eigenen lokalen Browser.**
-- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP-Entwicklungswerkzeuge mit optionalen Moli-Extraktionsprüfungen für festgelegte öffentliche Seiten und Chrome als Rückfalloption für visuelle QA.
+- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Führt End-to-End-Tests mit einem experimentellen Moli-Backend aus.
+- **[e2e](https://github.com/e2e-inc/e2e) - Der ins Hauptprojekt aufgenommene Moli-Adapter startet für jeden parallelen Testprozess einen eigenen lokalen Browser.**
+- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - Kann mit Moli prüfen, ob sich Text aus vorgegebenen öffentlichen Testseiten extrahieren lässt.
 
 <a id="browser-tools-and-mcp"></a>
 <a id="browser-automation-and-workflows"></a>
 
 ## Browserautomatisierung und Workflows
 
-- [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Brücke für Browserautomatisierung mit optionalem Moli-Backend über Playwright und CDP.
-- [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Go-CLI zur Verwaltung von Chat-Websitzungen, mit Moli für den Headless-Zugriff und Chrome für die interaktive Anmeldung.
-- [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - MCP-Browserserver mit verwalteter Moli-Engine und isolierten Worker-Prozessen unter Linux x86_64.
-- **[dsh-moli](https://github.com/27painter/dsh-moli) - Community-Plugin für DeepSeek Harness zur Seitenextraktion, JavaScript-Auswertung, Erstellung von Screenshots und PDFs sowie Engine-Diagnose.**
-- [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Experimenteller Skill zur Jobsuche, der Bewerbungsformulare mit Moli ausfüllt und vor dem Absenden eine Bestätigung verlangt.
+- [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Bietet Muse den lokalen Moli-Browser als Option für die Playwright-Automatisierung.
+- [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Nutzt deine Chrome-Anmeldung, um mit Moli Chatverläufe im Terminal zu lesen.
+- [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Führt MCP-Browsersitzungen unter x86_64-Linux in isolierten Moli-Prozessen aus.
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - Ein Community-Plugin, das dynamische Webseiten für DeepSeek Harness in Markdown umwandelt.**
+- [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Dieser experimentelle Assistent füllt Bewerbungsformulare aus und fragt vor dem Absenden nach.
 
 <a id="web-extraction-and-research"></a>
 <a id="web-rendering-and-extraction"></a>
 
 ## Web-Rendering und Datenextraktion
 
-- [888-url2md](https://github.com/tbdavid2019/888-url2md) - Dienst zur Umwandlung von Webseiten in Markdown mit lokalem Moli-CDP-Backend und separater Chrome-Rückfallstrategie.
-- [A3S Search](https://github.com/A3S-Lab/Search) - Einbettbare Suchmaschine mit Moli-CLI-Renderer und begrenzter Anzahl gleichzeitiger Rendering-Prozesse.
-- [Brains](https://github.com/YuniqueUnic/brains) - Versionierter Markdown-Wissensspeicher mit optionalem Moli-Rendering beim Import von URLs.
-- [CTI Expert](https://github.com/7onez/cti-expert) - Werkzeugsammlung für Bedrohungsanalysen, die Moli zur DOM-Extraktion nach JavaScript-Ausführung nutzt und Chromium für visuelle Belege beibehält.
-- [HEIS](https://github.com/u4399com-beep/heis) - System zum Sammeln von Romantexten mit einer Go-HTTP-Brücke für Moli-Abrufe und Skriptauswertung.
-- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Hermes-Recherchetools, die Moli-Rendering als zusätzliche Stufe in der Rückfallkette zum Lesen von Seiten einsetzen.
-- [Lens](https://github.com/bysages/lens) - TypeScript-Webwerkzeuge, die Moli über CDP für Screenshots und das Lesen von Seiten nutzen.
-- [ModalPrism](https://github.com/MistLoom/ModalPrism) - Rust-Datenerfassungssystem, dessen Browseradapter dynamische Seiten über die Moli-CLI rendert.
-- [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Lokales MCP-Recherchewerkzeug in der Betaphase, das Quellenbelege zu ausgewählten Webseiten speichert und Seitenstände vergleicht.
-- [molisnap](https://github.com/7a6163/molisnap) - SPA-Prerendering-Dienst für Suchcrawler und KI-Bots mit Caching und Vorwärmen über Sitemaps.
-- [PageSift](https://github.com/YOLOW92/pagesift) - Rust-Dienst zur Web- und Dokumentextraktion mit Moli in einer Browserauswahlkette aus Lightpanda, Moli und Chrome.
-- [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Windows-Distribution von Agentenwerkzeugen, die bei unzureichender HTTP-Extraktion JavaScript-Seiten mit Moli rendert und Chromium als Rückfalloption nutzt.
-- [stvdy](https://github.com/jettapindika/stvdy) - Lernarbeitsbereich, der Webquellen über eine Rückfallkette aus Exa, Moli und HTTP/readability importiert.
-- [Vanilla](https://github.com/easylearnfromtw/vanilla) - KI-Arbeitsbereich für Familien mit ausdrücklich zu aktivierendem Moli-Extraktionsadapter, der eine separat konfigurierte Isolation ausgehender Netzwerkverbindungen voraussetzt.
+- [888-url2md](https://github.com/tbdavid2019/888-url2md) - Wandelt Webseiten stapelweise in Markdown um und rendert JavaScript-Seiten mit Moli.
+- [A3S Search](https://github.com/A3S-Lab/Search) - Liest mit Moli Suchtreffer, deren Inhalte erst durch JavaScript sichtbar werden.
+- [Brains](https://github.com/YuniqueUnic/brains) - Kann dynamische Webseiten mit Moli als Markdown-Notizen mit Versionsverlauf speichern.
+- [CTI Expert](https://github.com/7onez/cti-expert) - Erfasst für die Bedrohungsanalyse mit Moli Webseiteninhalte, die JavaScript nachlädt.
+- [HEIS](https://github.com/u4399com-beep/heis) - Kann mit Moli dynamisch geladene Kapitel von Online-Romanen erfassen.
+- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Rendert Seiten für Hermes Deep Research mit Moli, wenn die normale Textextraktion scheitert.
+- [Lens](https://github.com/bysages/lens) - Bietet eine HTTP-API für Webseiten-Screenshots mit Moli.
+- [ModalPrism](https://github.com/MistLoom/ModalPrism) - Archiviert mit Moli gerenderte Webseiten, damit ihr Inhalt zum Erfassungszeitpunkt einsehbar bleibt.
+- [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Ein lokales MCP-Werkzeug in der Betaphase, das gespeicherte Webseiten-Snapshots vergleicht.
+- [molisnap](https://github.com/7a6163/molisnap) - Rendert Single-Page-Apps vorab als HTML für Suchmaschinen-Crawler und KI-Bots.
+- [PageSift](https://github.com/YOLOW92/pagesift) - Nutzt Moli als Fallback für iframe-Inhalte, die Lightpanda nicht erfasst.
+- [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Greift für Coding-Agenten unter Windows auf Moli zurück, wenn eine HTTP-Anfrage den Seiteninhalt nicht liefert.
+- [stvdy](https://github.com/jettapindika/stvdy) - Importiert Webseiten mit Moli als Lernmaterial, wenn Exa den Text nicht abrufen kann.
+- [Vanilla](https://github.com/easylearnfromtw/vanilla) - Nach Isolierung des ausgehenden Netzwerkverkehrs lässt sich Moli für den Import öffentlicher Webseiten aktivieren.
 
 <a id="agents-and-workspaces"></a>
 <a id="agent-frameworks-and-workspaces"></a>
 
 ## Agenten-Frameworks und Arbeitsbereiche
 
-- [A3S Code](https://github.com/A3S-Lab/Code) - Agentenframework, das eine überprüfte Moli-Laufzeit für sein Headless-Websuch-Backend bereitstellt.
-- [agent-fabric](https://github.com/BlueTeam-OU/agent-fabric) - Verwaltungsplattform für Coding-Agenten, die Moli zum Lesen von Webseiten und Playwright MCP für skriptgesteuertes Browsen je Agent nutzt.
-- [agnostic-router-kit](https://github.com/adelvillar1/agnostic-router-kit) - Workflow-Werkzeuge für Agenten, die Seiten zuerst mit Moli rendern und anschließend auf selbst gehostetes Firecrawl und HTTP zurückgreifen.
-- [AION](https://github.com/JayCRL/AION) - Agenteninfrastruktur, deren web.read-Werkzeug mit Moli gerendertes Markdown oder strukturierte DOM-Daten liefert.
-- [dsh-qq-bot](https://github.com/arrow1031-dev/dsh-qq-bot) - QQ-Bot-Integration mit optionalem lokalem Moli-Rendering für das Werkzeug qq_webfetch.
-- [Internkim](https://github.com/yeomyeonggeori/internkim) - Agentenarbeitsbereich für Teams mit einer Moli-Browserlaufzeit zum Aufrufen öffentlicher Seiten.
-- [Lumen](https://github.com/Andrea17982/Lumen) - Desktop-Arbeitsbereich für Agenten, der Moli bündelt und Browserwerkzeuge über mehrere Modell- und CLI-Adapter bereitstellt.
-- [mem0-omp](https://github.com/millianlmx/mem0-omp) - Ausführungsumgebung für Coding-Agenten mit Moli-Browsern in Containern und einem authentifizierten HTTP/WebSocket-CDP-Gateway.
-- [Qianxun](https://github.com/imxood/qianxun) - Tauri-Desktop-Arbeitsumgebung für DeepSeek Harness mit Erkennung lokaler Moli-Programme und Versionsprüfung.
-- [Relay](https://github.com/arcwright42/Relay) - Agentenlaufzeit mit zeitlich und hinsichtlich der Ausgabe begrenzten Moli-Seitenabrufen sowie verwalteter Browserinstallation.
-- [Wick](https://github.com/yogasw/wick) - Go-Agentenhost mit optionalem Moli-Browserkonnektor, CDP-Sitzungen und Markdown-Extraktion.
+- [A3S Code](https://github.com/A3S-Lab/Code) - Richtet für die Websuche von Coding-Agenten automatisch einen verifizierten Moli-Browser ein.
+- [agent-fabric](https://github.com/BlueTeam-OU/agent-fabric) - Gibt jedem Coding-Agenten eine eigene temporäre Moli-Browsersitzung.
+- [agnostic-router-kit](https://github.com/adelvillar1/agnostic-router-kit) - Nutzt zuerst den lokalen Moli-Browser, wenn ein Workflow eine JavaScript-Seite lesen soll.
+- [AION](https://github.com/JayCRL/AION) - Bereitet mit Moli gelesene dynamische Webseiten als Karten im Arbeitsbereich des Agenten auf.
+- [dsh-qq-bot](https://github.com/arrow1031-dev/dsh-qq-bot) - Ein QQ-Bot, der verlinkte Seiten bei Bedarf mit lokalem Moli als Markdown liest.
+- [Internkim](https://github.com/yeomyeonggeori/internkim) - Ermöglicht dem KI-Assistenten eines Teams, mit lokalem Moli öffentliche Webseiten zu besuchen.
+- [Lumen](https://github.com/Andrea17982/Lumen) - Liefert ein gemeinsames Moli-Browserwerkzeug für Desktop-Agenten wie Claude Code und Codex mit.
+- [mem0-omp](https://github.com/millianlmx/mem0-omp) - Ermöglicht Coding-Agenten per Token den Zugriff auf einen Moli-Browser im Container.
+- [Qianxun](https://github.com/imxood/qianxun) - Erkennt in der Desktop-Oberfläche für DeepSeek Harness die lokale Moli-Installation und ihre Version.
+- [Relay](https://github.com/arcwright42/Relay) - Lässt Prompts auch dann absenden, wenn ein Seitenabruf mit Moli zu lange dauert.
+- [Wick](https://github.com/yogasw/wick) - Lässt Go-Agenten Webseiten bei Bedarf mit lokalem Moli als Markdown lesen.
 
 <a id="deployment-and-packaging"></a>
 <a id="packaging-and-deployment"></a>
@@ -88,13 +88,13 @@
 
 Installationsrezepte und Deployment-Vorlagen aus der Community.
 
-- [1Panel App](https://github.com/skingko/1panel_app/tree/localApps/apps/x-moli) - Von der Community gepflegte 1Panel-Anwendungsdefinition und Docker-Image-Erstellung für Moli.
-- [A3S CLI](https://github.com/A3S-Lab/CLI) - A3S-Kommandozeilendistribution mit gebündelter, zielplattformspezifischer Moli-Laufzeit.
-- [Homebrew Moli](https://github.com/hoishing/homebrew-moli) - Community-Homebrew-Tap zur Installation von Moli-Binärdateien und den zugehörigen offiziellen Agenten-Skills.
-- [Lattice](https://github.com/mytecor/lattice/tree/main/profiles/moli) - NixOS-Moli-Dienst mit entferntem CDP-Zugriff, gehosteten DevTools und Caddy/Authentik-Zugang.
-- [moli-snap](https://github.com/sidalit/moli-snap) - Inoffizielles Snap-Paket zum Ausführen der Moli-CLI und des Automatisierungsservers unter Linux.
-- [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - NixOS-Paketdefinition für fest versionierte Moli-Release-Binärdateien und deren Laufzeitabhängigkeiten.
-- [Railway Moli](https://github.com/two-workspaces/moli) - Railway-Deployment-Vorlage mit tokenbasiert geschütztem Caddy-Gateway und Umschreibung öffentlicher WebSocket-Endpunkte.
+- [1Panel App](https://github.com/skingko/1panel_app/tree/localApps/apps/x-moli) - Ein Community-Paket für die Bereitstellung von Moli über 1Panel.
+- [A3S CLI](https://github.com/A3S-Lab/CLI) - Liefert die zur Zielplattform passende Moli-Laufzeitumgebung mit den A3S-Kommandozeilenwerkzeugen aus.
+- [Homebrew Moli](https://github.com/hoishing/homebrew-moli) - Ein Homebrew-Tap der Community, der Moli und die passenden offiziellen Agenten-Skills installiert.
+- [Lattice](https://github.com/mytecor/lattice/tree/main/profiles/moli) - Hostet Moli auf NixOS und ermöglicht die Ferninspektion von Webseiten mit DevTools.
+- [moli-snap](https://github.com/sidalit/moli-snap) - Ein inoffizielles Linux-Snap, das Moli mit Schriftarten für Screenshots und PDFs bündelt.
+- [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - Legt Version und Prüfsumme von Moli für reproduzierbare NixOS-Installationen fest.
+- [Railway Moli](https://github.com/two-workspaces/moli) - Stellt Moli auf Railway mit tokenbasiertem Fernzugriff auf den Browser bereit.
 
 <a id="experimental-and-development-examples"></a>
 <a id="development-examples-and-evaluations"></a>
@@ -103,15 +103,15 @@ Installationsrezepte und Deployment-Vorlagen aus der Community.
 
 Prototypen, Entwicklungsskripte und Evaluierungsberichte. Die genannten Testergebnisse stammen von den jeweiligen Autoren.
 
-- [Aveli](https://github.com/pkmdev-sec/aveli) - Experimentelle Moli-Laufzeit und Kompatibilitätsprüfungen für einen Browseragenten.
-- [govio-map](https://github.com/chenxinma/govio-map) - CDP-Smoke-Testskript zur Prüfung von Eingabefokus und Validierung im Einstellungsdialog einer Anwendung.
-- [Hydra Downloader](https://github.com/juanpimg/hydradownloader) - Entwicklungsskripte, die mit Moli-CDP responsive Layouts und Download-Abläufe prüfen.
-- [laravel-domains](https://github.com/yepbro/laravel-domains) - Crawler-Projekt mit versionsbezogenen Moli-Bewertungen, Regressionen, erneuten Tests und Chromium-Vergleichen.
-- [llama.rs](https://github.com/yablokolabs/llama.rs) - Browsertestskript, das mit Moli die JavaScript-Oberfläche einer Rust/WASM-Chat-Anwendung prüft.
-- [Master Maps](https://github.com/0bifthenelse/master-maps) - Kartenanwendung mit Moli-basierten End-to-End-Skripten und ausdrücklicher Rückfalloption auf lokales Chromium.
-- [Molifasi](https://github.com/A3S-Lab/Molifasi) - Rust-Prototyp eines Browseragenten, der Moli-CDP-Beobachtungen und -Aktionen mit Apofasi-Entscheidungen verbindet.
-- [ScopePay AI](https://github.com/yablokolabs/scopepay-ai) - PayPal-Sandbox-Beispiel, das Moli-CDP für die Freigabe des Bezahlvorgangs durch den Käufer nutzt.
-- [SmartSpecPro](https://github.com/naibarn/SmartSpecPro) - Separat vom Standard-Build verfügbarer Starter für Moli-Akzeptanztests unter Linux ohne Root-Rechte.
+- [Aveli](https://github.com/pkmdev-sec/aveli) - Ein experimenteller Test prüft, ob der Browser-Agent eine Verbindung zum lokalen Moli aufbauen kann.
+- [govio-map](https://github.com/chenxinma/govio-map) - Tippt mit Moli Zeichen in ein Einstellungsfeld und prüft, ob der Tastaturfokus erhalten bleibt.
+- [Hydra Downloader](https://github.com/juanpimg/hydradownloader) - Prüft mit Moli, ob die Downloadseite bei verschiedenen Smartphone-Breiten über den Bildschirm hinausragt.
+- [laravel-domains](https://github.com/yepbro/laravel-domains) - Vergleicht das Verhalten des Webcrawlers mit verschiedenen Moli-Versionen und mit Chromium.
+- [llama.rs](https://github.com/yablokolabs/llama.rs) - Prüft mit Moli, ob die lokale WebAssembly-Chatdemo eine Frage beantwortet.
+- [Master Maps](https://github.com/0bifthenelse/master-maps) - Führt End-to-End-Tests der 3D-Karte mit Moli aus und nutzt bei Bedarf das lokale Chromium.
+- [Molifasi](https://github.com/A3S-Lab/Molifasi) - Ein Agenten-Prototyp, bei dem Apofasi die nächste Aktion auswählt und Moli sie im Browser ausführt.
+- [ScopePay AI](https://github.com/yablokolabs/scopepay-ai) - Testet mit Moli, wie Käufer eine Zahlung in der PayPal-Sandbox freigeben.
+- [SmartSpecPro](https://github.com/naibarn/SmartSpecPro) - Startet Moli ausschließlich für Linux-Abnahmetests ohne Root-Rechte.
 
 ## Mitwirken
 
