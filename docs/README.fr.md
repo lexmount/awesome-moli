@@ -20,7 +20,7 @@
 
 ## Forks et projets dérivés
 
-- [Limo](https://github.com/Spxg/limo) - Exécute JavaScript dans le terminal avec toutes les API web de Moli, ce qui permet aux scripts de créer des éléments du DOM et de réagir aux clics.
+- [**Limo**](https://github.com/Spxg/limo) - Exécute JavaScript dans le terminal avec toutes les API web de Moli, ce qui permet aux scripts de créer des éléments du DOM et de réagir aux clics.
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Fork de Moli qui adopte un profil réseau inspiré de Chrome et une couche de transport commune en Rust pour HTTP et WebSocket.
 - [pilot](https://github.com/WSAdam/pilot) - Navigateur dérivé de Moli que Playwright ou Playwright MCP peut lancer directement, avec une fenêtre facultative pour suivre la navigation de l’agent.
 
@@ -30,7 +30,7 @@
 ## Outils de test et d’assurance qualité
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Framework de tests de bout en bout avec helper Moli expérimental, gestion des processus locaux et connexion aux points d’accès CDP existants.
-- [e2e](https://github.com/e2e-inc/e2e) - L’adaptateur Moli intégré à la branche principale du framework gère un navigateur local distinct pour chaque processus de test web parallèle.
+- [**e2e**](https://github.com/e2e-inc/e2e) - L’adaptateur Moli intégré à la branche principale du framework gère un navigateur local distinct pour chaque processus de test web parallèle.
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - Outils de développement MCP avec contrôles d’extraction Moli optionnels sur des pages publiques fixes et repli sur Chrome pour la QA visuelle.
 
 <a id="browser-tools-and-mcp"></a>
@@ -41,7 +41,7 @@
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Passerelle d’automatisation de navigateur avec un moteur Moli optionnel piloté par Playwright via CDP.
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - CLI Go de gestion des sessions web de chat, avec Moli pour l’accès sans interface et Chrome pour la connexion interactive.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Serveur de navigateur MCP avec moteur Moli géré et processus de travail isolés sous Linux x86_64.
-- [dsh-moli](https://github.com/27painter/dsh-moli) - Plugin communautaire DeepSeek Harness pour l’extraction de pages, l’évaluation JavaScript, les captures d’écran, les PDF et le diagnostic du moteur.
+- [**dsh-moli**](https://github.com/27painter/dsh-moli) - Plugin communautaire DeepSeek Harness pour l’extraction de pages, l’évaluation JavaScript, les captures d’écran, les PDF et le diagnostic du moteur.
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Skill expérimental de recherche d’emploi qui remplit les formulaires avec Moli et demande une confirmation avant l’envoi.
 
 <a id="web-extraction-and-research"></a>
