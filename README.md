@@ -8,13 +8,27 @@
 
 ## Contents
 
+- [Forks and derivatives](#forks-and-derivatives)
+- [Testing and QA tools](#testing-and-qa-tools)
 - [Browser automation and workflows](#browser-automation-and-workflows)
 - [Web rendering and extraction](#web-rendering-and-extraction)
 - [Agent frameworks and workspaces](#agent-frameworks-and-workspaces)
-- [Testing and QA tools](#testing-and-qa-tools)
 - [Packaging and deployment](#packaging-and-deployment)
-- [Forks and derivatives](#forks-and-derivatives)
 - [Development examples and evaluations](#development-examples-and-evaluations)
+
+## Forks and derivatives
+
+- [Limo](https://github.com/Spxg/limo) - Runs JavaScript in the terminal with Moli’s full browser Web API environment, so scripts can create DOM elements and handle clicks.
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli fork with a Chrome-style network profile and a shared Rust transport for HTTP and WebSockets.
+- [pilot](https://github.com/WSAdam/pilot) - A Moli-based browser that Playwright or Playwright MCP can launch with an optional window for watching the agent browse.
+
+<a id="testing-and-qa"></a>
+
+## Testing and QA tools
+
+- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End-to-end testing framework with an experimental Moli helper supporting local process management and existing CDP endpoints.
+- [e2e](https://github.com/e2e-inc/e2e) - The Moli adapter, now merged upstream, manages a separate local browser for each parallel web test worker.
+- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP development toolkit with optional Moli extraction checks for fixed public pages and Chrome visual-QA fallback.
 
 <a id="browser-tools-and-mcp"></a>
 
@@ -61,14 +75,6 @@
 - [Relay](https://github.com/arcwright42/Relay) - Agent runtime with bounded Moli page fetches and managed browser installation.
 - [Wick](https://github.com/yogasw/wick) - Go agent host with an optional Moli browser connector, CDP sessions, and Markdown extraction.
 
-<a id="testing-and-qa"></a>
-
-## Testing and QA tools
-
-- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End-to-end testing framework with an experimental Moli helper supporting local process management and existing CDP endpoints.
-- [e2e](https://github.com/e2e-inc/e2e) - The Moli adapter, now merged upstream, manages a separate local browser for each parallel web test worker.
-- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP development toolkit with optional Moli extraction checks for fixed public pages and Chrome visual-QA fallback.
-
 <a id="deployment-and-packaging"></a>
 
 ## Packaging and deployment
@@ -82,12 +88,6 @@ Community installation recipes and deployment templates.
 - [moli-snap](https://github.com/sidalit/moli-snap) - Unofficial Snap package for running the Moli CLI and automation server on Linux.
 - [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - NixOS package definition for pinned Moli release binaries and their runtime dependencies.
 - [Railway Moli](https://github.com/two-workspaces/moli) - Railway deployment template with a token-protected Caddy gateway and public WebSocket endpoint rewriting.
-
-## Forks and derivatives
-
-- [Limo](https://github.com/Spxg/limo) - Runs JavaScript in the terminal with Moli’s full browser Web API environment, so scripts can create DOM elements and handle clicks.
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli fork with a Chrome-style network profile and a shared Rust transport for HTTP and WebSockets.
-- [pilot](https://github.com/WSAdam/pilot) - A Moli-based browser that Playwright or Playwright MCP can launch with an optional window for watching the agent browse.
 
 <a id="experimental-and-development-examples"></a>
 

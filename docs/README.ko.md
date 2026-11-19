@@ -8,13 +8,30 @@
 
 ## 목차
 
+- [포크와 파생 프로젝트](#forks-and-derivatives)
+- [테스트 및 QA 도구](#testing-and-qa-tools)
 - [브라우저 자동화와 워크플로](#browser-automation-and-workflows)
 - [웹 렌더링과 데이터 추출](#web-rendering-and-extraction)
 - [에이전트 프레임워크와 작업 공간](#agent-frameworks-and-workspaces)
-- [테스트 및 QA 도구](#testing-and-qa-tools)
 - [패키징과 배포](#packaging-and-deployment)
-- [포크와 파생 프로젝트](#forks-and-derivatives)
 - [개발 사례와 평가](#development-examples-and-evaluations)
+
+<a id="forks-and-derivatives"></a>
+
+## 포크와 파생 프로젝트
+
+- [Limo](https://github.com/Spxg/limo) - 터미널에서 Moli의 전체 브라우저 Web API로 JavaScript를 실행해 스크립트에서 DOM 요소를 만들고 클릭 이벤트를 처리할 수 있습니다.
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Chrome을 모델로 한 네트워크 프로필을 제공하고 HTTP와 WebSocket에 공통 Rust 전송 계층을 사용하는 Moli 포크.
+- [pilot](https://github.com/WSAdam/pilot) - Playwright나 Playwright MCP에서 직접 실행할 수 있고 창을 열어 에이전트의 웹 탐색을 지켜볼 수 있는 Moli 기반 브라우저입니다.
+
+<a id="testing-and-qa"></a>
+<a id="testing-and-qa-tools"></a>
+
+## 테스트 및 QA 도구
+
+- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 로컬 프로세스 관리와 기존 CDP 엔드포인트 연결을 지원하는 실험적 Moli 헬퍼를 갖춘 종단 간 테스트 프레임워크.
+- [e2e](https://github.com/e2e-inc/e2e) - 업스트림에 병합된 Moli 어댑터가 병렬 웹 테스트 워커마다 별도의 로컬 브라우저를 관리합니다.
+- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 고정된 공개 페이지에 선택적 Moli 추출 검사를 수행하고 Chrome 시각 QA로 대체할 수 있는 MCP 개발 도구.
 
 <a id="browser-tools-and-mcp"></a>
 <a id="browser-automation-and-workflows"></a>
@@ -64,15 +81,6 @@
 - [Relay](https://github.com/arcwright42/Relay) - 시간과 출력 크기를 제한한 Moli 페이지 가져오기 및 브라우저 설치 관리를 제공하는 에이전트 런타임.
 - [Wick](https://github.com/yogasw/wick) - 선택적 Moli 브라우저 커넥터, CDP 세션 및 Markdown 추출 기능을 갖춘 Go 에이전트 호스트.
 
-<a id="testing-and-qa"></a>
-<a id="testing-and-qa-tools"></a>
-
-## 테스트 및 QA 도구
-
-- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 로컬 프로세스 관리와 기존 CDP 엔드포인트 연결을 지원하는 실험적 Moli 헬퍼를 갖춘 종단 간 테스트 프레임워크.
-- [e2e](https://github.com/e2e-inc/e2e) - 업스트림에 병합된 Moli 어댑터가 병렬 웹 테스트 워커마다 별도의 로컬 브라우저를 관리합니다.
-- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 고정된 공개 페이지에 선택적 Moli 추출 검사를 수행하고 Chrome 시각 QA로 대체할 수 있는 MCP 개발 도구.
-
 <a id="deployment-and-packaging"></a>
 <a id="packaging-and-deployment"></a>
 
@@ -87,14 +95,6 @@
 - [moli-snap](https://github.com/sidalit/moli-snap) - Linux에서 Moli CLI와 자동화 서버를 실행하기 위한 비공식 Snap 패키지.
 - [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - 버전을 고정한 Moli 릴리스 바이너리와 런타임 의존성을 위한 NixOS 패키지 정의.
 - [Railway Moli](https://github.com/two-workspaces/moli) - 토큰으로 보호되는 Caddy 게이트웨이와 공개 WebSocket 주소 재작성을 제공하는 Railway 배포 템플릿.
-
-<a id="forks-and-derivatives"></a>
-
-## 포크와 파생 프로젝트
-
-- [Limo](https://github.com/Spxg/limo) - 터미널에서 Moli의 전체 브라우저 Web API로 JavaScript를 실행해 스크립트에서 DOM 요소를 만들고 클릭 이벤트를 처리할 수 있습니다.
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Chrome을 모델로 한 네트워크 프로필을 제공하고 HTTP와 WebSocket에 공통 Rust 전송 계층을 사용하는 Moli 포크.
-- [pilot](https://github.com/WSAdam/pilot) - Playwright나 Playwright MCP에서 직접 실행할 수 있고 창을 열어 에이전트의 웹 탐색을 지켜볼 수 있는 Moli 기반 브라우저입니다.
 
 <a id="experimental-and-development-examples"></a>
 <a id="development-examples-and-evaluations"></a>
