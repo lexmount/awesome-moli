@@ -18,7 +18,7 @@
 
 ## Forks and derivatives
 
-- [**Limo**](https://github.com/Spxg/limo) - Runs JavaScript in the terminal with Moli’s full browser Web API environment, so scripts can create DOM elements and handle clicks.
+- **[Limo](https://github.com/Spxg/limo) - Runs JavaScript in the terminal with Moli’s full browser Web API environment, so scripts can create DOM elements and handle clicks.**
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli fork with a Chrome-style network profile and a shared Rust transport for HTTP and WebSockets.
 - [pilot](https://github.com/WSAdam/pilot) - A Moli-based browser that Playwright or Playwright MCP can launch with an optional window for watching the agent browse.
 
@@ -27,7 +27,7 @@
 ## Testing and QA tools
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End-to-end testing framework with an experimental Moli helper supporting local process management and existing CDP endpoints.
-- [**e2e**](https://github.com/e2e-inc/e2e) - The Moli adapter, now merged upstream, manages a separate local browser for each parallel web test worker.
+- **[e2e](https://github.com/e2e-inc/e2e) - The Moli adapter, now merged upstream, manages a separate local browser for each parallel web test worker.**
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP development toolkit with optional Moli extraction checks for fixed public pages and Chrome visual-QA fallback.
 
 <a id="browser-tools-and-mcp"></a>
@@ -37,7 +37,7 @@
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Browser automation bridge with an optional Moli backend driven through Playwright over CDP.
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Go CLI for managing chat web sessions, with Moli for headless access and Chrome for interactive login.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - MCP browser server with a managed Moli engine and sandboxed workers on Linux x86_64.
-- [**dsh-moli**](https://github.com/27painter/dsh-moli) - DeepSeek Harness community plugin for page extraction, JavaScript evaluation, screenshots, PDFs, and engine diagnostics.
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - DeepSeek Harness community plugin for page extraction, JavaScript evaluation, screenshots, PDFs, and engine diagnostics.**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Experimental job-search skill that fills application forms through Moli and requires confirmation before submission.
 
 <a id="web-extraction-and-research"></a>

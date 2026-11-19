@@ -20,7 +20,7 @@
 
 ## 포크와 파생 프로젝트
 
-- [**Limo**](https://github.com/Spxg/limo) - 터미널에서 Moli의 전체 브라우저 Web API로 JavaScript를 실행해 스크립트에서 DOM 요소를 만들고 클릭 이벤트를 처리할 수 있습니다.
+- **[Limo](https://github.com/Spxg/limo) - 터미널에서 Moli의 전체 브라우저 Web API로 JavaScript를 실행해 스크립트에서 DOM 요소를 만들고 클릭 이벤트를 처리할 수 있습니다.**
 - [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Chrome을 모델로 한 네트워크 프로필을 제공하고 HTTP와 WebSocket에 공통 Rust 전송 계층을 사용하는 Moli 포크.
 - [pilot](https://github.com/WSAdam/pilot) - Playwright나 Playwright MCP에서 직접 실행할 수 있고 창을 열어 에이전트의 웹 탐색을 지켜볼 수 있는 Moli 기반 브라우저입니다.
 
@@ -30,7 +30,7 @@
 ## 테스트 및 QA 도구
 
 - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 로컬 프로세스 관리와 기존 CDP 엔드포인트 연결을 지원하는 실험적 Moli 헬퍼를 갖춘 종단 간 테스트 프레임워크.
-- [**e2e**](https://github.com/e2e-inc/e2e) - 업스트림에 병합된 Moli 어댑터가 병렬 웹 테스트 워커마다 별도의 로컬 브라우저를 관리합니다.
+- **[e2e](https://github.com/e2e-inc/e2e) - 업스트림에 병합된 Moli 어댑터가 병렬 웹 테스트 워커마다 별도의 로컬 브라우저를 관리합니다.**
 - [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 고정된 공개 페이지에 선택적 Moli 추출 검사를 수행하고 Chrome 시각 QA로 대체할 수 있는 MCP 개발 도구.
 
 <a id="browser-tools-and-mcp"></a>
@@ -41,7 +41,7 @@
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Playwright와 CDP를 통해 선택적 Moli 백엔드를 제공하는 브라우저 자동화 브리지.
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - 채팅 웹 세션을 관리하는 Go CLI로, 헤드리스 접근에는 Moli를, 대화형 로그인에는 Chrome을 사용.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Linux x86_64에서 관리형 Moli 엔진과 샌드박스 작업 프로세스를 제공하는 MCP 브라우저 서버.
-- [**dsh-moli**](https://github.com/27painter/dsh-moli) - 페이지 추출, JavaScript 실행, 스크린샷, PDF 및 엔진 진단을 지원하는 DeepSeek Harness 커뮤니티 플러그인.
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - 페이지 추출, JavaScript 실행, 스크린샷, PDF 및 엔진 진단을 지원하는 DeepSeek Harness 커뮤니티 플러그인.**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Moli로 지원서를 작성하고 제출 전에 사용자 확인을 요구하는 실험적 구직 스킬.
 
 <a id="web-extraction-and-research"></a>
