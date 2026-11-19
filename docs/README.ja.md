@@ -10,18 +10,20 @@
 
 ## 目次
 
-- [公式リソース](#official-resources)
-- [フォークと派生プロジェクト](#forks-and-derivatives)
-- [ブラウザーツールと MCP](#browser-tools-and-mcp)
-- [エージェントとワークスペース](#agents-and-workspaces)
-- [Web 抽出と調査](#web-extraction-and-research)
-- [テストと QA](#testing-and-qa)
-- [デプロイとパッケージ](#deployment-and-packaging)
-- [実験と開発の事例](#experimental-and-development-examples)
+- [コアリソース](#official-resources)
+- [フレームワーク・ツールとの連携](#integrations)
+  - [テストと QA](#testing-and-qa)
+  - [ブラウザーツールと MCP](#browser-tools-and-mcp)
+  - [エージェントとワークスペース](#agents-and-workspaces)
+  - [Web 抽出と調査](#web-extraction-and-research)
+- [コミュニティプロジェクト](#community-projects)
+  - [フォークと派生プロジェクト](#forks-and-derivatives)
+  - [デプロイとパッケージ](#deployment-and-packaging)
+  - [実験と開発の事例](#experimental-and-development-examples)
 
 <a id="official-resources"></a>
 
-## 公式リソース
+## コアリソース
 
 - [Moli](https://github.com/lexmount/moli) - 公式リポジトリ。インストール手順、CLI の使い方、自動化プロトコルのドキュメント。
 - [Releases](https://github.com/lexmount/moli/releases) - ビルド済みバイナリーと上流のリリースノート。
@@ -29,17 +31,21 @@
 - [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Moli でサイトのネイティブ WebMCP ツールを検出・呼び出しするスクリプトとデモ。
 - [Webstone](https://github.com/lexmount/webstone) - 再現可能なタスクと実行記録を備えた、ブラウザーおよび Web ツールの評価基盤。
 
-<a id="forks-and-derivatives"></a>
+<a id="integrations"></a>
 
-## フォークと派生プロジェクト
+## フレームワーク・ツールとの連携
 
-- [Limo](https://github.com/Spxg/limo) - Moli が提供するブラウザーの Web API を一通り使って、ターミナルから JavaScript を直接実行できます。スクリプトで DOM 要素を作成し、クリックイベントの登録と発火まで行えます。
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - HTTP と WebSocket に共通の Rust 通信層を使い、Chrome をモデルにしたネットワークプロファイルを備える Moli のフォーク。
-- [pilot](https://github.com/WSAdam/pilot) - Playwright や Playwright MCP から直接起動できる Moli 派生のブラウザー。ウィンドウを開いてエージェントの操作を見守ることもできます。 [Playwright の設定](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+<a id="testing-and-qa"></a>
+
+### テストと QA
+
+- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - ローカルプロセス管理と既存 CDP エンドポイントへの接続に対応する、実験的な Moli ヘルパーを備えた E2E テストフレームワーク。
+- [e2e](https://github.com/e2e-inc/e2e) - E2E テストフレームワーク。`@e2e-dev/moli` アダプターが Web テストのワーカーごとにローカルの Moli ブラウザーを起動し、使用後に終了します。 [アダプターのソース](https://github.com/e2e-inc/e2e/tree/main/packages/moli)
+- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 固定の公開ページを Moli で抽出検査し、Chrome による視覚的 QA にフォールバックできる MCP 開発ツール。
 
 <a id="browser-tools-and-mcp"></a>
 
-## ブラウザーツールと MCP
+### ブラウザーツールと MCP
 
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Playwright/CDP 経由で利用できる、任意の Moli バックエンドを備えたブラウザー自動化ブリッジ。
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - チャットの Web セッションを管理する Go CLI。ヘッドレス操作には Moli、対話式ログインには Chrome を使用。
@@ -51,7 +57,7 @@
 
 <a id="agents-and-workspaces"></a>
 
-## エージェントとワークスペース
+### エージェントとワークスペース
 
 - [A3S Code](https://github.com/A3S-Lab/Code) - ヘッドレス Web 検索バックエンド用に、検証済みの Moli ランタイムを準備するエージェントフレームワーク。
 - [agent-fabric](https://github.com/BlueTeam-OU/agent-fabric) - Moli による Web 読み取りと、Playwright MCP を介したエージェントごとのスクリプト操作を提供するコーディングエージェント管理基盤。
@@ -67,7 +73,7 @@
 
 <a id="web-extraction-and-research"></a>
 
-## Web 抽出と調査
+### Web 抽出と調査
 
 - [888-url2md](https://github.com/tbdavid2019/888-url2md) - ローカル Moli CDP バックエンドと、個別の Chrome フォールバック方針を備えたページから Markdown への変換サービス。
 - [A3S Search](https://github.com/A3S-Lab/Search) - Moli CLI レンダラーと描画の同時実行数制限を備えた、組み込み可能な検索エンジン。
@@ -82,16 +88,21 @@
 - [stvdy](https://github.com/jettapindika/stvdy) - Exa、Moli、HTTP/readability のフォールバックチェーンで Web 資料を取り込む学習ワークスペース。
 - [Vanilla](https://github.com/easylearnfromtw/vanilla) - 明示的に有効化する Moli ページ抽出アダプターを備えた家庭向け AI ワークスペース。送信ネットワークの分離を別途設定する必要あり。
 
-<a id="testing-and-qa"></a>
+<a id="community-projects"></a>
 
-## テストと QA
+## コミュニティプロジェクト
 
-- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - ローカルプロセス管理と既存 CDP エンドポイントへの接続に対応する、実験的な Moli ヘルパーを備えた E2E テストフレームワーク。
-- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 固定の公開ページを Moli で抽出検査し、Chrome による視覚的 QA にフォールバックできる MCP 開発ツール。
+<a id="forks-and-derivatives"></a>
+
+### フォークと派生プロジェクト
+
+- [Limo](https://github.com/Spxg/limo) - Moli が提供するブラウザーの Web API を一通り使って、ターミナルから JavaScript を直接実行できます。スクリプトで DOM 要素を作成し、クリックイベントの登録と発火まで行えます。
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - HTTP と WebSocket に共通の Rust 通信層を使い、Chrome をモデルにしたネットワークプロファイルを備える Moli のフォーク。
+- [pilot](https://github.com/WSAdam/pilot) - Playwright や Playwright MCP から直接起動できる Moli 派生のブラウザー。ウィンドウを開いてエージェントの操作を見守ることもできます。 [Playwright の設定](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
 
 <a id="deployment-and-packaging"></a>
 
-## デプロイとパッケージ
+### デプロイとパッケージ
 
 コミュニティによるインストール定義とデプロイテンプレート。
 
@@ -105,7 +116,7 @@
 
 <a id="experimental-and-development-examples"></a>
 
-## 実験と開発の事例
+### 実験と開発の事例
 
 プロトタイプ、開発スクリプト、評価レポート。テスト結果は各プロジェクトの作者による報告です。
 

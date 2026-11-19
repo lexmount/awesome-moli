@@ -6,9 +6,9 @@ We welcome Moli forks, derivatives, and projects that build on the engine or reu
 
 1. Link to the project's public repository or documentation.
 2. In your pull request, point to the Moli-related change, source file, installation recipe, release note, or documented workflow. A commit permalink makes the evidence easy to revisit.
-3. Choose the section that best describes what readers can use. Keep packaging and development examples in their dedicated sections.
+3. Follow the directory order of Core resources, Integrations, and Community projects. Choose the subsection that best describes what readers can use.
 4. Add a concise entry: `- [Project name](https://example.com) - What it does with Moli.`
-5. Keep entries alphabetized within each community section. List each project once under its current name.
+5. Keep entries alphabetized within each integration or community subsection. List each project once under its current name.
 6. Update all seven README files and keep their project links, order, and scope aligned. Preserve qualifiers such as optional, experimental, beta, platform restrictions, and test-only use.
 
 ## What belongs here
@@ -17,7 +17,7 @@ We welcome Moli forks, derivatives, and projects that build on the engine or reu
 - Engine forks and derivatives with a documented change, including projects maintained outside GitHub’s fork network.
 - Community installation packages and deployment templates.
 - Useful prototypes, test scripts, and evaluations clearly labeled as development examples.
-- Official resources in the official section.
+- Official Moli resources in Core resources.
 
 Describe the Moli feature or downstream change that readers can try or inspect. Attribute benchmarks to their authors and support any claims about production use or endorsement with direct evidence.
 

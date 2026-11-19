@@ -1,14 +1,14 @@
 # Source review — 2026-11-19
 
-The initial review covered **55 named repositories** from the supplied research, including 52 main-list entries and three backlog additions. A follow-up covered **three more repositories** suggested for their forks and downstream uses. The complete dataset behind the original 185 historical records was unavailable.
+The initial review covered **55 named repositories** from the supplied research, including 52 main-list entries and three backlog additions. Later reviews covered three suggested forks and downstream projects, then the e2e testing framework. The complete dataset behind the original 185 historical records was unavailable.
 
-Of the **58 repositories reviewed**, **51 community projects** are listed and seven are held for further evidence. The READMEs also include **five official resources**. All seven language editions cover the same projects. These counts describe the directory. Production use and customer relationships were outside the scope of the review.
+Of the **59 repositories reviewed**, **52 projects** are listed under Integrations and Community projects, and seven are held for further evidence. The directory also lists **five official resources** under Core resources. These counts describe the same directory across seven languages.
 
 ## Method
 
 - Retrieved repository metadata to resolve names, stable repository IDs, and default branches.
 - Used GitHub code search to locate Moli references. Empty or rate-limited searches were followed by file-tree inspection and targeted source or documentation reads.
-- Captured default-branch commit SHAs and read each selected primary source at that commit. Both evidence snapshots preserve repository IDs, commit and blob SHAs, paths, and source retrieval timestamps. [Initial 55 repositories](../data/review-2026-11-19.json) · [Three follow-up projects](../data/review-2026-11-19-additions.json)
+- Read sources at a fixed commit and recorded repository IDs, paths, blob SHAs, and retrieval times. [Initial 55 repositories](../data/review-2026-11-19.json) · [Three forks and downstream projects](../data/review-2026-11-19-additions.json) · [e2e framework adapter](../data/review-2026-11-19-e2e.json)
 - Kept optional backends, packaging, prototypes, and development tests distinct. No stars, forks, downloads, or author-reported performance claims are used to rank entries.
 - Performed a static review. No third-party project was installed or executed; CI, benchmarks, production deployments, active users, and payments were not independently verified.
 
@@ -20,9 +20,9 @@ Each source link below points to the exact commit reviewed. Repository names and
 
 | Project | README section | Primary source |
 | --- | --- | --- |
-| [Spxg/limo](https://github.com/Spxg/limo) | Forks and derivatives | [Terminal Web APIs and DOM example](https://github.com/Spxg/limo/blob/73519b9ab71904c670917a93fcd54e756c69c570/README.md#L1-L42) |
-| [Stravia-AI/moli-stealth](https://github.com/Stravia-AI/moli-stealth) | Forks and derivatives | [Network transport](https://github.com/Stravia-AI/moli-stealth/blob/65b76086fe98b890bbd4755899698c71bdcef1d7/README.md#L137-L144) · [Fetch dependency](https://github.com/Stravia-AI/moli-stealth/blob/65b76086fe98b890bbd4755899698c71bdcef1d7/moli-fetch/Cargo.toml#L21) |
-| [WSAdam/pilot](https://github.com/WSAdam/pilot) | Forks and derivatives | [Fork history](https://github.com/WSAdam/pilot/blob/6db71df64b45f7652dc4e999aa900dd8b74ba719/FORK.md#L1-L12) · [Playwright and window guide](https://github.com/WSAdam/pilot/blob/6db71df64b45f7652dc4e999aa900dd8b74ba719/pilot/README.md) |
+| [codeceptjs/CodeceptJS](https://github.com/codeceptjs/CodeceptJS) | Testing and QA | [docs/helpers/Moli.md](https://github.com/codeceptjs/CodeceptJS/blob/402fbb9d4bd4c033f8bf6642bc0362261706c356/docs/helpers/Moli.md) |
+| [e2e-inc/e2e](https://github.com/e2e-inc/e2e) | Testing and QA | [Moli provider](https://github.com/e2e-inc/e2e/blob/402a6157ce4b61c6f4d173b0c1c4f6361bea0634/packages/moli/src/provider.ts#L22-L50) · [Merged PR #1843](https://github.com/e2e-inc/e2e/pull/1843) |
+| [kmjtechno/kmj-codebridge](https://github.com/kmjtechno/kmj-codebridge) | Testing and QA | [scripts/browser-moli-fast.mjs](https://github.com/kmjtechno/kmj-codebridge/blob/d5c06c2028f90ec14734cef712fe86c6db298e66/scripts/browser-moli-fast.mjs) |
 | [rehantheorylab-pixel/browser-bridge-for-muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) | Browser tools and MCP | [core/backends/moli_backend.py](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse/blob/aeb5a3bddc8fd0fbba01930e451a7ef6044d00c5/core/backends/moli_backend.py) |
 | [ironpark/toolz](https://github.com/ironpark/toolz) | Browser tools and MCP | [cli/chatctl/README.md](https://github.com/ironpark/toolz/blob/ce825adf74e2b078b2eff4394deb97c70d341aef/cli/chatctl/README.md) |
 | [DevAnimecx/deltabrowser](https://github.com/DevAnimecx/deltabrowser) | Browser tools and MCP | [README.md](https://github.com/DevAnimecx/deltabrowser/blob/ecd9780fcf89012314bc1102763179c270024256/README.md) |
@@ -53,8 +53,9 @@ Each source link below points to the exact commit reviewed. Repository names and
 | [YOLOW92/pagesift](https://github.com/YOLOW92/pagesift) | Web extraction and research | [crates/pagesift-cdp/src/engine.rs](https://github.com/YOLOW92/pagesift/blob/6aebf81523233b6ccc402546f0669ca1719d11d9/crates/pagesift-cdp/src/engine.rs) |
 | [jettapindika/stvdy](https://github.com/jettapindika/stvdy) | Web extraction and research | [crates/server/src/integrations/fetch.rs](https://github.com/jettapindika/stvdy/blob/4692865b0e4d21bdada2c6270715290c6c49d52a/crates/server/src/integrations/fetch.rs) |
 | [easylearnfromtw/vanilla](https://github.com/easylearnfromtw/vanilla) | Web extraction and research | [services/weiguo/moli_engine.py](https://github.com/easylearnfromtw/vanilla/blob/d344aa51a664ab685892493794f921d99f97970e/services/weiguo/moli_engine.py) |
-| [codeceptjs/CodeceptJS](https://github.com/codeceptjs/CodeceptJS) | Testing and QA | [docs/helpers/Moli.md](https://github.com/codeceptjs/CodeceptJS/blob/402fbb9d4bd4c033f8bf6642bc0362261706c356/docs/helpers/Moli.md) |
-| [kmjtechno/kmj-codebridge](https://github.com/kmjtechno/kmj-codebridge) | Testing and QA | [scripts/browser-moli-fast.mjs](https://github.com/kmjtechno/kmj-codebridge/blob/d5c06c2028f90ec14734cef712fe86c6db298e66/scripts/browser-moli-fast.mjs) |
+| [Spxg/limo](https://github.com/Spxg/limo) | Forks and derivatives | [Terminal Web APIs and DOM example](https://github.com/Spxg/limo/blob/73519b9ab71904c670917a93fcd54e756c69c570/README.md#L1-L42) |
+| [Stravia-AI/moli-stealth](https://github.com/Stravia-AI/moli-stealth) | Forks and derivatives | [Network transport](https://github.com/Stravia-AI/moli-stealth/blob/65b76086fe98b890bbd4755899698c71bdcef1d7/README.md#L137-L144) · [Fetch dependency](https://github.com/Stravia-AI/moli-stealth/blob/65b76086fe98b890bbd4755899698c71bdcef1d7/moli-fetch/Cargo.toml#L21) |
+| [WSAdam/pilot](https://github.com/WSAdam/pilot) | Forks and derivatives | [Fork history](https://github.com/WSAdam/pilot/blob/6db71df64b45f7652dc4e999aa900dd8b74ba719/FORK.md#L1-L12) · [Playwright and window guide](https://github.com/WSAdam/pilot/blob/6db71df64b45f7652dc4e999aa900dd8b74ba719/pilot/README.md) |
 | [skingko/1panel_app](https://github.com/skingko/1panel_app) | Deployment and packaging | [apps/x-moli/README.md](https://github.com/skingko/1panel_app/blob/136be7b158e50a884334835770ce8a445761270e/apps/x-moli/README.md) |
 | [A3S-Lab/CLI](https://github.com/A3S-Lab/CLI) | Deployment and packaging | [README.md](https://github.com/A3S-Lab/CLI/blob/d9287345624a2e71e6614268bec1563ac65a9a28/README.md) |
 | [hoishing/homebrew-moli](https://github.com/hoishing/homebrew-moli) | Deployment and packaging | [README.md](https://github.com/hoishing/homebrew-moli/blob/282b619f499adee0efba4f9c02b2d2d70a4de1f5/README.md) |
@@ -71,6 +72,8 @@ Each source link below points to the exact commit reviewed. Repository names and
 | [A3S-Lab/Molifasi](https://github.com/A3S-Lab/Molifasi) | Experimental and development examples | [README.md](https://github.com/A3S-Lab/Molifasi/blob/eac3ab32b310047fa89b44aedbac476cf004446e/README.md) |
 | [yablokolabs/scopepay-ai](https://github.com/yablokolabs/scopepay-ai) | Experimental and development examples | [docs/proof/hosted-approve.mjs](https://github.com/yablokolabs/scopepay-ai/blob/2daf1d45791f9a11b3a80275bd8d6ff7689de475/docs/proof/hosted-approve.mjs) |
 | [naibarn/SmartSpecPro](https://github.com/naibarn/SmartSpecPro) | Experimental and development examples | [apps/runner-app/src/moli_acceptance.rs](https://github.com/naibarn/SmartSpecPro/blob/ef8ddf3c2d3f05dfde5d38bb5bbb8a8571289e80/apps/runner-app/src/moli_acceptance.rs) |
+
+The e2e maintainers merged the Moli adapter contributed by `ldm0` on 2026-11-17. The public npm registry returned 404 for `@e2e-dev/moli` on the review date. The entry links to the adapter in the framework’s source tree. [Upstream PR](https://github.com/e2e-inc/e2e/pull/1843) · [Registry check](../data/review-2026-11-19-e2e.json)
 
 ## Held out of the README
 

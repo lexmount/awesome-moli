@@ -10,18 +10,20 @@
 
 ## 目录
 
-- [官方资源](#official-resources)
-- [Fork 与二次开发](#forks-and-derivatives)
-- [浏览器工具与 MCP](#browser-tools-and-mcp)
-- [Agent 与工作区](#agents-and-workspaces)
-- [网页提取与研究](#web-extraction-and-research)
-- [测试与 QA](#testing-and-qa)
-- [部署与打包](#deployment-and-packaging)
-- [实验与开发案例](#experimental-and-development-examples)
+- [核心资源](#official-resources)
+- [框架与工具集成](#integrations)
+  - [测试与 QA](#testing-and-qa)
+  - [浏览器工具与 MCP](#browser-tools-and-mcp)
+  - [Agent 与工作区](#agents-and-workspaces)
+  - [网页提取与研究](#web-extraction-and-research)
+- [社区项目](#community-projects)
+  - [Fork 与二次开发](#forks-and-derivatives)
+  - [部署与打包](#deployment-and-packaging)
+  - [实验与开发案例](#experimental-and-development-examples)
 
 <a id="official-resources"></a>
 
-## 官方资源
+## 核心资源
 
 - [Moli](https://github.com/lexmount/moli) - 官方仓库，包含安装说明、CLI 用法与自动化协议文档。
 - [Releases](https://github.com/lexmount/moli/releases) - 预编译二进制与上游发布说明。
@@ -29,17 +31,21 @@
 - [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - 通过 Moli 发现并调用网站原生 WebMCP 工具的脚本与演示。
 - [Webstone](https://github.com/lexmount/webstone) - 浏览器与网页工具评测框架，提供可复现任务和执行证据。
 
-<a id="forks-and-derivatives"></a>
+<a id="integrations"></a>
 
-## Fork 与二次开发
+## 框架与工具集成
 
-- [Limo](https://github.com/Spxg/limo) - 在终端直接用 Moli 提供的完整浏览器 Web API 环境运行 JavaScript。一个 `.js` 脚本就能用 `document` 创建按钮、监听并触发点击事件。
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli 的社区 fork。HTTP 和 WebSocket 共用一套 Rust 网络层，网络配置以 Chrome 为参照。
-- [pilot](https://github.com/WSAdam/pilot) - 基于 Moli 二次开发的浏览器，可由 Playwright 和 Playwright MCP 直接启动，还能打开窗口观看 Agent 操作网页。 [Playwright 接入指南](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+<a id="testing-and-qa"></a>
+
+### 测试与 QA
+
+- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 端到端测试框架，提供实验性 Moli helper，支持本地进程管理和连接已有 CDP 端点。
+- [e2e](https://github.com/e2e-inc/e2e) - 端到端测试框架，通过 `@e2e-dev/moli` 为每个 Web 测试工作进程启动本地 Moli 浏览器，用完后自动关闭。 [适配器源码](https://github.com/e2e-inc/e2e/tree/main/packages/moli)
+- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP 开发工具包，可用 Moli 检查固定公共页面的提取结果，并回退到 Chrome 视觉 QA。
 
 <a id="browser-tools-and-mcp"></a>
 
-## 浏览器工具与 MCP
+### 浏览器工具与 MCP
 
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - 浏览器自动化桥接工具，通过 Playwright/CDP 提供可选的 Moli 后端。
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - 管理聊天网页会话的 Go CLI，使用 Moli 进行无头访问、Chrome 处理交互式登录。
@@ -51,7 +57,7 @@
 
 <a id="agents-and-workspaces"></a>
 
-## Agent 与工作区
+### Agent 与工作区
 
 - [A3S Code](https://github.com/A3S-Lab/Code) - Agent 框架，为无头网页搜索后端配置经过校验的 Moli 运行时。
 - [agent-fabric](https://github.com/BlueTeam-OU/agent-fabric) - 编码 Agent 控制平台，使用 Moli 读取网页，并通过 Playwright MCP 为各 Agent 提供脚本浏览。
@@ -67,7 +73,7 @@
 
 <a id="web-extraction-and-research"></a>
 
-## 网页提取与研究
+### 网页提取与研究
 
 - [888-url2md](https://github.com/tbdavid2019/888-url2md) - 网页转 Markdown 服务，提供本地 Moli CDP 后端和独立的 Chrome 回退策略。
 - [A3S Search](https://github.com/A3S-Lab/Search) - 可嵌入的搜索引擎，提供 Moli CLI 渲染适配器与渲染并发限制。
@@ -82,16 +88,21 @@
 - [stvdy](https://github.com/jettapindika/stvdy) - 学习工作区，通过 Exa、Moli 和 HTTP/readability 回退链导入网页资料。
 - [Vanilla](https://github.com/easylearnfromtw/vanilla) - 家庭 AI 工作区，提供需显式启用的 Moli 网页提取适配器，要求单独配置出站网络隔离。
 
-<a id="testing-and-qa"></a>
+<a id="community-projects"></a>
 
-## 测试与 QA
+## 社区项目
 
-- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 端到端测试框架，提供实验性 Moli helper，支持本地进程管理和连接已有 CDP 端点。
-- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP 开发工具包，可用 Moli 检查固定公共页面的提取结果，并回退到 Chrome 视觉 QA。
+<a id="forks-and-derivatives"></a>
+
+### Fork 与二次开发
+
+- [Limo](https://github.com/Spxg/limo) - 在终端直接用 Moli 提供的完整浏览器 Web API 环境运行 JavaScript。一个 `.js` 脚本就能用 `document` 创建按钮、监听并触发点击事件。
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli 的社区 fork。HTTP 和 WebSocket 共用一套 Rust 网络层，网络配置以 Chrome 为参照。
+- [pilot](https://github.com/WSAdam/pilot) - 基于 Moli 二次开发的浏览器，可由 Playwright 和 Playwright MCP 直接启动，还能打开窗口观看 Agent 操作网页。 [Playwright 接入指南](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
 
 <a id="deployment-and-packaging"></a>
 
-## 部署与打包
+### 部署与打包
 
 社区维护的安装配方与部署模板。
 
@@ -105,7 +116,7 @@
 
 <a id="experimental-and-development-examples"></a>
 
-## 实验与开发案例
+### 实验与开发案例
 
 原型、开发脚本与评测报告。测试结果来自各项目作者。
 

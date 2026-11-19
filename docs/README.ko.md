@@ -10,18 +10,20 @@
 
 ## 목차
 
-- [공식 자료](#official-resources)
-- [포크와 파생 프로젝트](#forks-and-derivatives)
-- [브라우저 도구와 MCP](#browser-tools-and-mcp)
-- [에이전트와 작업 공간](#agents-and-workspaces)
-- [웹 추출과 조사](#web-extraction-and-research)
-- [테스트와 QA](#testing-and-qa)
-- [배포와 패키징](#deployment-and-packaging)
-- [실험 및 개발 사례](#experimental-and-development-examples)
+- [핵심 자료](#official-resources)
+- [프레임워크 및 도구 연동](#integrations)
+  - [테스트와 QA](#testing-and-qa)
+  - [브라우저 도구와 MCP](#browser-tools-and-mcp)
+  - [에이전트와 작업 공간](#agents-and-workspaces)
+  - [웹 추출과 조사](#web-extraction-and-research)
+- [커뮤니티 프로젝트](#community-projects)
+  - [포크와 파생 프로젝트](#forks-and-derivatives)
+  - [배포와 패키징](#deployment-and-packaging)
+  - [실험 및 개발 사례](#experimental-and-development-examples)
 
 <a id="official-resources"></a>
 
-## 공식 자료
+## 핵심 자료
 
 - [Moli](https://github.com/lexmount/moli) - 공식 저장소, 설치 안내, CLI 사용법 및 자동화 프로토콜 문서.
 - [Releases](https://github.com/lexmount/moli/releases) - 미리 빌드된 바이너리와 공식 릴리스 노트.
@@ -29,17 +31,21 @@
 - [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Moli로 사이트의 네이티브 WebMCP 도구를 찾고 호출하는 스크립트와 데모.
 - [Webstone](https://github.com/lexmount/webstone) - 재현 가능한 작업과 실행 증거를 제공하는 브라우저 및 웹 도구 평가 프레임워크.
 
-<a id="forks-and-derivatives"></a>
+<a id="integrations"></a>
 
-## 포크와 파생 프로젝트
+## 프레임워크 및 도구 연동
 
-- [Limo](https://github.com/Spxg/limo) - 터미널에서 Moli의 완전한 브라우저 Web API 환경으로 JavaScript를 바로 실행합니다. 스크립트 하나로 DOM 요소를 만들고 클릭 이벤트 리스너를 등록한 뒤 클릭을 발생시킬 수 있습니다.
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Chrome을 모델로 한 네트워크 프로필을 제공하고 HTTP와 WebSocket에 공통 Rust 전송 계층을 사용하는 Moli 포크.
-- [pilot](https://github.com/WSAdam/pilot) - Playwright와 Playwright MCP에서 직접 실행할 수 있는 Moli 기반 브라우저. 별도 창을 열어 에이전트가 웹페이지를 조작하는 모습을 볼 수 있습니다. [Playwright 설정 안내](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+<a id="testing-and-qa"></a>
+
+### 테스트와 QA
+
+- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 로컬 프로세스 관리와 기존 CDP 엔드포인트 연결을 지원하는 실험적 Moli 헬퍼를 갖춘 종단 간 테스트 프레임워크.
+- [e2e](https://github.com/e2e-inc/e2e) - 엔드투엔드 테스트 프레임워크. `@e2e-dev/moli` 어댑터가 웹 테스트 워커마다 로컬 Moli 브라우저를 실행하고 사용이 끝나면 종료합니다. [어댑터 소스](https://github.com/e2e-inc/e2e/tree/main/packages/moli)
+- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 고정된 공개 페이지에 선택적 Moli 추출 검사를 수행하고 Chrome 시각 QA로 대체할 수 있는 MCP 개발 도구.
 
 <a id="browser-tools-and-mcp"></a>
 
-## 브라우저 도구와 MCP
+### 브라우저 도구와 MCP
 
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Playwright와 CDP를 통해 선택적 Moli 백엔드를 제공하는 브라우저 자동화 브리지.
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - 채팅 웹 세션을 관리하는 Go CLI로, 헤드리스 접근에는 Moli를, 대화형 로그인에는 Chrome을 사용.
@@ -51,7 +57,7 @@
 
 <a id="agents-and-workspaces"></a>
 
-## 에이전트와 작업 공간
+### 에이전트와 작업 공간
 
 - [A3S Code](https://github.com/A3S-Lab/Code) - 헤드리스 웹 검색 백엔드를 위해 검증된 Moli 런타임을 준비하는 에이전트 프레임워크.
 - [agent-fabric](https://github.com/BlueTeam-OU/agent-fabric) - Moli로 웹을 읽고 Playwright MCP를 통해 에이전트별 스크립트 탐색을 수행하는 코딩 에이전트 관리 플랫폼.
@@ -67,7 +73,7 @@
 
 <a id="web-extraction-and-research"></a>
 
-## 웹 추출과 조사
+### 웹 추출과 조사
 
 - [888-url2md](https://github.com/tbdavid2019/888-url2md) - 로컬 Moli CDP 백엔드와 별도의 Chrome 대체 정책을 갖춘 페이지의 Markdown 변환 서비스.
 - [A3S Search](https://github.com/A3S-Lab/Search) - Moli CLI 렌더러와 동시 렌더링 수 제한을 제공하는 내장형 검색 엔진.
@@ -82,16 +88,21 @@
 - [stvdy](https://github.com/jettapindika/stvdy) - Exa, Moli, HTTP/readability 대체 경로를 통해 웹 자료를 가져오는 학습 작업 공간.
 - [Vanilla](https://github.com/easylearnfromtw/vanilla) - 명시적으로 활성화하는 Moli 페이지 추출 어댑터를 갖춘 가족용 AI 작업 공간으로, 별도의 아웃바운드 네트워크 격리가 필요.
 
-<a id="testing-and-qa"></a>
+<a id="community-projects"></a>
 
-## 테스트와 QA
+## 커뮤니티 프로젝트
 
-- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 로컬 프로세스 관리와 기존 CDP 엔드포인트 연결을 지원하는 실험적 Moli 헬퍼를 갖춘 종단 간 테스트 프레임워크.
-- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 고정된 공개 페이지에 선택적 Moli 추출 검사를 수행하고 Chrome 시각 QA로 대체할 수 있는 MCP 개발 도구.
+<a id="forks-and-derivatives"></a>
+
+### 포크와 파생 프로젝트
+
+- [Limo](https://github.com/Spxg/limo) - 터미널에서 Moli의 완전한 브라우저 Web API 환경으로 JavaScript를 바로 실행합니다. 스크립트 하나로 DOM 요소를 만들고 클릭 이벤트 리스너를 등록한 뒤 클릭을 발생시킬 수 있습니다.
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Chrome을 모델로 한 네트워크 프로필을 제공하고 HTTP와 WebSocket에 공통 Rust 전송 계층을 사용하는 Moli 포크.
+- [pilot](https://github.com/WSAdam/pilot) - Playwright와 Playwright MCP에서 직접 실행할 수 있는 Moli 기반 브라우저. 별도 창을 열어 에이전트가 웹페이지를 조작하는 모습을 볼 수 있습니다. [Playwright 설정 안내](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
 
 <a id="deployment-and-packaging"></a>
 
-## 배포와 패키징
+### 배포와 패키징
 
 커뮤니티에서 제공하는 설치 구성과 배포 템플릿.
 
@@ -105,7 +116,7 @@
 
 <a id="experimental-and-development-examples"></a>
 
-## 실험 및 개발 사례
+### 실험 및 개발 사례
 
 프로토타입, 개발 스크립트 및 평가 보고서입니다. 테스트 결과는 각 작성자의 보고에 따른 것입니다.
 

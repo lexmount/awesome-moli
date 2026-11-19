@@ -10,18 +10,20 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 
 ## Inhalt
 
-- [Offizielle Ressourcen](#official-resources)
-- [Forks und Weiterentwicklungen](#forks-and-derivatives)
-- [Browserwerkzeuge und MCP](#browser-tools-and-mcp)
-- [Agenten und Arbeitsbereiche](#agents-and-workspaces)
-- [Webextraktion und Recherche](#web-extraction-and-research)
-- [Tests und QA](#testing-and-qa)
-- [Deployment und Pakete](#deployment-and-packaging)
-- [Experimentelle Projekte und Entwicklungsbeispiele](#experimental-and-development-examples)
+- [Kernressourcen](#official-resources)
+- [Integrationen](#integrations)
+  - [Tests und QA](#testing-and-qa)
+  - [Browserwerkzeuge und MCP](#browser-tools-and-mcp)
+  - [Agenten und Arbeitsbereiche](#agents-and-workspaces)
+  - [Webextraktion und Recherche](#web-extraction-and-research)
+- [Community-Projekte](#community-projects)
+  - [Forks und Weiterentwicklungen](#forks-and-derivatives)
+  - [Deployment und Pakete](#deployment-and-packaging)
+  - [Experimentelle Projekte und Entwicklungsbeispiele](#experimental-and-development-examples)
 
 <a id="official-resources"></a>
 
-## Offizielle Ressourcen
+## Kernressourcen
 
 - [Moli](https://github.com/lexmount/moli) - Offizielles Repository mit Installationsanleitung, CLI-Nutzung und Dokumentation der Automatisierungsprotokolle.
 - [Releases](https://github.com/lexmount/moli/releases) - Vorkompilierte Binärdateien und offizielle Versionshinweise.
@@ -29,17 +31,21 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 - [WebMCP playground](https://github.com/lexmount/moli/tree/main/moli-playground/webmcp) - Skripte und Demos zum Finden und Aufrufen nativer WebMCP-Werkzeuge einer Website über Moli.
 - [Webstone](https://github.com/lexmount/webstone) - Evaluierungsumgebung für Browser und Webwerkzeuge mit reproduzierbaren Aufgaben und aufgezeichneten Belegen.
 
-<a id="forks-and-derivatives"></a>
+<a id="integrations"></a>
 
-## Forks und Weiterentwicklungen
+## Integrationen
 
-- [Limo](https://github.com/Spxg/limo) - Führt JavaScript direkt im Terminal mit der vollständigen Web-API-Umgebung von Moli aus. Ein Skript kann DOM-Elemente erzeugen, Ereignisse abonnieren und Klicks auslösen.
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli-Fork mit einem an Chrome angelehnten Netzwerkprofil und einer gemeinsamen Rust-Transportschicht für HTTP und WebSockets.
-- [pilot](https://github.com/WSAdam/pilot) - Auf Moli basierender Browser, den Playwright und Playwright MCP direkt starten können. In einem optionalen Fenster lässt sich der Agent beim Surfen beobachten. [Einrichtung mit Playwright](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
+<a id="testing-and-qa"></a>
+
+### Tests und QA
+
+- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End-to-End-Testframework mit experimentellem Moli-Helper zur Verwaltung lokaler Prozesse und zur Verbindung mit bestehenden CDP-Endpunkten.
+- [e2e](https://github.com/e2e-inc/e2e) - Framework für End-to-End-Tests. Der Adapter `@e2e-dev/moli` startet für jeden Web-Test-Worker einen lokalen Moli-Browser und beendet ihn nach dem Einsatz. [Quellcode des Adapters](https://github.com/e2e-inc/e2e/tree/main/packages/moli)
+- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP-Entwicklungswerkzeuge mit optionalen Moli-Extraktionsprüfungen für festgelegte öffentliche Seiten und Chrome als Rückfalloption für visuelle QA.
 
 <a id="browser-tools-and-mcp"></a>
 
-## Browserwerkzeuge und MCP
+### Browserwerkzeuge und MCP
 
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Brücke für Browserautomatisierung mit optionalem Moli-Backend über Playwright und CDP.
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Go-CLI zur Verwaltung von Chat-Websitzungen, mit Moli für den Headless-Zugriff und Chrome für die interaktive Anmeldung.
@@ -51,7 +57,7 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 
 <a id="agents-and-workspaces"></a>
 
-## Agenten und Arbeitsbereiche
+### Agenten und Arbeitsbereiche
 
 - [A3S Code](https://github.com/A3S-Lab/Code) - Agentenframework, das eine überprüfte Moli-Laufzeit für sein Headless-Websuch-Backend bereitstellt.
 - [agent-fabric](https://github.com/BlueTeam-OU/agent-fabric) - Verwaltungsplattform für Coding-Agenten, die Moli zum Lesen von Webseiten und Playwright MCP für skriptgesteuertes Browsen je Agent nutzt.
@@ -67,7 +73,7 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 
 <a id="web-extraction-and-research"></a>
 
-## Webextraktion und Recherche
+### Webextraktion und Recherche
 
 - [888-url2md](https://github.com/tbdavid2019/888-url2md) - Dienst zur Umwandlung von Webseiten in Markdown mit lokalem Moli-CDP-Backend und separater Chrome-Rückfallstrategie.
 - [A3S Search](https://github.com/A3S-Lab/Search) - Einbettbare Suchmaschine mit Moli-CLI-Renderer und begrenzter Anzahl gleichzeitiger Rendering-Prozesse.
@@ -82,16 +88,21 @@ Entdecke Moli für Browserautomatisierung, Webextraktion, Agenten-Workflows und 
 - [stvdy](https://github.com/jettapindika/stvdy) - Lernarbeitsbereich, der Webquellen über eine Rückfallkette aus Exa, Moli und HTTP/readability importiert.
 - [Vanilla](https://github.com/easylearnfromtw/vanilla) - KI-Arbeitsbereich für Familien mit ausdrücklich zu aktivierendem Moli-Extraktionsadapter, der eine separat konfigurierte Isolation ausgehender Netzwerkverbindungen voraussetzt.
 
-<a id="testing-and-qa"></a>
+<a id="community-projects"></a>
 
-## Tests und QA
+## Community-Projekte
 
-- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End-to-End-Testframework mit experimentellem Moli-Helper zur Verwaltung lokaler Prozesse und zur Verbindung mit bestehenden CDP-Endpunkten.
-- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - MCP-Entwicklungswerkzeuge mit optionalen Moli-Extraktionsprüfungen für festgelegte öffentliche Seiten und Chrome als Rückfalloption für visuelle QA.
+<a id="forks-and-derivatives"></a>
+
+### Forks und Weiterentwicklungen
+
+- [Limo](https://github.com/Spxg/limo) - Führt JavaScript direkt im Terminal mit der vollständigen Web-API-Umgebung von Moli aus. Ein Skript kann DOM-Elemente erzeugen, Ereignisse abonnieren und Klicks auslösen.
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli-Fork mit einem an Chrome angelehnten Netzwerkprofil und einer gemeinsamen Rust-Transportschicht für HTTP und WebSockets.
+- [pilot](https://github.com/WSAdam/pilot) - Auf Moli basierender Browser, den Playwright und Playwright MCP direkt starten können. In einem optionalen Fenster lässt sich der Agent beim Surfen beobachten. [Einrichtung mit Playwright](https://github.com/WSAdam/pilot/blob/main/pilot/README.md)
 
 <a id="deployment-and-packaging"></a>
 
-## Deployment und Pakete
+### Deployment und Pakete
 
 Installationsrezepte und Deployment-Vorlagen aus der Community.
 
@@ -105,7 +116,7 @@ Installationsrezepte und Deployment-Vorlagen aus der Community.
 
 <a id="experimental-and-development-examples"></a>
 
-## Experimentelle Projekte und Entwicklungsbeispiele
+### Experimentelle Projekte und Entwicklungsbeispiele
 
 Prototypen, Entwicklungsskripte und Evaluierungsberichte. Die genannten Testergebnisse stammen von den jeweiligen Autoren.
 
