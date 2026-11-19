@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-19",
+  "scope": "Follow-up review of the e2e framework integration.",
+  "method": "Read the provider, package manifest, and documentation at the default-branch commit. Checked the upstream merge and the public npm registry.",
+  "runtime_tests_run": false,
+  "counts": {
+    "repositories_reviewed": 1,
+    "readme_community_entries": 1,
+    "held_out": 0
+  },
+  "repositories": [
+    {
+      "input_repository": "e2e-inc/e2e",
+      "canonical_repository": "e2e-inc/e2e",
+      "repository_id": "1308631234",
+      "default_branch": "main",
+      "head_commit": "402a6157ce4b61c6f4d173b0c1c4f6361bea0634",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/e2e-inc/e2e",
+      "metadata_status": "retrieved",
+      "readme_status": "included",
+      "category": "framework-integration",
+      "readme_section": "testing-and-qa",
+      "readme_name": "e2e",
+      "readme_url": "https://github.com/e2e-inc/e2e",
+      "summary": "The merged @e2e-dev/moli adapter starts a local Moli browser for each web test worker slot and stops it when the runner releases the slot.",
+      "source": {
+        "url": "https://github.com/e2e-inc/e2e/blob/402a6157ce4b61c6f4d173b0c1c4f6361bea0634/packages/moli/src/provider.ts#L22-L50",
+        "path": "packages/moli/src/provider.ts",
+        "commit_sha": "402a6157ce4b61c6f4d173b0c1c4f6361bea0634",
+        "blob_sha": "fc0b46f197bc5de22546d0aceb9175db44eec911",
+        "kind": "implementation-or-package",
+        "retrieved_at_utc": "2026-11-19T08:50:22.568Z"
+      },
+      "notes": "Moli contributor ldm0 submitted the adapter in e2e PR #1843. This entry records a merged framework integration. The package manifest specified 0.0.0 and the public npm registry returned 404 on the review date.",
+      "pull_request": {
+        "url": "https://github.com/e2e-inc/e2e/pull/1843",
+        "author": "ldm0",
+        "merged_by": "okwasniewski",
+        "merged_at_utc": "2026-11-17T07:03:45Z",
+        "merge_commit": "29a0261775fc362aa26e7ea0fe53e671c864dbc1"
+      },
+      "registry_check": {
+        "url": "https://registry.npmjs.org/@e2e-dev%2fmoli",
+        "http_status": 404,
+        "checked_on": "2026-11-19"
+      },
+      "supplementary_sources": [
+        {
+          "url": "https://github.com/e2e-inc/e2e/blob/402a6157ce4b61c6f4d173b0c1c4f6361bea0634/packages/moli/README.md#L1-L5",
+          "path": "packages/moli/README.md",
+          "commit_sha": "402a6157ce4b61c6f4d173b0c1c4f6361bea0634",
+          "blob_sha": "d2936e48389477780c7114acad2a8d19798e847d",
+          "kind": "documentation",
+          "retrieved_at_utc": "2026-11-19T08:50:22.568Z"
+        },
+        {
+          "url": "https://github.com/e2e-inc/e2e/blob/402a6157ce4b61c6f4d173b0c1c4f6361bea0634/packages/moli/package.json#L1-L4",
+          "path": "packages/moli/package.json",
+          "commit_sha": "402a6157ce4b61c6f4d173b0c1c4f6361bea0634",
+          "blob_sha": "0ea84134b3a161b4302a8fc2688d18d6ad0838b6",
+          "kind": "implementation-or-package",
+          "retrieved_at_utc": "2026-11-19T08:50:22.568Z"
+        },
+        {
+          "url": "https://github.com/e2e-inc/e2e/blob/402a6157ce4b61c6f4d173b0c1c4f6361bea0634/README.md#L83-L92",
+          "path": "README.md",
+          "commit_sha": "402a6157ce4b61c6f4d173b0c1c4f6361bea0634",
+          "blob_sha": "fb4252bad4db65177655c62780b1b4d8e93c9f01",
+          "kind": "documentation",
+          "retrieved_at_utc": "2026-11-19T08:50:22.567Z"
+        }
+      ]
+    }
+  ]
+}

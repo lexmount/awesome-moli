@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-19",
+  "scope": "Follow-up covering three community suggestions beyond the original 55-repository review. Counts apply to this batch.",
+  "method": "Checked repository metadata and read each project's documentation, manifest, or implementation at its default-branch commit. Used documented upstream history to identify derivatives maintained outside GitHub's fork network.",
+  "runtime_tests_run": false,
+  "counts": {
+    "repositories_reviewed": 3,
+    "readme_community_entries": 3,
+    "held_out": 0
+  },
+  "repositories": [
+    {
+      "input_repository": "Spxg/limo",
+      "canonical_repository": "Spxg/limo",
+      "repository_id": "1458411649",
+      "default_branch": "master",
+      "head_commit": "73519b9ab71904c670917a93fcd54e756c69c570",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/Spxg/limo",
+      "metadata_status": "retrieved",
+      "github_fork": false,
+      "github_parent": null,
+      "readme_status": "included",
+      "category": "downstream-tool",
+      "readme_section": "forks-and-derivatives",
+      "readme_name": "Limo",
+      "readme_url": "https://github.com/Spxg/limo",
+      "summary": "Run browser JavaScript directly in the terminal with Moli’s full Web API environment. A script can create DOM elements, register event listeners, and trigger clicks.",
+      "source": {
+        "url": "https://github.com/Spxg/limo/blob/73519b9ab71904c670917a93fcd54e756c69c570/README.md#L1-L42",
+        "path": "README.md",
+        "commit_sha": "73519b9ab71904c670917a93fcd54e756c69c570",
+        "blob_sha": "34ce1e4c3fc65dc667a9e66ed4eedd1b82436499",
+        "kind": "documentation",
+        "retrieved_at_utc": "2026-11-19T08:39:28.210Z"
+      },
+      "notes": "The documented example creates a button, registers a click handler, and prints the resulting DOM from the terminal.",
+      "supplementary_sources": [
+        {
+          "url": "https://github.com/Spxg/limo/blob/73519b9ab71904c670917a93fcd54e756c69c570/src/main.rs#L144-L158",
+          "path": "src/main.rs",
+          "commit_sha": "73519b9ab71904c670917a93fcd54e756c69c570",
+          "blob_sha": "a83c57188fe2cb946328343abd89f282eb91ad69",
+          "kind": "implementation-or-package",
+          "retrieved_at_utc": "2026-11-19T08:39:46.717Z"
+        }
+      ]
+    },
+    {
+      "input_repository": "Stravia-AI/moli-stealth",
+      "canonical_repository": "Stravia-AI/moli-stealth",
+      "repository_id": "1355490825",
+      "default_branch": "main",
+      "head_commit": "65b76086fe98b890bbd4755899698c71bdcef1d7",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/Stravia-AI/moli-stealth",
+      "metadata_status": "retrieved",
+      "github_fork": true,
+      "github_parent": "lexmount/moli",
+      "readme_status": "included",
+      "category": "engine-fork",
+      "readme_section": "forks-and-derivatives",
+      "readme_name": "moli-stealth",
+      "readme_url": "https://github.com/Stravia-AI/moli-stealth",
+      "summary": "Moli fork with a Chrome-style network profile and a shared Rust transport for HTTP and WebSockets.",
+      "source": {
+        "url": "https://github.com/Stravia-AI/moli-stealth/blob/65b76086fe98b890bbd4755899698c71bdcef1d7/README.md#L137-L144",
+        "path": "README.md",
+        "commit_sha": "65b76086fe98b890bbd4755899698c71bdcef1d7",
+        "blob_sha": "a82e27420c056dc18a81915b303489671bf1fe0b",
+        "kind": "documentation",
+        "retrieved_at_utc": "2026-11-19T08:39:28.211Z"
+      },
+      "notes": "GitHub identifies lexmount/moli as the parent. The fork documents its Chrome-style profile and its HTTP/WebSocket transport. Its fetch crate depends on moli-stealth-net.",
+      "supplementary_sources": [
+        {
+          "url": "https://github.com/Stravia-AI/moli-stealth/blob/65b76086fe98b890bbd4755899698c71bdcef1d7/moli-fetch/Cargo.toml#L21",
+          "path": "moli-fetch/Cargo.toml",
+          "commit_sha": "65b76086fe98b890bbd4755899698c71bdcef1d7",
+          "blob_sha": "541ad6fb49ba8bb120d481a1bfeca72d36dd76b5",
+          "kind": "implementation-or-package",
+          "retrieved_at_utc": "2026-11-19T08:40:41.831Z"
+        },
+        {
+          "url": "https://github.com/Stravia-AI/moli-stealth/blob/65b76086fe98b890bbd4755899698c71bdcef1d7/moli-stealth-net/Cargo.toml#L13-L29",
+          "path": "moli-stealth-net/Cargo.toml",
+          "commit_sha": "65b76086fe98b890bbd4755899698c71bdcef1d7",
+          "blob_sha": "b69afd080edea10ff20245b686a888242980bf2f",
+          "kind": "implementation-or-package",
+          "retrieved_at_utc": "2026-11-19T08:39:46.718Z"
+        }
+      ]
+    },
+    {
+      "input_repository": "WSAdam/pilot",
+      "canonical_repository": "WSAdam/pilot",
+      "repository_id": "1443132205",
+      "default_branch": "main",
+      "head_commit": "6db71df64b45f7652dc4e999aa900dd8b74ba719",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/WSAdam/pilot",
+      "metadata_status": "retrieved",
+      "github_fork": false,
+      "github_parent": null,
+      "readme_status": "included",
+      "category": "engine-derivative",
+      "readme_section": "forks-and-derivatives",
+      "readme_name": "pilot",
+      "readme_url": "https://github.com/WSAdam/pilot",
+      "summary": "Moli-derived browser that Playwright and Playwright MCP can launch directly, with an optional window for watching the agent browse.",
+      "source": {
+        "url": "https://github.com/WSAdam/pilot/blob/6db71df64b45f7652dc4e999aa900dd8b74ba719/FORK.md#L1-L12",
+        "path": "FORK.md",
+        "commit_sha": "6db71df64b45f7652dc4e999aa900dd8b74ba719",
+        "blob_sha": "c84a8dd31f45624a9d10534768a443b96252b9f0",
+        "kind": "documentation",
+        "retrieved_at_utc": "2026-11-19T08:39:46.718Z"
+      },
+      "notes": "FORK.md identifies lexmount/moli as upstream and records the departure from GitHub's fork network. The pilot binary accepts Chromium-style launch arguments and can open a window that shows the agent browsing.",
+      "supplementary_sources": [
+        {
+          "url": "https://github.com/WSAdam/pilot/blob/6db71df64b45f7652dc4e999aa900dd8b74ba719/pilot/README.md#L1-L23",
+          "path": "pilot/README.md",
+          "commit_sha": "6db71df64b45f7652dc4e999aa900dd8b74ba719",
+          "blob_sha": "1950053523b5eddac9bdb40db1af9e0436bda857",
+          "kind": "documentation",
+          "retrieved_at_utc": "2026-11-19T08:39:46.719Z"
+        },
+        {
+          "url": "https://github.com/WSAdam/pilot/blob/6db71df64b45f7652dc4e999aa900dd8b74ba719/pilot/src/main.rs#L46-L51",
+          "path": "pilot/src/main.rs",
+          "commit_sha": "6db71df64b45f7652dc4e999aa900dd8b74ba719",
+          "blob_sha": "414d08884a55273136894d6eaf564f3b7898a0af",
+          "kind": "implementation-or-package",
+          "retrieved_at_utc": "2026-11-19T08:40:41.831Z"
+        }
+      ]
+    }
+  ]
+}
