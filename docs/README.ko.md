@@ -20,66 +20,66 @@
 
 ## 포크와 파생 프로젝트
 
-- **[Limo](https://github.com/Spxg/limo) - 터미널에서 Moli의 전체 브라우저 Web API로 JavaScript를 실행해 스크립트에서 DOM 요소를 만들고 클릭 이벤트를 처리할 수 있습니다.**
-- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Chrome을 모델로 한 네트워크 프로필을 제공하고 HTTP와 WebSocket에 공통 Rust 전송 계층을 사용하는 Moli 포크.
-- [pilot](https://github.com/WSAdam/pilot) - Playwright나 Playwright MCP에서 직접 실행할 수 있고 창을 열어 에이전트의 웹 탐색을 지켜볼 수 있는 Moli 기반 브라우저입니다.
+- **[Limo](https://github.com/Spxg/limo) - 터미널에서 Moli의 브라우저 Web API 전체를 사용해 JavaScript를 실행합니다.**
+- [moli-stealth](https://github.com/Stravia-AI/moli-stealth) - Moli의 HTTP 및 WebSocket 연결에 Chrome과 유사한 네트워크 설정을 적용합니다.
+- [pilot](https://github.com/WSAdam/pilot) - Playwright MCP로 에이전트가 웹을 탐색하는 모습을 창에서 실시간으로 보여 줍니다.
 
 <a id="testing-and-qa"></a>
 <a id="testing-and-qa-tools"></a>
 
 ## 테스트 및 QA 도구
 
-- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 로컬 프로세스 관리와 기존 CDP 엔드포인트 연결을 지원하는 실험적 Moli 헬퍼를 갖춘 종단 간 테스트 프레임워크.
-- **[e2e](https://github.com/e2e-inc/e2e) - 업스트림에 병합된 Moli 어댑터가 병렬 웹 테스트 워커마다 별도의 로컬 브라우저를 관리합니다.**
-- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 고정된 공개 페이지에 선택적 Moli 추출 검사를 수행하고 Chrome 시각 QA로 대체할 수 있는 MCP 개발 도구.
+- [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - 실험적인 Moli 백엔드로 엔드 투 엔드 테스트를 실행합니다.
+- **[e2e](https://github.com/e2e-inc/e2e) - 상위 프로젝트에 병합된 Moli 어댑터가 병렬 테스트 프로세스마다 로컬 브라우저를 하나씩 실행합니다.**
+- [KMJ CodeBridge](https://github.com/kmjtechno/kmj-codebridge) - 필요하면 Moli로 지정된 공개 테스트 페이지에서 본문을 추출할 수 있는지 확인합니다.
 
 <a id="browser-tools-and-mcp"></a>
 <a id="browser-automation-and-workflows"></a>
 
 ## 브라우저 자동화와 워크플로
 
-- [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Playwright와 CDP를 통해 선택적 Moli 백엔드를 제공하는 브라우저 자동화 브리지.
-- [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - 채팅 웹 세션을 관리하는 Go CLI로, 헤드리스 접근에는 Moli를, 대화형 로그인에는 Chrome을 사용.
-- [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Linux x86_64에서 관리형 Moli 엔진과 샌드박스 작업 프로세스를 제공하는 MCP 브라우저 서버.
-- **[dsh-moli](https://github.com/27painter/dsh-moli) - 페이지 추출, JavaScript 실행, 스크린샷, PDF 및 엔진 진단을 지원하는 DeepSeek Harness 커뮤니티 플러그인.**
-- [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Moli로 지원서를 작성하고 제출 전에 사용자 확인을 요구하는 실험적 구직 스킬.
+- [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Muse에서 Playwright 자동화용 로컬 브라우저로 Moli를 선택할 수 있습니다.
+- [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Chrome에서 한 번 로그인하면 Moli로 터미널에서 대화 기록을 읽을 수 있습니다.
+- [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - x86_64 Linux에서 샌드박스로 격리된 Moli 프로세스로 MCP 브라우저 세션을 실행합니다.
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - 동적 웹페이지를 Markdown으로 변환하는 DeepSeek Harness 커뮤니티 플러그인입니다.**
+- [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 지원서를 작성하고 제출 전에 사용자 확인을 받는 실험적인 구직 도우미입니다.
 
 <a id="web-extraction-and-research"></a>
 <a id="web-rendering-and-extraction"></a>
 
 ## 웹 렌더링과 데이터 추출
 
-- [888-url2md](https://github.com/tbdavid2019/888-url2md) - 로컬 Moli CDP 백엔드와 별도의 Chrome 대체 정책을 갖춘 페이지의 Markdown 변환 서비스.
-- [A3S Search](https://github.com/A3S-Lab/Search) - Moli CLI 렌더러와 동시 렌더링 수 제한을 제공하는 내장형 검색 엔진.
-- [Brains](https://github.com/YuniqueUnic/brains) - URL을 가져올 때 Moli 렌더링을 선택할 수 있는 버전 관리형 Markdown 지식 저장소.
-- [CTI Expert](https://github.com/7onez/cti-expert) - JavaScript 실행 후 DOM 추출에는 Moli를 사용하고 시각적 증거에는 Chromium을 유지하는 위협 인텔리전스 도구.
-- [HEIS](https://github.com/u4399com-beep/heis) - Moli의 페이지 가져오기와 스크립트 실행을 Go HTTP 브리지로 제공하는 소설 수집 시스템.
-- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - 페이지 읽기의 대체 경로에 Moli 렌더링을 추가한 Hermes 조사 도구.
-- [Lens](https://github.com/bysages/lens) - CDP를 통해 Moli로 스크린샷을 만들고 페이지를 읽는 TypeScript 웹 도구 모음.
-- [ModalPrism](https://github.com/MistLoom/ModalPrism) - 브라우저 접근 모듈에서 Moli CLI로 동적 페이지를 렌더링하는 Rust 데이터 수집 시스템.
-- [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 지정한 URL 읽기, 출처 증거 보관, 페이지 스냅샷 비교를 지원하는 로컬 MCP 조사 도구로, 현재 베타 버전.
-- [molisnap](https://github.com/7a6163/molisnap) - 캐싱과 사이트맵 사전 로딩을 지원하는 검색 크롤러 및 AI 봇용 SPA 사전 렌더링 서비스.
-- [PageSift](https://github.com/YOLOW92/pagesift) - Lightpanda → Moli → Chrome 브라우저 선택 경로에 Moli를 포함하는 Rust 웹·문서 추출 서비스.
-- [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - HTTP 추출만으로 부족한 JavaScript 페이지에 Moli를 사용하고 Chromium으로 대체할 수 있는 Windows 에이전트 도구 배포판.
-- [stvdy](https://github.com/jettapindika/stvdy) - Exa, Moli, HTTP/readability 대체 경로를 통해 웹 자료를 가져오는 학습 작업 공간.
-- [Vanilla](https://github.com/easylearnfromtw/vanilla) - 명시적으로 활성화하는 Moli 페이지 추출 어댑터를 갖춘 가족용 AI 작업 공간으로, 별도의 아웃바운드 네트워크 격리가 필요.
+- [888-url2md](https://github.com/tbdavid2019/888-url2md) - 여러 웹페이지를 한꺼번에 Markdown으로 변환하고 JavaScript가 필요한 페이지는 Moli로 렌더링합니다.
+- [A3S Search](https://github.com/A3S-Lab/Search) - 검색 결과에서 JavaScript가 필요한 페이지를 Moli로 읽습니다.
+- [Brains](https://github.com/YuniqueUnic/brains) - Moli로 동적 웹페이지를 가져와 버전 기록이 있는 Markdown 노트로 저장할 수 있습니다.
+- [CTI Expert](https://github.com/7onez/cti-expert) - 위협 인텔리전스 조사에 필요한 웹 콘텐츠를 JavaScript 실행 후 Moli로 수집합니다.
+- [HEIS](https://github.com/u4399com-beep/heis) - Moli로 동적으로 불러오는 웹소설의 각 회차를 수집할 수 있습니다.
+- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Hermes Deep Research가 일반 방식으로 본문을 읽지 못하면 Moli로 페이지를 렌더링합니다.
+- [Lens](https://github.com/bysages/lens) - HTTP API로 Moli를 호출해 웹페이지의 스크린샷을 찍을 수 있습니다.
+- [ModalPrism](https://github.com/MistLoom/ModalPrism) - Moli로 렌더링한 동적 웹페이지를 보관해 수집 당시의 내용을 다시 볼 수 있습니다.
+- [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 저장된 웹페이지 스냅샷 두 개를 비교하는 베타 버전의 로컬 MCP 도구입니다.
+- [molisnap](https://github.com/7a6163/molisnap) - 싱글 페이지 앱을 검색 크롤러와 AI 봇이 읽을 수 있는 HTML로 미리 렌더링합니다.
+- [PageSift](https://github.com/YOLOW92/pagesift) - Lightpanda가 읽지 못하는 iframe 콘텐츠를 Moli로 가져옵니다.
+- [Smart Tool](https://github.com/AllanSantos-DV/smart-tool-dist) - Windows 코딩 에이전트가 HTTP 요청만으로 본문을 얻지 못하면 Moli를 사용할 수 있습니다.
+- [stvdy](https://github.com/jettapindika/stvdy) - Exa에서 본문을 가져오지 못하면 Moli로 웹페이지를 학습 자료로 가져옵니다.
+- [Vanilla](https://github.com/easylearnfromtw/vanilla) - 외부로 나가는 네트워크 트래픽을 격리한 뒤 Moli를 켜서 공개 웹페이지 본문을 가져올 수 있습니다.
 
 <a id="agents-and-workspaces"></a>
 <a id="agent-frameworks-and-workspaces"></a>
 
 ## 에이전트 프레임워크와 작업 공간
 
-- [A3S Code](https://github.com/A3S-Lab/Code) - 헤드리스 웹 검색 백엔드를 위해 검증된 Moli 런타임을 준비하는 에이전트 프레임워크.
-- [agent-fabric](https://github.com/BlueTeam-OU/agent-fabric) - Moli로 웹을 읽고 Playwright MCP를 통해 에이전트별 스크립트 탐색을 수행하는 코딩 에이전트 관리 플랫폼.
-- [agnostic-router-kit](https://github.com/adelvillar1/agnostic-router-kit) - Moli로 페이지를 먼저 렌더링한 뒤 자체 호스팅 Firecrawl과 일반 HTTP를 대체 경로로 사용하는 에이전트 워크플로 도구.
-- [AION](https://github.com/JayCRL/AION) - web.read 도구에서 Moli를 사용해 렌더링된 Markdown 또는 구조화된 DOM 데이터를 반환하는 에이전트 기반 시스템.
-- [dsh-qq-bot](https://github.com/arrow1031-dev/dsh-qq-bot) - qq_webfetch 도구에 선택적 로컬 Moli 렌더링 경로를 제공하는 QQ 봇 연동.
-- [Internkim](https://github.com/yeomyeonggeori/internkim) - 공개 페이지 탐색을 위한 Moli 브라우저 런타임을 갖춘 팀 에이전트 작업 공간.
-- [Lumen](https://github.com/Andrea17982/Lumen) - Moli를 포함하고 여러 모델 및 CLI 어댑터에서 브라우저 도구를 공유하는 데스크톱 에이전트 작업 공간.
-- [mem0-omp](https://github.com/millianlmx/mem0-omp) - 컨테이너형 Moli 브라우저와 인증된 HTTP/WebSocket CDP 게이트웨이를 갖춘 코딩 에이전트 실행 환경.
-- [Qianxun](https://github.com/imxood/qianxun) - 로컬 Moli 실행 파일 탐색과 버전 확인을 지원하는 DeepSeek Harness용 Tauri 데스크톱 작업 환경.
-- [Relay](https://github.com/arcwright42/Relay) - 시간과 출력 크기를 제한한 Moli 페이지 가져오기 및 브라우저 설치 관리를 제공하는 에이전트 런타임.
-- [Wick](https://github.com/yogasw/wick) - 선택적 Moli 브라우저 커넥터, CDP 세션 및 Markdown 추출 기능을 갖춘 Go 에이전트 호스트.
+- [A3S Code](https://github.com/A3S-Lab/Code) - 코딩 에이전트가 웹을 검색할 수 있도록 검증된 Moli 브라우저를 자동으로 준비합니다.
+- [agent-fabric](https://github.com/BlueTeam-OU/agent-fabric) - 코딩 에이전트마다 별도의 임시 Moli 브라우저 세션을 제공합니다.
+- [agnostic-router-kit](https://github.com/adelvillar1/agnostic-router-kit) - 워크플로에서 JavaScript 페이지를 읽을 때 로컬 Moli를 먼저 사용합니다.
+- [AION](https://github.com/JayCRL/AION) - Moli로 읽은 동적 웹페이지를 에이전트 작업 공간에 카드 형태로 표시합니다.
+- [dsh-qq-bot](https://github.com/arrow1031-dev/dsh-qq-bot) - QQ 봇이 필요에 따라 로컬 Moli로 공유된 링크를 Markdown으로 읽을 수 있습니다.
+- [Internkim](https://github.com/yeomyeonggeori/internkim) - 팀의 AI 어시스턴트가 로컬 Moli로 공개 웹페이지를 탐색할 수 있습니다.
+- [Lumen](https://github.com/Andrea17982/Lumen) - Claude Code와 Codex 같은 코딩 에이전트가 데스크톱에서 함께 쓰는 Moli 브라우저 도구를 내장합니다.
+- [mem0-omp](https://github.com/millianlmx/mem0-omp) - 코딩 에이전트가 토큰 인증을 거쳐 컨테이너 안의 Moli 브라우저에 접속할 수 있습니다.
+- [Qianxun](https://github.com/imxood/qianxun) - DeepSeek Harness 데스크톱 앱에서 로컬 Moli 설치 여부와 버전을 확인합니다.
+- [Relay](https://github.com/arcwright42/Relay) - Moli로 링크를 읽다가 페이지 응답 시간이 초과돼도 프롬프트를 제출할 수 있습니다.
+- [Wick](https://github.com/yogasw/wick) - Go 에이전트가 필요에 따라 로컬 Moli로 웹페이지를 Markdown으로 읽을 수 있습니다.
 
 <a id="deployment-and-packaging"></a>
 <a id="packaging-and-deployment"></a>
@@ -88,13 +88,13 @@
 
 커뮤니티에서 제공하는 설치 구성과 배포 템플릿.
 
-- [1Panel App](https://github.com/skingko/1panel_app/tree/localApps/apps/x-moli) - 커뮤니티에서 관리하는 Moli용 1Panel 애플리케이션 구성과 Docker 이미지 빌드.
-- [A3S CLI](https://github.com/A3S-Lab/CLI) - 대상 플랫폼별 Moli 런타임을 포함하는 A3S 명령줄 배포판.
-- [Homebrew Moli](https://github.com/hoishing/homebrew-moli) - Moli 바이너리와 해당 버전의 공식 에이전트 스킬을 설치하는 커뮤니티 Homebrew tap.
-- [Lattice](https://github.com/mytecor/lattice/tree/main/profiles/moli) - 원격 CDP 접근, 호스팅된 DevTools 및 Caddy/Authentik 진입점을 제공하는 NixOS Moli 서비스.
-- [moli-snap](https://github.com/sidalit/moli-snap) - Linux에서 Moli CLI와 자동화 서버를 실행하기 위한 비공식 Snap 패키지.
-- [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - 버전을 고정한 Moli 릴리스 바이너리와 런타임 의존성을 위한 NixOS 패키지 정의.
-- [Railway Moli](https://github.com/two-workspaces/moli) - 토큰으로 보호되는 Caddy 게이트웨이와 공개 WebSocket 주소 재작성을 제공하는 Railway 배포 템플릿.
+- [1Panel App](https://github.com/skingko/1panel_app/tree/localApps/apps/x-moli) - 커뮤니티 패키지를 통해 1Panel에서 Moli를 배포할 수 있습니다.
+- [A3S CLI](https://github.com/A3S-Lab/CLI) - A3S 명령줄 도구에 대상 플랫폼용 Moli 런타임을 함께 제공합니다.
+- [Homebrew Moli](https://github.com/hoishing/homebrew-moli) - Moli와 해당 버전의 공식 에이전트 스킬을 함께 설치하는 커뮤니티 Homebrew 저장소입니다.
+- [Lattice](https://github.com/mytecor/lattice/tree/main/profiles/moli) - NixOS에서 Moli를 호스팅해 원격에서 DevTools로 웹페이지를 디버깅할 수 있습니다.
+- [moli-snap](https://github.com/sidalit/moli-snap) - 스크린샷과 PDF에 쓸 글꼴을 Moli와 함께 제공하는 비공식 Linux Snap 패키지입니다.
+- [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - Moli 버전과 체크섬을 고정해 NixOS에서 같은 바이너리를 설치할 수 있습니다.
+- [Railway Moli](https://github.com/two-workspaces/moli) - Railway에 Moli를 배포하고 토큰 인증으로 브라우저에 원격 접속할 수 있습니다.
 
 <a id="experimental-and-development-examples"></a>
 <a id="development-examples-and-evaluations"></a>
@@ -103,15 +103,15 @@
 
 프로토타입, 개발 스크립트 및 평가 보고서입니다. 테스트 결과는 각 작성자의 보고에 따른 것입니다.
 
-- [Aveli](https://github.com/pkmdev-sec/aveli) - 브라우저 에이전트용 실험적 Moli 런타임과 호환성 검사 도구.
-- [govio-map](https://github.com/chenxinma/govio-map) - 애플리케이션 설정 대화상자의 입력 포커스와 유효성 검사를 확인하는 CDP 스모크 테스트 스크립트.
-- [Hydra Downloader](https://github.com/juanpimg/hydradownloader) - Moli CDP로 반응형 레이아웃과 다운로드 흐름을 확인하는 개발 스크립트.
-- [laravel-domains](https://github.com/yepbro/laravel-domains) - 버전별 Moli 평가, 회귀 문제, 재시험 및 Chromium 비교를 기록하는 크롤러 프로젝트.
-- [llama.rs](https://github.com/yablokolabs/llama.rs) - Moli로 Rust/WASM 채팅 애플리케이션의 JavaScript 인터페이스를 시험하는 브라우저 테스트 스크립트.
-- [Master Maps](https://github.com/0bifthenelse/master-maps) - Moli 기반 종단 간 테스트 스크립트와 명시적인 로컬 Chromium 대체 경로를 갖춘 지도 애플리케이션.
-- [Molifasi](https://github.com/A3S-Lab/Molifasi) - Moli CDP의 관찰·동작을 Apofasi의 의사결정과 결합한 Rust 브라우저 에이전트 프로토타입.
-- [ScopePay AI](https://github.com/yablokolabs/scopepay-ai) - 구매자 승인 흐름에 Moli CDP를 사용하는 PayPal 샌드박스 결제 예제.
-- [SmartSpecPro](https://github.com/naibarn/SmartSpecPro) - 루트 권한 없는 Linux 환경용 Moli 인수 테스트 실행기로, 기본 빌드에서는 제외.
+- [Aveli](https://github.com/pkmdev-sec/aveli) - 브라우저 에이전트가 로컬 Moli에 연결할 수 있는지 확인하는 실험적 테스트입니다.
+- [govio-map](https://github.com/chenxinma/govio-map) - Moli로 설정 입력란에 한 글자씩 쓰면서 키보드 포커스가 유지되는지 확인합니다.
+- [Hydra Downloader](https://github.com/juanpimg/hydradownloader) - Moli로 여러 휴대폰 화면 너비에서 다운로드 페이지가 화면 밖으로 넘치는지 확인합니다.
+- [laravel-domains](https://github.com/yepbro/laravel-domains) - 여러 Moli 버전과 Chromium에서 웹 크롤러의 동작을 비교합니다.
+- [llama.rs](https://github.com/yablokolabs/llama.rs) - 로컬 WebAssembly 채팅 데모가 질문에 답하는지 Moli로 확인합니다.
+- [Master Maps](https://github.com/0bifthenelse/master-maps) - Moli로 3D 지도를 엔드 투 엔드 테스트하고 필요하면 로컬 Chromium을 사용합니다.
+- [Molifasi](https://github.com/A3S-Lab/Molifasi) - Apofasi가 다음 동작을 고르면 Moli가 웹페이지에서 실행하는 프로토타입 에이전트입니다.
+- [ScopePay AI](https://github.com/yablokolabs/scopepay-ai) - PayPal 샌드박스에서 구매자가 결제 시 승인을 완료하는 흐름을 Moli로 테스트합니다.
+- [SmartSpecPro](https://github.com/naibarn/SmartSpecPro) - Linux에서 루트 권한 없이 실행하는 인수 테스트에만 Moli를 사용합니다.
 
 ## 기여하기
 
