@@ -49,7 +49,7 @@
 - [Brains](https://github.com/YuniqueUnic/brains) - Can save dynamic webpages as versioned Markdown notes with Moli.
 - **[CTI Expert](https://github.com/7onez/cti-expert) - Reads JavaScript-rendered pages with Moli for threat investigations.**
 - [HEIS](https://github.com/u4399com-beep/heis) - Can collect dynamically loaded web novel chapters with Moli.
-- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Renders pages with Moli when Hermes Deep Research can’t extract the text.
+- [hermes-dev](https://github.com/Sucotasch/hermes-dev#4-deepseek-harness-bridge-agents-own-web-tooling) - `mfetch` calls Moli directly to read pages as Markdown, `render` uses it when a page needs a browser, and both can fall back to HTTP.
 - [Lens](https://github.com/bysages/lens) - Takes webpage screenshots with Moli through an HTTP API.
 - [ModalPrism](https://github.com/MistLoom/ModalPrism) - Archives Moli-rendered pages as they appeared at collection time.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - A local MCP tool in beta that compares saved webpage snapshots.
@@ -87,7 +87,7 @@ Community installation recipes and deployment templates.
 - [Lattice](https://github.com/mytecor/lattice/tree/main/profiles/moli) - Hosts Moli on NixOS for remote debugging with DevTools.
 - [moli-snap](https://github.com/sidalit/moli-snap) - An unofficial Linux Snap bundling Moli with fonts for screenshots and PDFs.
 - [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - Pins the Moli binary by version and checksum on NixOS.
-- [Railway Moli](https://github.com/two-workspaces/moli) - Deploys a token-protected Moli browser on Railway.
+- [Railway Moli](https://railway.com/deploy/moli?referralCode=sLjDXb) - Deploys a token-protected Moli browser on Railway.
 
 <a id="experimental-and-development-examples"></a>
 

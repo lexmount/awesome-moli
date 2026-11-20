@@ -54,7 +54,7 @@
 - [Brains](https://github.com/YuniqueUnic/brains) - Kann dynamische Webseiten mit Moli als Markdown-Notizen mit Versionsverlauf speichern.
 - **[CTI Expert](https://github.com/7onez/cti-expert) - Erfasst für die Bedrohungsanalyse mit Moli Webseiteninhalte, die JavaScript nachlädt.**
 - [HEIS](https://github.com/u4399com-beep/heis) - Kann mit Moli dynamisch geladene Kapitel von Online-Romanen erfassen.
-- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Rendert Seiten für Hermes Deep Research mit Moli, wenn die normale Textextraktion scheitert.
+- [hermes-dev](https://github.com/Sucotasch/hermes-dev#4-deepseek-harness-bridge-agents-own-web-tooling) - `mfetch` liest Webseiten direkt mit Moli als Markdown und `render` nutzt Moli bei Bedarf zum Rendern, wobei beide auf HTTP zurückgreifen können.
 - [Lens](https://github.com/bysages/lens) - Bietet eine HTTP-API für Webseiten-Screenshots mit Moli.
 - [ModalPrism](https://github.com/MistLoom/ModalPrism) - Archiviert mit Moli gerenderte Webseiten, damit ihr Inhalt zum Erfassungszeitpunkt einsehbar bleibt.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Ein lokales MCP-Werkzeug in der Betaphase, das gespeicherte Webseiten-Snapshots vergleicht.
@@ -94,7 +94,7 @@ Installationsrezepte und Deployment-Vorlagen aus der Community.
 - [Lattice](https://github.com/mytecor/lattice/tree/main/profiles/moli) - Hostet Moli auf NixOS und ermöglicht die Ferninspektion von Webseiten mit DevTools.
 - [moli-snap](https://github.com/sidalit/moli-snap) - Ein inoffizielles Linux-Snap, das Moli mit Schriftarten für Screenshots und PDFs bündelt.
 - [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - Legt Version und Prüfsumme von Moli für reproduzierbare NixOS-Installationen fest.
-- [Railway Moli](https://github.com/two-workspaces/moli) - Stellt Moli auf Railway mit tokenbasiertem Fernzugriff auf den Browser bereit.
+- [Railway Moli](https://railway.com/deploy/moli?referralCode=sLjDXb) - Stellt Moli auf Railway mit tokenbasiertem Fernzugriff auf den Browser bereit.
 
 <a id="experimental-and-development-examples"></a>
 <a id="development-examples-and-evaluations"></a>
