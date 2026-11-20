@@ -54,7 +54,7 @@
 - [Brains](https://github.com/YuniqueUnic/brains) - 可用 Moli 把动态网页存成带版本记录的 Markdown 笔记。
 - **[CTI Expert](https://github.com/7onez/cti-expert) - 调查网络威胁时，用 Moli 读取网页动态加载的内容。**
 - [HEIS](https://github.com/u4399com-beep/heis) - 可用 Moli 采集动态加载的网络小说章节。
-- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Hermes Deep Research 读不到网页正文时，改用 Moli 渲染。
+- [hermes-dev](https://github.com/Sucotasch/hermes-dev#4-deepseek-harness-bridge-agents-own-web-tooling) - `mfetch` 直接用 Moli 把网页转成 Markdown，`render` 需要浏览器渲染时也会调用 Moli，两者都可回退到 HTTP。
 - [Lens](https://github.com/bysages/lens) - 通过 HTTP API 用 Moli 给网页截图。
 - [ModalPrism](https://github.com/MistLoom/ModalPrism) - 用 Moli 渲染动态网页并存档，方便回看采集时的内容。
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 本地 MCP 工具测试版，可对比网页在不同时间的快照。
@@ -94,7 +94,7 @@
 - [Lattice](https://github.com/mytecor/lattice/tree/main/profiles/moli) - 在 NixOS 上托管 Moli，可从远端用 DevTools 调试网页。
 - [moli-snap](https://github.com/sidalit/moli-snap) - 非官方 Linux Snap 包，为 Moli 截图和 PDF 导出配好字体。
 - [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - 为 NixOS 固定 Moli 版本并校验安装包。
-- [Railway Moli](https://github.com/two-workspaces/moli) - 在 Railway 上部署 Moli，用令牌控制远程浏览器访问。
+- [Railway Moli](https://railway.com/deploy/moli?referralCode=sLjDXb) - 在 Railway 上部署 Moli，用令牌控制远程浏览器访问。
 
 <a id="experimental-and-development-examples"></a>
 <a id="development-examples-and-evaluations"></a>

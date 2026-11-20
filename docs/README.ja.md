@@ -54,7 +54,7 @@
 - [Brains](https://github.com/YuniqueUnic/brains) - Moli を使って動的なページを履歴付きの Markdown ノートとして保存できます。
 - **[CTI Expert](https://github.com/7onez/cti-expert) - 脅威情報の調査で、JavaScript の実行後に表示されるページ内容を Moli で取得します。**
 - [HEIS](https://github.com/u4399com-beep/heis) - Moli を使って動的に読み込まれるウェブ小説の章を収集できます。
-- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Hermes Deep Research の通常の取得方法で本文を読めないときに Moli で描画します。
+- [hermes-dev](https://github.com/Sucotasch/hermes-dev#4-deepseek-harness-bridge-agents-own-web-tooling) - `mfetch` は Moli を直接呼んでページを Markdown で読み取り、`render` はブラウザーでの描画が必要なときに Moli を使い、どちらも HTTP に切り替えられます。
 - [Lens](https://github.com/bysages/lens) - HTTP API 経由で Moli を使ってウェブページのスクリーンショットを撮れます。
 - [ModalPrism](https://github.com/MistLoom/ModalPrism) - Moli で描画した動的ページを保存し、収集時の内容を後から確認できます。
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - 保存したウェブページのスナップショットを比較できる、ベータ版のローカル MCP ツールです。
@@ -94,7 +94,7 @@
 - [Lattice](https://github.com/mytecor/lattice/tree/main/profiles/moli) - NixOS 上で Moli をホストし、DevTools からリモートでページをデバッグできます。
 - [moli-snap](https://github.com/sidalit/moli-snap) - スクリーンショットや PDF 用のフォントを Moli に同梱した非公式の Linux 向け Snap です。
 - [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - Moli のバージョンとチェックサムを固定し、NixOS で同じバイナリをインストールできます。
-- [Railway Moli](https://github.com/two-workspaces/moli) - Railway に Moli をデプロイし、トークン認証付きでブラウザーにリモート接続できます。
+- [Railway Moli](https://railway.com/deploy/moli?referralCode=sLjDXb) - Railway に Moli をデプロイし、トークン認証付きでブラウザーにリモート接続できます。
 
 <a id="experimental-and-development-examples"></a>
 <a id="development-examples-and-evaluations"></a>

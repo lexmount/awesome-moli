@@ -54,7 +54,7 @@
 - [Brains](https://github.com/YuniqueUnic/brains) - Permite importar páginas dinámicas con Moli como notas Markdown con historial de versiones.
 - **[CTI Expert](https://github.com/7onez/cti-expert) - Recopila con Moli contenido web cargado por JavaScript para investigar ciberamenazas.**
 - [HEIS](https://github.com/u4399com-beep/heis) - Puede usar Moli para recopilar capítulos de novelas en línea que se cargan dinámicamente.
-- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Permite a Hermes Deep Research leer una página con Moli si falla la extracción habitual.
+- [hermes-dev](https://github.com/Sucotasch/hermes-dev#4-deepseek-harness-bridge-agents-own-web-tooling) - `mfetch` lee páginas en Markdown directamente con Moli y `render` lo usa cuando hace falta un navegador, con HTTP como alternativa para ambos.
 - [Lens](https://github.com/bysages/lens) - Ofrece una API HTTP para hacer capturas de páginas web con Moli.
 - [ModalPrism](https://github.com/MistLoom/ModalPrism) - Archiva páginas dinámicas renderizadas con Moli para consultarlas tal como se recopilaron.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Esta herramienta MCP local en fase beta compara capturas guardadas de una página web.
@@ -94,7 +94,7 @@ Recetas de instalación y plantillas de despliegue de la comunidad.
 - [Lattice](https://github.com/mytecor/lattice/tree/main/profiles/moli) - Aloja Moli en NixOS para depurar páginas a distancia con DevTools.
 - [moli-snap](https://github.com/sidalit/moli-snap) - Este paquete Snap no oficial para Linux incluye Moli y fuentes para capturas de pantalla y PDF.
 - [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - Fija la versión y la suma de verificación de Moli para reproducir la instalación en NixOS.
-- [Railway Moli](https://github.com/two-workspaces/moli) - Despliega Moli en Railway con acceso remoto al navegador protegido por token.
+- [Railway Moli](https://railway.com/deploy/moli?referralCode=sLjDXb) - Despliega Moli en Railway con acceso remoto al navegador protegido por token.
 
 <a id="experimental-and-development-examples"></a>
 <a id="development-examples-and-evaluations"></a>

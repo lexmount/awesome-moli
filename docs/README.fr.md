@@ -54,7 +54,7 @@
 - [Brains](https://github.com/YuniqueUnic/brains) - Peut importer des pages dynamiques avec Moli sous forme de notes Markdown avec historique des versions.
 - **[CTI Expert](https://github.com/7onez/cti-expert) - Recueille avec Moli le contenu chargé par JavaScript pour les enquêtes sur les cybermenaces.**
 - [HEIS](https://github.com/u4399com-beep/heis) - Peut utiliser Moli pour recueillir les chapitres de romans en ligne chargés dynamiquement.
-- [hermes-dev](https://github.com/Sucotasch/hermes-dev) - Permet à Hermes Deep Research de lire une page avec Moli quand l’extraction habituelle échoue.
+- [hermes-dev](https://github.com/Sucotasch/hermes-dev#4-deepseek-harness-bridge-agents-own-web-tooling) - `mfetch` lit les pages en Markdown directement avec Moli et `render` l’appelle si le rendu nécessite un navigateur, avec un repli possible sur HTTP dans les deux cas.
 - [Lens](https://github.com/bysages/lens) - Expose une API HTTP pour réaliser des captures de pages web avec Moli.
 - [ModalPrism](https://github.com/MistLoom/ModalPrism) - Archive les pages dynamiques rendues par Moli pour pouvoir les relire telles qu’elles ont été collectées.
 - [Moli Web Research](https://github.com/assistifyai405/moli-webonderzoek) - Cet outil MCP local en bêta compare des instantanés de pages web enregistrés à différentes dates.
@@ -94,7 +94,7 @@ Recettes d’installation et modèles de déploiement communautaires.
 - [Lattice](https://github.com/mytecor/lattice/tree/main/profiles/moli) - Héberge Moli sous NixOS pour déboguer des pages à distance avec DevTools.
 - [moli-snap](https://github.com/sidalit/moli-snap) - Ce paquet Snap non officiel pour Linux fournit Moli avec des polices pour les captures d’écran et les PDF.
 - [orbsh/nixos](https://github.com/orbsh/nixos/blob/main/modules/system/units/moli.nix) - Fixe la version et la somme de contrôle de Moli pour des installations NixOS reproductibles.
-- [Railway Moli](https://github.com/two-workspaces/moli) - Déploie Moli sur Railway avec un accès distant au navigateur protégé par jeton.
+- [Railway Moli](https://railway.com/deploy/moli?referralCode=sLjDXb) - Déploie Moli sur Railway avec un accès distant au navigateur protégé par jeton.
 
 <a id="experimental-and-development-examples"></a>
 <a id="development-examples-and-evaluations"></a>
