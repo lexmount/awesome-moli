@@ -1,8 +1,10 @@
-# Source review — 2026-11-19
+# Source review log
 
 The initial review covered **55 named repositories** from the supplied research, including 52 main-list entries and three backlog additions. Later reviews covered three suggested forks and downstream projects, then the e2e testing framework. The complete dataset behind the original 185 historical records was unavailable.
 
-All seven language editions list the same **52 projects** in seven categories organized by what readers can do with Moli. Of the **59 repositories reviewed**, seven are held for further evidence.
+On 2026-11-19 the seven editions listed **52 projects** across seven categories. The review covered **59 repositories**, with seven held for further evidence.
+
+The 2026-11-23 addition of sessfork brings the directory to **53 projects** and **60 repositories reviewed**. [sessfork review snapshot](../data/review-2026-11-23-sessfork.json)
 
 ## Method
 
@@ -31,6 +33,7 @@ The table follows the current README categories and links to the exact revisions
 | [DevAnimecx/deltabrowser](https://github.com/DevAnimecx/deltabrowser) | Browser automation and workflows | [README.md](https://github.com/DevAnimecx/deltabrowser/blob/ecd9780fcf89012314bc1102763179c270024256/README.md) |
 | [27painter/dsh-moli](https://github.com/27painter/dsh-moli) | Browser automation and workflows | [README.md](https://github.com/27painter/dsh-moli/blob/56a28721fc2977f450d3ada9f03acad50e9b97d4/README.md) |
 | [mcaupybugs/claude-job-apply-skill-moli](https://github.com/mcaupybugs/claude-job-apply-skill-moli) | Browser automation and workflows | [README.md](https://github.com/mcaupybugs/claude-job-apply-skill-moli/blob/4b04e9e4b8a2b912a6a1a6c2594c2c6edb2b9e0f/README.md) |
+| [wasabihu/sessfork](https://github.com/wasabihu/sessfork) | Browser automation and workflows | [Optional Moli backend](https://github.com/wasabihu/sessfork/blob/2f66521085afe370494344b363e4c1662b6edf4d/README.md#L127) · [Native browser launch](https://github.com/wasabihu/sessfork/blob/2f66521085afe370494344b363e4c1662b6edf4d/rust/sessfork-mcp/src/cdp.rs#L141-L155) |
 | [tbdavid2019/888-url2md](https://github.com/tbdavid2019/888-url2md) | Web rendering and extraction | [src/services/moli-browser.ts](https://github.com/tbdavid2019/888-url2md/blob/e72d5fb45ec3658cfebb96ee6f476528f5f5375b/src/services/moli-browser.ts) |
 | [A3S-Lab/Search](https://github.com/A3S-Lab/Search) | Web rendering and extraction | [src/moli.rs](https://github.com/A3S-Lab/Search/blob/e09b62b9e918875315c3cd3c7e14b5a9f9180367/src/moli.rs) |
 | [YuniqueUnic/brains](https://github.com/YuniqueUnic/brains) | Web rendering and extraction | [crates/client/src/url_import.rs](https://github.com/YuniqueUnic/brains/blob/84eb0cf863dd1947913034614596b24f5f34268e/crates/client/src/url_import.rs) |
