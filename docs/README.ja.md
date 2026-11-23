@@ -41,7 +41,7 @@
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Muse の Playwright ブラウザーとしてローカルの Moli を選べます。
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Chrome でログインすれば、Moli を使ってターミナルからチャット履歴を読めます。
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - x86_64 Linux 上で Moli をサンドボックスに隔離して MCP のブラウザーセッションを実行します。
-- **[dsh-moli](https://github.com/27painter/dsh-moli) - 動的なページを Markdown に変換する DeepSeek Harness 向けのコミュニティ製プラグインです。**
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - DeepSeek Harness、Codex、OpenCode で使えるブラウザーツールで、利用には Moli エンジンを別途インストールする必要があります。**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 応募フォームに入力し、送信前に確認を求める実験的な求職アシスタントです。
 
 <a id="web-extraction-and-research"></a>
@@ -52,7 +52,7 @@
 - [888-url2md](https://github.com/tbdavid2019/888-url2md) - 複数の URL をまとめて Markdown に変換し、JavaScript が必要なページは Moli で描画します。
 - [A3S Search](https://github.com/A3S-Lab/Search) - 検索で見つけた JavaScript 依存のページを Moli で読み取ります。
 - [Brains](https://github.com/YuniqueUnic/brains) - Moli を使って動的なページを履歴付きの Markdown ノートとして保存できます。
-- **[CTI Expert](https://github.com/7onez/cti-expert) - 脅威情報の調査で、JavaScript の実行後に表示されるページ内容を Moli で取得します。**
+- **[CTI Expert](https://github.com/7onez/cti-expert) - 脅威情報の調査で、JavaScript の実行後に表示されるページ内容を Moli で取得します。 [Moli のインストール（第 4 節）](https://github.com/7onez/cti-expert/blob/main/scripts/platform-setup.md#4-fastest-path--run-the-bundled-installer-once)**
 - [HEIS](https://github.com/u4399com-beep/heis) - Moli を使って動的に読み込まれるウェブ小説の章を収集できます。
 - [hermes-dev](https://github.com/Sucotasch/hermes-dev#4-deepseek-harness-bridge-agents-own-web-tooling) - `mfetch` は Moli を直接呼んでページを Markdown で読み取り、`render` はブラウザーでの描画が必要なときに Moli を使い、どちらも HTTP に切り替えられます。
 - [Lens](https://github.com/bysages/lens) - HTTP API 経由で Moli を使ってウェブページのスクリーンショットを撮れます。
