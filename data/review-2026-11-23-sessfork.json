@@ -24,7 +24,7 @@
       "readme_section": "browser-automation-and-workflows",
       "readme_name": "sessfork",
       "readme_url": "https://github.com/wasabihu/sessfork",
-      "summary": "On macOS and Linux, sessfork can use Moli as a background browser for sites the user is already signed into in Chrome.",
+      "summary": "sessfork takes a lock-free snapshot of the user's local Chrome sign-in state for an AI agent's headless background browser.",
       "source": {
         "url": "https://github.com/wasabihu/sessfork/blob/2f66521085afe370494344b363e4c1662b6edf4d/rust/sessfork-mcp/src/cdp.rs#L141-L155",
         "path": "rust/sessfork-mcp/src/cdp.rs",

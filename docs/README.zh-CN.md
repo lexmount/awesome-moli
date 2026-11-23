@@ -43,7 +43,7 @@
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - 在 x86_64 Linux 上用沙箱隔离 MCP 的 Moli 浏览会话。
 - **[dsh-moli](https://github.com/27painter/dsh-moli) - 基于 Moli 引擎的浏览器工具，可在 DeepSeek Harness、Codex 和 OpenCode 中使用（引擎需单独安装）。**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 实验性求职助手，填好申请表后等你确认再提交。
-- [sessfork](https://github.com/wasabihu/sessfork) - 在 macOS 和 Linux 上，AI 助手可用 Moli 在后台浏览你已在 Chrome 登录的网站。
+- [sessfork](https://github.com/wasabihu/sessfork) - 一键把本地 Chrome 登录态无锁分叉到 AI 后台无头浏览器。
 
 <a id="web-extraction-and-research"></a>
 <a id="web-rendering-and-extraction"></a>
