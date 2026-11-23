@@ -41,7 +41,7 @@
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Muse에서 Playwright 자동화용 로컬 브라우저로 Moli를 선택할 수 있습니다.
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Chrome에서 한 번 로그인하면 Moli로 터미널에서 대화 기록을 읽을 수 있습니다.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - x86_64 Linux에서 샌드박스로 격리된 Moli 프로세스로 MCP 브라우저 세션을 실행합니다.
-- **[dsh-moli](https://github.com/27painter/dsh-moli) - DeepSeek Harness, Codex, OpenCode에서 함께 쓸 수 있는 브라우저 도구로, Moli 엔진은 별도로 설치해야 합니다.**
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - Moli 엔진을 기반으로 한 브라우저 도구로, DeepSeek Harness, Codex, OpenCode에서 사용할 수 있습니다(엔진은 별도 설치).**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 지원서를 작성하고 제출 전에 사용자 확인을 받는 실험적인 구직 도우미입니다.
 
 <a id="web-extraction-and-research"></a>

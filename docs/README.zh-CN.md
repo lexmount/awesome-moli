@@ -41,7 +41,7 @@
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Muse 可选用本地 Moli 进行 Playwright 自动化。
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - 在 Chrome 登录一次，就能用 Moli 从终端读取聊天记录。
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - 在 x86_64 Linux 上用沙箱隔离 MCP 的 Moli 浏览会话。
-- **[dsh-moli](https://github.com/27painter/dsh-moli) - 为 DeepSeek Harness、Codex 和 OpenCode 提供浏览器工具，Moli 引擎需单独安装。**
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - 基于 Moli 引擎的浏览器工具，可在 DeepSeek Harness、Codex 和 OpenCode 中使用（引擎需单独安装）。**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 实验性求职助手，填好申请表后等你确认再提交。
 
 <a id="web-extraction-and-research"></a>

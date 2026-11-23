@@ -41,7 +41,7 @@
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Permite a Muse elegir Moli como navegador local para Playwright.
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Reutiliza tu sesión de Chrome para leer conversaciones en la terminal con Moli.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Ejecuta sesiones de navegador MCP en procesos aislados de Moli en Linux x86_64.
-- **[dsh-moli](https://github.com/27painter/dsh-moli) - Herramientas de navegación para DeepSeek Harness, Codex y OpenCode que requieren instalar el motor Moli por separado.**
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - Herramientas de navegación basadas en el motor Moli para DeepSeek Harness, Codex y OpenCode (el motor se instala por separado).**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Este asistente experimental rellena solicitudes de empleo y pide confirmación antes de enviarlas.
 
 <a id="web-extraction-and-research"></a>
