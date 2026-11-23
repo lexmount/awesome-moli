@@ -43,7 +43,7 @@
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - x86_64 Linux 上で Moli をサンドボックスに隔離して MCP のブラウザーセッションを実行します。
 - **[dsh-moli](https://github.com/27painter/dsh-moli) - Moli エンジンを基盤とし、DeepSeek Harness、Codex、OpenCode で使えるブラウザーツールです（エンジンは別途インストール）。**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 応募フォームに入力し、送信前に確認を求める実験的な求職アシスタントです。
-- [sessfork](https://github.com/wasabihu/sessfork) - macOS と Linux では、AI エージェントが Moli を使い、Chrome でログイン済みのサイトをバックグラウンドで閲覧できます。
+- [sessfork](https://github.com/wasabihu/sessfork) - ローカルの Chrome プロファイルをロックせず、1 コマンドでログイン状態を AI エージェントがバックグラウンドで使うヘッドレスブラウザーに複製します。
 
 <a id="web-extraction-and-research"></a>
 <a id="web-rendering-and-extraction"></a>
