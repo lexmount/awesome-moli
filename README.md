@@ -39,6 +39,7 @@
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Runs MCP browser sessions in sandboxed Moli workers on x86_64 Linux.
 - **[dsh-moli](https://github.com/27painter/dsh-moli) - Cross-agent browser tools for DeepSeek Harness, Codex, and OpenCode, built on a separately installed Moli engine.**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - An experimental assistant that fills out job applications and asks before submitting.
+- [sessfork](https://github.com/wasabihu/sessfork) - On macOS and Linux, AI agents can use Moli in the background to browse sites you’re signed into in Chrome.
 
 <a id="web-extraction-and-research"></a>
 
@@ -111,4 +112,4 @@ We welcome Moli forks, derivatives, and new uses. To share a project or improve 
 
 ## Footnotes
 
-Sources were reviewed on **2026-11-19**. Production use, customer relationships, and test results were outside the scope of this source review. The [review log](docs/REVIEW.md) links to pinned sources, evidence snapshots, and notes on historical or unavailable projects.
+The initial source review took place on **2026-11-19**. Production use, customer relationships, and test results were outside the scope of this source review. The [review log](docs/REVIEW.md) links to pinned sources, evidence snapshots, and notes on historical or unavailable projects.

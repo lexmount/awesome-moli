@@ -43,6 +43,7 @@
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Ejecuta sesiones de navegador MCP en procesos aislados de Moli en Linux x86_64.
 - **[dsh-moli](https://github.com/27painter/dsh-moli) - Herramientas de navegación basadas en el motor Moli para DeepSeek Harness, Codex y OpenCode (el motor se instala por separado).**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Este asistente experimental rellena solicitudes de empleo y pide confirmación antes de enviarlas.
+- [sessfork](https://github.com/wasabihu/sessfork) - En macOS y Linux, un agente de IA puede usar Moli en segundo plano para visitar sitios donde ya has iniciado sesión en Chrome.
 
 <a id="web-extraction-and-research"></a>
 <a id="web-rendering-and-extraction"></a>
@@ -119,4 +120,4 @@ Los forks de Moli, los proyectos derivados y los nuevos usos son bienvenidos. Pa
 
 ## Notas
 
-El **2026-11-19** se revisaron el código y la documentación públicos. El uso en producción, las relaciones con clientes y la reproducción independiente de las pruebas quedaron fuera del alcance de la revisión. El [registro de revisión](REVIEW.md) reúne los enlaces a las versiones consultadas, las capturas de las fuentes, las menciones históricas y los repositorios inaccesibles.
+La primera revisión del código y de la documentación públicos se realizó el **2026-11-19**. El uso en producción, las relaciones con clientes y la reproducción independiente de las pruebas quedaron fuera del alcance de la revisión. El [registro de revisión](REVIEW.md) reúne los enlaces a las versiones consultadas, las capturas de las fuentes, las menciones históricas y los repositorios inaccesibles.

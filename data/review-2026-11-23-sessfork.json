@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-23",
+  "scope": "Follow-up review of sessfork for Browser automation and workflows.",
+  "method": "Read the project documentation and the native MCP browser implementation at the pinned default-branch commit.",
+  "runtime_tests_run": false,
+  "counts": {
+    "repositories_reviewed": 1,
+    "readme_community_entries": 1,
+    "held_out": 0
+  },
+  "repositories": [
+    {
+      "input_repository": "wasabihu/sessfork",
+      "canonical_repository": "wasabihu/sessfork",
+      "repository_id": "1462851048",
+      "default_branch": "main",
+      "head_commit": "2f66521085afe370494344b363e4c1662b6edf4d",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/wasabihu/sessfork",
+      "metadata_status": "retrieved",
+      "readme_status": "included",
+      "category": "integration",
+      "readme_section": "browser-automation-and-workflows",
+      "readme_name": "sessfork",
+      "readme_url": "https://github.com/wasabihu/sessfork",
+      "summary": "On macOS and Linux, sessfork can use Moli as a background browser for sites the user is already signed into in Chrome.",
+      "source": {
+        "url": "https://github.com/wasabihu/sessfork/blob/2f66521085afe370494344b363e4c1662b6edf4d/rust/sessfork-mcp/src/cdp.rs#L141-L155",
+        "path": "rust/sessfork-mcp/src/cdp.rs",
+        "commit_sha": "2f66521085afe370494344b363e4c1662b6edf4d",
+        "blob_sha": "47c6d0b32b6db6075a7db517092b9acbf4b1e1dd",
+        "kind": "implementation-or-package",
+        "retrieved_at_utc": "2026-11-23T15:14:52Z"
+      },
+      "notes": "Chrome is the default engine. Users can select Moli for background browsing. The native Rust MCP backend starts Moli on macOS and Linux.",
+      "supplementary_sources": [
+        {
+          "url": "https://github.com/wasabihu/sessfork/blob/2f66521085afe370494344b363e4c1662b6edf4d/README.md#L10-L14",
+          "path": "README.md",
+          "commit_sha": "2f66521085afe370494344b363e4c1662b6edf4d",
+          "blob_sha": "4578a987469fcbf0909d6ecb7b6cc33ed96ddb79",
+          "kind": "documentation",
+          "retrieved_at_utc": "2026-11-23T15:14:52Z"
+        },
+        {
+          "url": "https://github.com/wasabihu/sessfork/blob/2f66521085afe370494344b363e4c1662b6edf4d/README.md#L127",
+          "path": "README.md",
+          "commit_sha": "2f66521085afe370494344b363e4c1662b6edf4d",
+          "blob_sha": "4578a987469fcbf0909d6ecb7b6cc33ed96ddb79",
+          "kind": "documentation",
+          "retrieved_at_utc": "2026-11-23T15:14:52Z"
+        },
+        {
+          "url": "https://github.com/wasabihu/sessfork/blob/2f66521085afe370494344b363e4c1662b6edf4d/rust/sessfork-mcp/src/browser.rs#L64-L65",
+          "path": "rust/sessfork-mcp/src/browser.rs",
+          "commit_sha": "2f66521085afe370494344b363e4c1662b6edf4d",
+          "blob_sha": "b968a4826e46f5b7ff5fd035c881f5bf708c43a6",
+          "kind": "implementation-or-package",
+          "retrieved_at_utc": "2026-11-23T15:14:52Z"
+        }
+      ]
+    }
+  ]
+}
