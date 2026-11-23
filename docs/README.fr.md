@@ -41,7 +41,7 @@
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Permet à Muse de choisir Moli comme navigateur local pour Playwright.
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Réutilise votre session Chrome pour lire vos conversations dans le terminal avec Moli.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Exécute les sessions de navigation MCP dans des processus Moli isolés sous Linux x86_64.
-- **[dsh-moli](https://github.com/27painter/dsh-moli) - Ce plugin communautaire convertit les pages dynamiques en Markdown pour DeepSeek Harness.**
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - Ces outils de navigation pour DeepSeek Harness, Codex et OpenCode nécessitent une installation séparée du moteur Moli.**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Cet assistant expérimental remplit les formulaires de candidature et demande votre accord avant l’envoi.
 
 <a id="web-extraction-and-research"></a>
@@ -52,7 +52,7 @@
 - [888-url2md](https://github.com/tbdavid2019/888-url2md) - Convertit des pages web en Markdown par lots et utilise Moli pour celles qui nécessitent JavaScript.
 - [A3S Search](https://github.com/A3S-Lab/Search) - Utilise Moli pour lire les pages des résultats de recherche qui nécessitent JavaScript.
 - [Brains](https://github.com/YuniqueUnic/brains) - Peut importer des pages dynamiques avec Moli sous forme de notes Markdown avec historique des versions.
-- **[CTI Expert](https://github.com/7onez/cti-expert) - Recueille avec Moli le contenu chargé par JavaScript pour les enquêtes sur les cybermenaces.**
+- **[CTI Expert](https://github.com/7onez/cti-expert) - Recueille avec Moli le contenu chargé par JavaScript pour les enquêtes sur les cybermenaces. [Installer Moli (section 4)](https://github.com/7onez/cti-expert/blob/main/scripts/platform-setup.md#4-fastest-path--run-the-bundled-installer-once)**
 - [HEIS](https://github.com/u4399com-beep/heis) - Peut utiliser Moli pour recueillir les chapitres de romans en ligne chargés dynamiquement.
 - [hermes-dev](https://github.com/Sucotasch/hermes-dev#4-deepseek-harness-bridge-agents-own-web-tooling) - `mfetch` lit les pages en Markdown directement avec Moli et `render` l’appelle si le rendu nécessite un navigateur, avec un repli possible sur HTTP dans les deux cas.
 - [Lens](https://github.com/bysages/lens) - Expose une API HTTP pour réaliser des captures de pages web avec Moli.

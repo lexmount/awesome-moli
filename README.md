@@ -37,7 +37,7 @@
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Offers local Moli as a Playwright browser for Muse.
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Reuses your Chrome login to read chats in the terminal with Moli.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - Runs MCP browser sessions in sandboxed Moli workers on x86_64 Linux.
-- **[dsh-moli](https://github.com/27painter/dsh-moli) - A DeepSeek Harness community plugin that converts dynamic pages to Markdown.**
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - Cross-agent browser tools for DeepSeek Harness, Codex, and OpenCode, built on a separately installed Moli engine.**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - An experimental assistant that fills out job applications and asks before submitting.
 
 <a id="web-extraction-and-research"></a>
@@ -47,7 +47,7 @@
 - [888-url2md](https://github.com/tbdavid2019/888-url2md) - Batch-converts webpages to Markdown, rendering JavaScript pages with Moli.
 - [A3S Search](https://github.com/A3S-Lab/Search) - Reads JavaScript-heavy pages from search results with Moli.
 - [Brains](https://github.com/YuniqueUnic/brains) - Can save dynamic webpages as versioned Markdown notes with Moli.
-- **[CTI Expert](https://github.com/7onez/cti-expert) - Reads JavaScript-rendered pages with Moli for threat investigations.**
+- **[CTI Expert](https://github.com/7onez/cti-expert) - Reads JavaScript-rendered pages with Moli for threat investigations. [Install Moli (§4)](https://github.com/7onez/cti-expert/blob/main/scripts/platform-setup.md#4-fastest-path--run-the-bundled-installer-once)**
 - [HEIS](https://github.com/u4399com-beep/heis) - Can collect dynamically loaded web novel chapters with Moli.
 - [hermes-dev](https://github.com/Sucotasch/hermes-dev#4-deepseek-harness-bridge-agents-own-web-tooling) - `mfetch` calls Moli directly to read pages as Markdown, `render` uses it when a page needs a browser, and both can fall back to HTTP.
 - [Lens](https://github.com/bysages/lens) - Takes webpage screenshots with Moli through an HTTP API.

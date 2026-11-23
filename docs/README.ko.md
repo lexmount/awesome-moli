@@ -41,7 +41,7 @@
 - [Browser Bridge for Muse](https://github.com/rehantheorylab-pixel/browser-bridge-for-muse) - Muse에서 Playwright 자동화용 로컬 브라우저로 Moli를 선택할 수 있습니다.
 - [chatctl](https://github.com/ironpark/toolz/tree/main/cli/chatctl) - Chrome에서 한 번 로그인하면 Moli로 터미널에서 대화 기록을 읽을 수 있습니다.
 - [Delta Browser](https://github.com/DevAnimecx/deltabrowser) - x86_64 Linux에서 샌드박스로 격리된 Moli 프로세스로 MCP 브라우저 세션을 실행합니다.
-- **[dsh-moli](https://github.com/27painter/dsh-moli) - 동적 웹페이지를 Markdown으로 변환하는 DeepSeek Harness 커뮤니티 플러그인입니다.**
+- **[dsh-moli](https://github.com/27painter/dsh-moli) - DeepSeek Harness, Codex, OpenCode에서 함께 쓸 수 있는 브라우저 도구로, Moli 엔진은 별도로 설치해야 합니다.**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 지원서를 작성하고 제출 전에 사용자 확인을 받는 실험적인 구직 도우미입니다.
 
 <a id="web-extraction-and-research"></a>
@@ -52,7 +52,7 @@
 - [888-url2md](https://github.com/tbdavid2019/888-url2md) - 여러 웹페이지를 한꺼번에 Markdown으로 변환하고 JavaScript가 필요한 페이지는 Moli로 렌더링합니다.
 - [A3S Search](https://github.com/A3S-Lab/Search) - 검색 결과에서 JavaScript가 필요한 페이지를 Moli로 읽습니다.
 - [Brains](https://github.com/YuniqueUnic/brains) - Moli로 동적 웹페이지를 가져와 버전 기록이 있는 Markdown 노트로 저장할 수 있습니다.
-- **[CTI Expert](https://github.com/7onez/cti-expert) - 위협 인텔리전스 조사에 필요한 웹 콘텐츠를 JavaScript 실행 후 Moli로 수집합니다.**
+- **[CTI Expert](https://github.com/7onez/cti-expert) - 위협 인텔리전스 조사에 필요한 웹 콘텐츠를 JavaScript 실행 후 Moli로 수집합니다. [Moli 설치 방법(4절)](https://github.com/7onez/cti-expert/blob/main/scripts/platform-setup.md#4-fastest-path--run-the-bundled-installer-once)**
 - [HEIS](https://github.com/u4399com-beep/heis) - Moli로 동적으로 불러오는 웹소설의 각 회차를 수집할 수 있습니다.
 - [hermes-dev](https://github.com/Sucotasch/hermes-dev#4-deepseek-harness-bridge-agents-own-web-tooling) - `mfetch`는 Moli를 직접 호출해 웹페이지를 Markdown으로 읽고, `render`는 브라우저 렌더링이 필요할 때 Moli를 쓰며, 둘 다 HTTP 방식으로 전환할 수 있습니다.
 - [Lens](https://github.com/bysages/lens) - HTTP API로 Moli를 호출해 웹페이지의 스크린샷을 찍을 수 있습니다.
