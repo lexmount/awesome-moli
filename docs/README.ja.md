@@ -11,6 +11,7 @@
 - [フォークと派生プロジェクト](#forks-and-derivatives)
 - [テスト・QA ツール](#testing-and-qa-tools)
 - [ブラウザー自動化とワークフロー](#browser-automation-and-workflows)
+- [MCP サーバー](#mcp-servers)
 - [Web レンダリングとデータ抽出](#web-rendering-and-extraction)
 - [エージェントフレームワークとワークスペース](#agent-frameworks-and-workspaces)
 - [パッケージングとデプロイ](#packaging-and-deployment)
@@ -44,6 +45,14 @@
 - **[dsh-moli](https://github.com/27painter/dsh-moli) - Moli エンジンを基盤とし、DeepSeek Harness、Codex、OpenCode で使えるブラウザーツールです（エンジンは別途インストール）。**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 応募フォームに入力し、送信前に確認を求める実験的な求職アシスタントです。
 - [sessfork](https://github.com/wasabihu/sessfork) - ローカルの Chrome プロファイルをロックせず、1 コマンドでログイン状態を AI エージェントがバックグラウンドで使うヘッドレスブラウザーに複製します。
+
+<a id="mcp-servers"></a>
+
+## MCP サーバー
+
+Moli を、エージェントがすでに話すプロトコルで使えるようにする MCP サーバーです。ブラウザーはローカルで動作し、Node.js のラッパーを挟まず DevTools パイプで直接操作します。
+
+- **[sessfork-mcp](https://github.com/wasabihu/sessfork/tree/main/rust/sessfork-mcp) - 上記の sessfork プロジェクトに含まれるネイティブ Rust 製 MCP サーバー。Moli を起動し remote-debugging パイプで直接通信するため、Node.js ランタイムは不要です。**
 
 <a id="web-extraction-and-research"></a>
 <a id="web-rendering-and-extraction"></a>
