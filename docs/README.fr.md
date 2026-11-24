@@ -11,6 +11,7 @@
 - [Forks et projets dérivés](#forks-and-derivatives)
 - [Outils de test et d’assurance qualité](#testing-and-qa-tools)
 - [Automatisation du navigateur et flux de travail](#browser-automation-and-workflows)
+- [Serveurs MCP](#mcp-servers)
 - [Rendu et extraction web](#web-rendering-and-extraction)
 - [Frameworks et espaces de travail pour agents](#agent-frameworks-and-workspaces)
 - [Création de paquets et déploiement](#packaging-and-deployment)
@@ -44,6 +45,14 @@
 - **[dsh-moli](https://github.com/27painter/dsh-moli) - S’appuie sur le moteur Moli, installé séparément, pour fournir des outils de navigation à DeepSeek Harness, Codex et OpenCode.**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - Cet assistant expérimental remplit les formulaires de candidature et demande votre accord avant l’envoi.
 - [sessfork](https://github.com/wasabihu/sessfork) - Duplique en une commande votre session Chrome authentifiée dans le navigateur sans interface d’un agent IA en arrière-plan, sans verrouiller le profil local.
+
+<a id="mcp-servers"></a>
+
+## Serveurs MCP
+
+Des serveurs MCP qui exposent Moli sur le protocole que les agents parlent déjà : le navigateur reste local et est piloté directement par son pipe DevTools, sans wrapper Node.js.
+
+- **[sessfork-mcp](https://github.com/wasabihu/sessfork/tree/main/rust/sessfork-mcp) - Le serveur MCP natif en Rust du projet sessfork cité plus haut : il lance Moli et communique directement avec le pipe remote-debugging, sans runtime Node.js.**
 
 <a id="web-extraction-and-research"></a>
 <a id="web-rendering-and-extraction"></a>
