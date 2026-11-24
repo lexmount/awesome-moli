@@ -11,6 +11,7 @@
 - [Fork 与衍生项目](#forks-and-derivatives)
 - [测试与 QA 工具](#testing-and-qa-tools)
 - [浏览器自动化与工作流](#browser-automation-and-workflows)
+- [MCP 服务器](#mcp-servers)
 - [网页渲染与提取](#web-rendering-and-extraction)
 - [Agent 框架与工作区](#agent-frameworks-and-workspaces)
 - [打包与部署](#packaging-and-deployment)
@@ -44,6 +45,14 @@
 - **[dsh-moli](https://github.com/27painter/dsh-moli) - 基于 Moli 引擎的浏览器工具，可在 DeepSeek Harness、Codex 和 OpenCode 中使用（引擎需单独安装）。**
 - [Moli Job Apply](https://github.com/mcaupybugs/claude-job-apply-skill-moli) - 实验性求职助手，填好申请表后等你确认再提交。
 - [sessfork](https://github.com/wasabihu/sessfork) - 一键把本地 Chrome 登录态无锁分叉到 AI 后台无头浏览器。
+
+<a id="mcp-servers"></a>
+
+## MCP 服务器
+
+把 Moli 交给 agent 已经在用的协议：浏览器在本地运行，直接通过自身的 DevTools 管道驱动，而不是再套一层 Node.js 封装。
+
+- **[sessfork-mcp](https://github.com/wasabihu/sessfork/tree/main/rust/sessfork-mcp) - sessfork 项目（见上文）中的原生 Rust MCP 服务器：直接启动 Moli 并通过 remote-debugging 管道通信，无需 Node.js 运行时。**
 
 <a id="web-extraction-and-research"></a>
 <a id="web-rendering-and-extraction"></a>
